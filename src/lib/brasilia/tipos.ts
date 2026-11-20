@@ -105,7 +105,12 @@ const DATA = /^\d{4}-\d{2}-\d{2}$/;
 const texto = (v: unknown, max = 4000): string | null => (typeof v === "string" && v.trim() ? v.trim().slice(0, max) : null);
 const inteiroOk = (v: unknown): number | null => (typeof v === "number" && Number.isInteger(v) && v >= 0 ? v : null);
 const data = (v: unknown): string | null => (typeof v === "string" && DATA.test(v) ? v : null);
-const url = (v: unknown): string | null => (typeof v === "string" && /^https:\/\/[^\s]+$/.test(v) ? v : null);
+/**
+ * Só link https de domínio oficial (.leg.br, .jus.br, .gov.br). Os arquivos vêm de um repositório
+ * público: se um deles for adulterado, não consegue pôr na tela link para site de terceiro.
+ */
+const LINK_OFICIAL = /^https:\/\/(?:[a-z0-9-]+\.)+(?:leg|jus|gov)\.br(?::\d+)?(?:[/?#]\S*)?$/i;
+const url = (v: unknown): string | null => (typeof v === "string" && LINK_OFICIAL.test(v) ? v : null);
 const lista = (v: unknown): Solto[] => (Array.isArray(v) ? v : []);
 
 export function lerPlacar(v: Solto): Placar | null {
