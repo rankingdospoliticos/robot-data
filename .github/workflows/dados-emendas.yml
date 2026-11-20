@@ -1,0 +1,68 @@
+name: Dados de emendas parlamentares
+
+# Baixa o arquivo completo de emendas do Portal da Transparência (sem chave), soma por município e
+# ano e publica arquivos pequenos por UF (emendas/SP.json, emendas/indice.json...) no ramo "dados".
+# O site lê esses arquivos no servidor, então os números se atualizam sem novo deploy.
+
+on:
+  schedule:
+    - cron: "40 4 * * *" # todo dia, depois que a fonte se atualiza (por volta de 22h30 UTC)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - scripts/robos/emendas.mjs
+      - src/**
+      - .github/workflows/dados-emendas.yml
+
+permissions:
+  contents: write
+
+# Mesmo grupo de todos os robôs que escrevem no ramo "dados": um por vez.
+concurrency:
+  group: publicar-dados
+  cancel-in-progress: false
+
+jobs:
+  emendas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          check-latest: true # o robô lê .ts direto: precisa do Node 22.18 ou mais novo
+
+      - name: Prepara o ramo de dados
+        run: |
+          node --version
+          git config user.name "robot-data-bot"
+          git config user.email "robot-data-bot@users.noreply.github.com"
+          if git fetch origin dados:dados 2>/dev/null; then
+            git worktree add ../dados dados
+          else
+            git worktree add --detach ../dados
+            cd ../dados
+            git checkout --orphan dados
+            git rm -rf --quiet . || true
+          fi
+
+      - name: Coleta e agrega as emendas
+        run: node scripts/robos/emendas.mjs --saida ../dados
+
+      - name: Publica no ramo dados
+        run: |
+          cd ../dados
+          git add emendas
+          if git diff --cached --quiet; then
+            echo "Sem mudanças nos dados."
+            exit 0
+          fi
+          git commit -m "dados: emendas $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for tentativa in 1 2 3; do
+            if git push origin dados; then exit 0; fi
+            git pull --rebase origin dados
+          done
+          exit 1

@@ -1,0 +1,11 @@
+[
+  "scripts/robos/brasilia.ts",
+  "scripts/robos/emendas.mjs",
+  "src/lib/brasilia/agrupar.ts",
+  "src/lib/brasilia/editorial.ts",
+  "src/lib/brasilia/glossario.ts",
+  "src/lib/brasilia/tipos.ts",
+  "src/lib/emendas/agregar.ts",
+  "src/lib/regras.ts",
+  "src/lib/servidor/numeros.ts"
+]

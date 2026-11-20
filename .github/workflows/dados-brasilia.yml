@@ -1,0 +1,75 @@
+name: Dados de Brasília (Congresso e STF)
+
+# Lê as votações do Plenário da Câmara e do Senado dos últimos 7 dias e as decisões do Plenário do
+# STF (notícias oficiais), escreve a camada didática com a IA e publica brasilia/semana.json no ramo
+# "dados". O site lê esse arquivo, então a tela /resumo se atualiza sem deploy.
+#
+# Segredo necessário: ANTHROPIC_API_KEY (Settings > Secrets and variables > Actions). Sem ele, o
+# robô publica só o dado oficial, com o título tirado da ementa.
+
+on:
+  schedule:
+    - cron: "23 10-23 * * 1-5" # de hora em hora, das 7h às 20h de Brasília, em dias úteis
+    - cron: "23 2 * * *" # uma vez por madrugada, todo dia (sessões que entram pela noite e fim de semana)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - scripts/robos/brasilia.ts
+      - src/**
+      - .github/workflows/dados-brasilia.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-dados # o mesmo do robô de emendas: um de cada vez no ramo dados
+  cancel-in-progress: false
+
+jobs:
+  brasilia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.x" # 22.18+ lê o .ts direto
+
+      - name: Prepara o ramo de dados
+        run: |
+          git config user.name "robot-data-bot"
+          git config user.email "robot-data-bot@users.noreply.github.com"
+          if git fetch origin dados:dados 2>/dev/null; then
+            git worktree add ../dados dados
+          else
+            git worktree add --detach ../dados
+            cd ../dados
+            git checkout --orphan dados
+            git rm -rf --quiet . || true
+          fi
+
+      - name: Coleta e escreve
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/robos/brasilia.ts --saida ../dados/brasilia/semana.json
+
+      - name: Publica no ramo dados
+        run: |
+          cd ../dados
+          git add brasilia/semana.json
+          if git diff --cached --quiet; then
+            echo "Sem mudanças."
+            exit 0
+          fi
+          git commit -m "dados: brasilia $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Outros robôs também publicam neste ramo (emendas/): rebase sobre a versão mais nova antes do push.
+          for i in 1 2 3; do
+            if git ls-remote --exit-code --heads origin dados >/dev/null; then
+              git pull --rebase origin dados
+            fi
+            git push origin dados && exit 0
+            sleep 5
+          done
+          exit 1
