@@ -162,7 +162,11 @@ export function lerDecisao(s: Solto): DecisaoSTF | null {
 
 const estado = (v: unknown): EstadoFonte => (v === "ok" ? "ok" : "falhou");
 
-/** Valida o arquivo inteiro; null se não tem `geradoEm` ou `pautas`. */
+/**
+ * Valida o arquivo inteiro; null se não tem `geradoEm` ou `pautas`. Serve para `semana.json` (últimos
+ * 7 dias) e para `historico.json` (mesma forma, últimos 90 dias; os campos a mais do robô, como
+ * `cobertura` e `stfIgnoradas`, são ignorados aqui).
+ */
 export function lerSemana(bruto: Solto): Semana | null {
   const geradoEm = texto(bruto?.geradoEm, 40);
   if (!geradoEm || Number.isNaN(Date.parse(geradoEm)) || !Array.isArray(bruto?.pautas)) return null;
@@ -179,4 +183,104 @@ export function lerSemana(bruto: Solto): Semana | null {
     pautas,
     stf,
   };
+}
+
+/* ---------------- brasilia/composicao.json ---------------- */
+
+export const VERSAO_COMPOSICAO = 1;
+
+/** Cadeiras por partido numa Casa, contadas da lista oficial de parlamentares em exercício. */
+export type Bancada = {
+  total: number;
+  /** Do maior para o menor. */
+  partidos: { sigla: string; n: number }[];
+  fonte: string;
+  url: string;
+  /** Leitura (ISO) que trouxe esta contagem; o robô relê a cada execução e só troca quando a contagem muda. */
+  lidoEm: string;
+};
+
+/** Casa que nunca respondeu fica null; se falhar depois, o robô mantém o valor anterior dela. */
+export type Composicao = { versao: number; geradoEm: string; camara: Bancada | null; senado: Bancada | null };
+
+export function lerBancada(v: Solto): Bancada | null {
+  const total = inteiroOk(v?.total), fonteB = texto(v?.fonte, 120), link = url(v?.url), lidoEm = texto(v?.lidoEm, 40);
+  if (!total || !fonteB || !link || !lidoEm || Number.isNaN(Date.parse(lidoEm))) return null;
+  const partidos: { sigla: string; n: number }[] = [];
+  for (const p of lista(v?.partidos)) {
+    const sigla = texto(p?.sigla, 30), n = inteiroOk(p?.n);
+    if (sigla && n) partidos.push({ sigla, n });
+  }
+  if (!partidos.length || partidos.reduce((s, p) => s + p.n, 0) !== total) return null;
+  return { total, partidos: partidos.sort((a, b) => b.n - a.n), fonte: fonteB, url: link, lidoEm };
+}
+
+/** null se não tem `geradoEm`; Casa malformada vira null. */
+export function lerComposicao(bruto: Solto): Composicao | null {
+  const geradoEm = texto(bruto?.geradoEm, 40);
+  if (!geradoEm || Number.isNaN(Date.parse(geradoEm))) return null;
+  return { versao: inteiroOk(bruto?.versao) ?? 0, geradoEm, camara: lerBancada(bruto?.camara), senado: lerBancada(bruto?.senado) };
+}
+
+/* ---------------- brasilia/stf.json ---------------- */
+
+export const VERSAO_STF = 1;
+
+export type MinistroSTF = {
+  /** Como o portal do STF escreve ("Cármen Lúcia"). */
+  nome: string;
+  cargo: "Presidente" | "Vice-Presidente" | null;
+  /** Posse no STF (AAAA-MM-DD), quando a página mostra. Para o Presidente a página mostra só `cargoDesde`. */
+  posse: string | null;
+  /** Posse no cargo de Presidente, quando a página mostra. */
+  cargoDesde: string | null;
+  /** Quem indicou. A página oficial usada hoje não traz: fica null. */
+  indicadoPor: string | null;
+};
+
+/** Item da pauta do Plenário. `processo` e `relator` aparecem no texto do post. */
+export type ItemPautaSTF = { data: string | null; processo: string; tema: string | null; relator: string };
+
+export type PautaSTF = {
+  /** Título, endereço e data do post de notícias do STF que apresenta a pauta. */
+  titulo: string;
+  url: string;
+  data: string;
+  itens: ItemPautaSTF[];
+  hash: string;
+};
+
+export type STFExtra = {
+  versao: number;
+  geradoEm: string;
+  ministros: { lista: MinistroSTF[]; fonte: string; url: string; lidoEm: string } | null;
+  pauta: PautaSTF | null;
+};
+
+const CARGOS = ["Presidente", "Vice-Presidente"] as const;
+
+export function lerMinistro(v: Solto): MinistroSTF | null {
+  const nome = texto(v?.nome, 80);
+  if (!nome) return null;
+  return { nome, cargo: CARGOS.find((c) => c === v?.cargo) ?? null, posse: data(v?.posse), cargoDesde: data(v?.cargoDesde), indicadoPor: texto(v?.indicadoPor, 80) };
+}
+
+export function lerItemPautaSTF(v: Solto): ItemPautaSTF | null {
+  const processo = texto(v?.processo, 60), relator = texto(v?.relator, 80);
+  return processo && relator ? { data: data(v?.data), processo, tema: texto(v?.tema, 600), relator } : null;
+}
+
+/** null se não tem `geradoEm`; parte malformada vira null (ministros fora de 9 a 11 nomes também). */
+export function lerSTFExtra(bruto: Solto): STFExtra | null {
+  const geradoEm = texto(bruto?.geradoEm, 40);
+  if (!geradoEm || Number.isNaN(Date.parse(geradoEm))) return null;
+  const m = bruto?.ministros;
+  const listaM = lista(m?.lista).map(lerMinistro).filter((x): x is MinistroSTF => x !== null);
+  const fonteM = texto(m?.fonte, 120), urlM = url(m?.url), lidoEm = texto(m?.lidoEm, 40);
+  const ministros = listaM.length >= 9 && listaM.length <= 11 && fonteM && urlM && lidoEm ? { lista: listaM, fonte: fonteM, url: urlM, lidoEm } : null;
+  const p = bruto?.pauta;
+  const tituloP = texto(p?.titulo, 300), urlP = url(p?.url), dataP = data(p?.data);
+  const itens = lista(p?.itens).map(lerItemPautaSTF).filter((x): x is ItemPautaSTF => x !== null);
+  const pauta = tituloP && urlP && dataP && itens.length ? { titulo: tituloP, url: urlP, data: dataP, itens, hash: texto(p?.hash, 128) ?? "" } : null;
+  return { versao: inteiroOk(bruto?.versao) ?? 0, geradoEm, ministros, pauta };
 }

@@ -1,14 +1,22 @@
-// Robô "O que Brasília decidiu": gera brasilia/semana.json para o ramo `dados`.
+// Robô "O que Brasília decidiu": gera, no diretório do --saida (brasilia/ no ramo `dados`):
+//  - semana.json: votações e decisões dos últimos JANELA_DIAS dias (o contrato de /resumo e do Pergunte);
+//  - historico.json: mesma forma, últimos HISTORICO_DIAS dias, mais `cobertura` (período já lido sem
+//    falha) e `stfIgnoradas`. Cada execução busca só a janela curta e junta ao histórico por `id`; sem
+//    histórico que cubra os 90 dias (ou com buraco), faz UMA carga de 90 dias;
+//  - composicao.json: cadeiras por partido na Câmara e no Senado;
+//  - stf.json: ministros do STF (no máximo 1 leitura por dia) e a pauta do Plenário mais recente.
 //
-//   node scripts/robos/brasilia.ts --saida <arquivo.json> [--anterior <arquivo.json>] [--sem-ia] [--hoje AAAA-MM-DD]
+//   node scripts/robos/brasilia.ts --saida <dir>/semana.json [--anterior <arquivo.json>] [--sem-ia] [--hoje AAAA-MM-DD]
 //
 // Node 22.18+ (lê TypeScript direto). Sem dependência: fetch, node:fs, node:crypto.
 // Fontes oficiais, sem chave:
-//  - Câmara: /api/v2/votacoes (Plenário, órgão 180), /votacoes/{id}, /votacoes/{id}/votos, /proposicoes/{id}
-//  - Senado: /dadosabertos/plenario/resultado/{AAAAMMDD}, /dadosabertos/processo?codigoMateria=, /processo/{id}
-//  - STF: notícias oficiais (WordPress do noticias.stf.jus.br, tipo "postsnoticias")
+//  - Câmara: /api/v2/votacoes (Plenário, órgão 180), /votacoes/{id}, /votacoes/{id}/votos, /proposicoes/{id}, /deputados
+//  - Senado: /dadosabertos/plenario/resultado/{AAAAMMDD}, /dadosabertos/processo?codigoMateria=, /processo/{id}, /senador/lista/atual
+//  - STF: notícias oficiais (WordPress do noticias.stf.jus.br, tipo "postsnoticias") e a página
+//    institucional portal.stf.jus.br/ostf/ (composição do Plenário)
 // IA: Claude Haiku 5.5 pela API da Anthropic (ANTHROPIC_API_KEY). Sem chave, publica sem a camada
-// didática (título vem da ementa). Texto já gerado é reaproveitado se a entrada da pauta não mudou.
+// didática (título vem da ementa). Texto já gerado (na semana ou no histórico) é reaproveitado se a
+// entrada da pauta não mudou.
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
@@ -19,7 +27,11 @@ import {
 } from "../../src/lib/brasilia/agrupar.ts";
 import { conferirTexto, explicacaoConfere, tituloDaEmenta } from "../../src/lib/brasilia/editorial.ts";
 import { escolherGlossario, textosDaPauta } from "../../src/lib/brasilia/glossario.ts";
-import { lerSemana, VERSAO_SEMANA, type DecisaoSTF, type EstadoFonte, type Pauta, type Semana, type TextoDidatico } from "../../src/lib/brasilia/tipos.ts";
+import {
+  lerComposicao, lerSemana, lerSTFExtra, VERSAO_COMPOSICAO, VERSAO_SEMANA, VERSAO_STF,
+  type Bancada, type Composicao, type DecisaoSTF, type EstadoFonte, type ItemPautaSTF, type Pauta, type PautaSTF, type Semana, type STFExtra, type TextoDidatico,
+} from "../../src/lib/brasilia/tipos.ts";
+import { conferirItemPauta, contarPartidos, juntarPorId, lerMinistrosDoPortal, precisaCarga, processoNaNoticia, type Cobertura } from "../../src/lib/brasilia/coleta.ts";
 import { REGRAS_EDITORIAIS } from "../../src/lib/regras.ts";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -34,6 +46,8 @@ const MODELO = process.env["BRASILIA_MODELO"] ?? "claude-haiku-5-5";
 const ESFORCO = process.env["BRASILIA_ESFORCO"] ?? "medium";
 /** Mude quando o prompt mudar: força reescrever os textos já gerados. */
 const VERSAO_PROMPT = "2026-11-20.5";
+/** Chamadas de IA ao mesmo tempo (a carga de 90 dias faz centenas; uma por vez passaria de 1 hora). */
+const IA_PARALELO = 4;
 
 /* ---------------- argumentos e ambiente ---------------- */
 
@@ -58,17 +72,33 @@ const CHAVE = SEM_IA ? undefined : process.env["ANTHROPIC_API_KEY"];
 
 const hojeBR = arg("--hoje") ?? new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
 const diaMenos = (iso: string, n: number) => new Date(Date.parse(`${iso}T12:00:00Z`) - n * 864e5).toISOString().slice(0, 10);
-const INICIO = diaMenos(hojeBR, 7);
+/** Dias de semana.json. */
+const JANELA_DIAS = 7;
+/** Dias de historico.json. */
+const HISTORICO_DIAS = 90;
+/** A busca curta volta 1 dia a mais que a janela (votação registrada depois da meia-noite, fuso). */
+const FOLGA_DIAS = 1;
+const INICIO = diaMenos(hojeBR, JANELA_DIAS);
+const INICIO_HISTORICO = diaMenos(hojeBR, HISTORICO_DIAS);
+const INICIO_CURTO = diaMenos(hojeBR, JANELA_DIAS + FOLGA_DIAS);
 const FIM = hojeBR;
+const DIR = dirname(resolve(SAIDA));
+const ARQ_HISTORICO = resolve(DIR, "historico.json");
+const ARQ_COMPOSICAO = resolve(DIR, "composicao.json");
+const ARQ_STF = resolve(DIR, "stf.json");
+const PORTAL_STF = "https://portal.stf.jus.br/ostf/";
 
 /* ---------------- rede ---------------- */
 
 const esperar = (ms: number) => new Promise((r) => setTimeout(r, ms));
 class ErroDefinitivo extends Error {}
+/** Requisições HTTP às fontes (cada tentativa conta), para o resumo no fim. */
+let requisicoes = 0;
 
 async function pegar(url: string, tipo: "json" | "texto" = "json", tentativas = 4): Promise<Solto> {
   let ultimo: unknown;
   for (let i = 0; i < tentativas; i++) {
+    requisicoes++;
     try {
       const r = await fetch(url, { headers: { accept: tipo === "json" ? "application/json" : "*/*", "user-agent": UA }, signal: AbortSignal.timeout(40_000) });
       if (r.ok) {
@@ -107,15 +137,21 @@ type Bruta = Omit<Pauta, "texto" | "glossario" | "hash" | "tituloEmenta"> & { en
 
 const prop = (p: Solto): PropCamara => ({ id: Number(p?.id), siglaTipo: String(p?.siglaTipo ?? ""), numero: Number(p?.numero), ano: Number(p?.ano), ementa: String(p?.ementa ?? "") });
 
-async function camara(): Promise<Bruta[]> {
+async function camara(inicio: string): Promise<Bruta[]> {
   const brutas: Solto[] = [];
-  let url: string | undefined = `${CAMARA}/votacoes?dataInicio=${INICIO}&dataFim=${FIM}&idOrgao=180&itens=100`;
-  for (let pag = 0; url && pag < 20; pag++) {
-    const r = await pegar(url);
-    brutas.push(...lista(r?.dados));
-    url = lista(r?.links).find((l) => l?.rel === "next")?.href;
+  // A API recusa intervalo maior que 3 meses: busca em trechos de 30 dias, até 20 páginas de 100 cada.
+  for (let ini = inicio; ini <= FIM;) {
+    const fim = diaMenos(ini, -29) < FIM ? diaMenos(ini, -29) : FIM;
+    let url: string | undefined = `${CAMARA}/votacoes?dataInicio=${ini}&dataFim=${fim}&idOrgao=180&itens=100`;
+    for (let pag = 0; url && pag < 20; pag++) {
+      const r = await pegar(url);
+      brutas.push(...lista(r?.dados));
+      url = lista(r?.links).find((l) => l?.rel === "next")?.href;
+    }
+    if (url) throw new Error(`Câmara: mais de 2.000 votações entre ${ini} e ${fim}`);
+    ini = diaMenos(fim, -1);
   }
-  console.log(`Câmara: ${brutas.length} votações no Plenário de ${INICIO} a ${FIM}`);
+  console.log(`Câmara: ${brutas.length} votações no Plenário de ${inicio} a ${FIM}`);
   const votacoes: VotacaoCamara[] = await emLotes(brutas, 2, async (v) => {
     const det = await pegar(`${CAMARA}/votacoes/${v.id}`).then((r) => r?.dados ?? {}).catch(() => ({}));
     return {
@@ -165,11 +201,17 @@ async function camara(): Promise<Bruta[]> {
 
 /* ---------------- Senado ---------------- */
 
-async function senado(): Promise<Bruta[]> {
+/** Dias em que o resultado do Senado não respondeu nesta execução (o histórico não marca o período como lido). */
+let senadoDiasFalhos = 0;
+
+async function senado(inicio: string): Promise<Bruta[]> {
   const itens: ItemSenado[] = [];
-  let falhas = 0;
-  for (let d = INICIO; d <= FIM; d = diaMenos(d, -1)) {
-    const r = await pegar(`${SENADO}/plenario/resultado/${d.replaceAll("-", "")}`).catch((e) => { falhas++; console.warn(`Senado ${d}: ${e.message}`); return null; });
+  const dias: string[] = [];
+  for (let d = inicio; d <= FIM; d = diaMenos(d, -1)) dias.push(d);
+  // Uma chamada por dia (a API não tem intervalo); 2 por vez, na ordem dos dias.
+  const respostas = await emLotes(dias, 2, (d) => pegar(`${SENADO}/plenario/resultado/${d.replaceAll("-", "")}`).catch((e) => { senadoDiasFalhos++; console.warn(`Senado ${d}: ${e.message}`); return null; }));
+  for (const [k, r] of respostas.entries()) {
+    const d = dias[k]!;
     for (const s of lista(r?.ResultadoPlenario?.Sessoes?.Sessao)) {
       for (const it of lista(s?.Itens?.Item)) {
         itens.push({
@@ -181,7 +223,7 @@ async function senado(): Promise<Bruta[]> {
       }
     }
   }
-  if (falhas > 4) throw new Error("Senado não respondeu na maior parte dos dias");
+  if (senadoDiasFalhos > dias.length / 2) throw new Error("Senado não respondeu na maior parte dos dias");
   const grupos = agruparSenado(itens);
   console.log(`Senado: ${itens.length} itens de pauta, ${grupos.length} pautas apreciadas`);
   const out: Bruta[] = [];
@@ -353,36 +395,157 @@ const semHtml = (h: string) => h
 const RE_DECISAO = /(decide|derruba|invalida|valida|mant[ée]m|declara|confirma|rejeita|anula|maioria|suspende|garante|reconhece|julga|afasta|define|fixa|autoriza|pro[íi]be|veda|condena|absolve|nega|referenda|inconstitucional|constitucional)/i;
 const RE_NAO_DECISAO = /^(Confira|Nota|Informe|Podcast|Supremo na Semana|Direito sem|Projeto|Relator|Ministr[oa]|Presidente)|questiona|aciona|pede ao STF|vai julgar|inaugura|recebe|lança|sedia|propõe|encontro|campanha|audiência/i;
 
-async function stf(anterior: Semana | null, ignoradasAntes: Set<string>): Promise<{ decisoes: DecisaoSTF[]; ignoradas: string[] }> {
-  const posts = lista(await pegar(`${STF}?per_page=100&after=${INICIO}T00:00:00&_fields=id,date,link,title,content`));
-  const candidatos = posts
-    .map((p) => ({ id: Number(p.id), data: String(p.date ?? "").slice(0, 10), url: String(p.link ?? ""), titulo: semHtml(String(p?.title?.rendered ?? "")), corpo: semHtml(String(p?.content?.rendered ?? "")).slice(0, 14_000) }))
+type PostSTF = { id: number; data: string; url: string; titulo: string; corpo: string };
+const postSTF = (p: Solto): PostSTF => ({ id: Number(p.id), data: String(p.date ?? "").slice(0, 10), url: String(p.link ?? ""), titulo: semHtml(String(p?.title?.rendered ?? "")), corpo: semHtml(String(p?.content?.rendered ?? "")).slice(0, 14_000) });
+
+/** Lê as notícias desde `inicio`, página a página (100 por página, até 30 páginas). */
+async function postsDesde(inicio: string): Promise<Solto[]> {
+  const posts: Solto[] = [];
+  for (let pag = 1; pag <= 30; pag++) {
+    const r = await pegar(`${STF}?per_page=100&page=${pag}&after=${inicio}T00:00:00&_fields=id,date,link,title,content`).catch((e) => {
+      // Passar da última página dá 400 no WordPress: acabou.
+      if (pag > 1 && e instanceof ErroDefinitivo && e.message.startsWith("400")) return [];
+      throw e;
+    });
+    posts.push(...lista(r));
+    if (lista(r).length < 100) return posts;
+  }
+  throw new Error(`STF: mais de 3.000 notícias desde ${inicio}`);
+}
+
+async function stf(inicio: string, decisoesAntes: DecisaoSTF[], ignoradasAntes: Set<string>): Promise<{ decisoes: DecisaoSTF[]; ignoradas: string[] }> {
+  const posts = await postsDesde(inicio);
+  const candidatos = posts.map(postSTF)
     .filter((p) => p.id && p.url.startsWith("https://") && RE_DECISAO.test(p.titulo) && !RE_NAO_DECISAO.test(p.titulo));
-  console.log(`STF: ${posts.length} notícias na semana, ${candidatos.length} com cara de decisão`);
-  const antes = new Map((anterior?.stf ?? []).map((d) => [d.id, d]));
+  console.log(`STF: ${posts.length} notícias desde ${inicio}, ${candidatos.length} com cara de decisão`);
+  const antes = new Map(decisoesAntes.map((d) => [d.id, d]));
   const decisoes: DecisaoSTF[] = [];
   const ignoradas: string[] = [];
-  for (const p of candidatos) {
+  // A carga de 90 dias passa de 100 notícias: IA_PARALELO por vez (a ordem final vem do sort).
+  await emLotes(candidatos, IA_PARALELO, async (p) => {
     const h = hash({ t: p.titulo, c: p.corpo });
     const id = `stf:${p.id}`;
     const velho = antes.get(id);
-    if (velho && velho.hash === h && velho.texto) { decisoes.push(velho); continue; }
-    if (ignoradasAntes.has(h)) { ignoradas.push(h); continue; }
-    if (!CHAVE) continue; // sem IA não dá para separar decisão do Plenário de decisão individual
+    if (velho && velho.hash === h && velho.texto) { decisoes.push(velho); return; }
+    if (ignoradasAntes.has(h)) { ignoradas.push(h); return; }
+    if (!CHAVE) return; // sem IA não dá para separar decisão do Plenário de decisão individual
     const fonte = [p.titulo, p.corpo];
     const r = await escrever(SISTEMA_STF, SCHEMA_STF, `Título: ${p.titulo}\nData: ${p.data}\n\n${p.corpo}`, fonte, id);
     const tipo = r.extra?.tipo;
-    if (tipo !== "decidido" && tipo !== "maioria") { if (r.extra) ignoradas.push(h); continue; }
+    if (tipo !== "decidido" && tipo !== "maioria") { if (r.extra) ignoradas.push(h); return; }
     const processo = String(r.extra?.processo ?? "").trim();
-    const processoConfere = processo && p.corpo.replace(/\s+/g, " ").includes(processo) ? processo : null;
+    const processoConfere = processo ? processoNaNoticia(processo, `${p.titulo}\n${p.corpo}`) : null;
     const textos = r.texto ? [r.texto.abertura, r.texto.detalhes] : [];
     decisoes.push({
       id, data: p.data, situacao: tipo, processo: processoConfere, tituloOficial: p.titulo, url: p.url, texto: r.texto,
       glossario: escolherGlossario(r.glossario, textos), hash: h,
     });
-  }
+  });
   decisoes.sort((a, b) => b.data.localeCompare(a.data));
   return { decisoes, ignoradas };
+}
+
+/** Ministros do portal do STF; no máximo 1 leitura por dia. Fora de 9 a 11 nomes, fica o anterior. */
+async function ministrosSTF(antes: STFExtra["ministros"]): Promise<STFExtra["ministros"]> {
+  const diaBR = (iso: string) => new Date(Date.parse(iso) - 3 * 3600e3).toISOString().slice(0, 10);
+  if (antes && diaBR(antes.lidoEm) === hojeBR) return antes;
+  const html = await pegar(PORTAL_STF, "texto").catch((e) => { console.warn(`STF ministros: ${e.message}`); return null; });
+  const lista = html ? lerMinistrosDoPortal(String(html)) : [];
+  if (lista.length < 9 || lista.length > 11) {
+    if (html) console.warn(`STF ministros: a página trouxe ${lista.length} nomes; mantém a leitura anterior.`);
+    return antes;
+  }
+  console.log(`STF: ${lista.length} ministros no portal`);
+  return { lista, fonte: "Portal do STF — Composição do Plenário", url: PORTAL_STF, lidoEm: new Date().toISOString() };
+}
+
+const SCHEMA_PAUTA_STF = {
+  type: "object",
+  properties: {
+    itens: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: { data: { type: "string" }, processo: { type: "string" }, tema: { type: "string" }, relator: { type: "string" } },
+        required: ["data", "processo", "tema", "relator"], additionalProperties: false,
+      },
+    },
+  },
+  required: ["itens"], additionalProperties: false,
+};
+
+const SISTEMA_PAUTA_STF = `${REGRAS_EDITORIAIS}
+
+Sua tarefa: ler uma notícia oficial do Supremo Tribunal Federal (STF) que apresenta a pauta de julgamentos do PLENÁRIO e listar cada processo que a notícia diz que o Plenário vai julgar.
+Para cada processo:
+- processo: classe e número exatamente como escritos na notícia (ex.: "ADI 7654", "RE 1.234.567").
+- relator: nome do ministro relator exatamente como escrito na notícia, sem "ministro". Se a notícia não disser o relator daquele processo, não inclua o processo.
+- data: dia do julgamento em AAAA-MM-DD, só se a notícia disser o dia; senão "".
+- tema: em até 20 palavras simples, do que trata o processo, só com o que a notícia diz; sem número que não esteja nela.
+Processo de Turma, de sessão já realizada ou só citado como exemplo não entra. Se a notícia não for uma pauta do Plenário, devolva itens vazio.`;
+
+/** Post mais recente das notícias do STF que apresenta a pauta do Plenário; itens lidos pela IA e conferidos no texto. */
+async function pautaSTF(antes: PautaSTF | null): Promise<PautaSTF | null> {
+  const r = await pegar(`${STF}?search=pauta&orderby=date&order=desc&per_page=20&_fields=id,date,link,title,content`).catch((e) => { console.warn(`STF pauta: ${e.message}`); return null; });
+  if (r == null) return antes;
+  const post = lista(r).map(postSTF).find((p) => p.url.startsWith("https://") && /\bpauta/i.test(p.titulo) && /plen[áa]rio|supremo|stf/i.test(`${p.titulo} ${p.corpo.slice(0, 600)}`) && !/turma/i.test(p.titulo));
+  if (!post) { console.log("STF: nenhum post recente com a pauta do Plenário."); return null; }
+  const h = hash({ t: post.titulo, c: post.corpo });
+  if (antes && antes.hash === h) return antes;
+  if (!CHAVE) return antes; // sem IA não há como separar os itens; mantém o que havia
+  const textoTodo = `${post.titulo}\n${post.corpo}`;
+  let lidos: Solto;
+  try { lidos = await chamarIA(SISTEMA_PAUTA_STF, `Título: ${post.titulo}\nData: ${post.data}\n\n${post.corpo}`, SCHEMA_PAUTA_STF); } catch (e) {
+    console.warn(`STF pauta: IA falhou (${(e as Error).message})`);
+    return antes;
+  }
+  const itens: ItemPautaSTF[] = [];
+  for (const it of lista(lidos?.itens)) {
+    const ok = conferirItemPauta(it, textoTodo);
+    if (!ok || itens.some((x) => x.processo === ok.processo)) continue;
+    const tema = typeof it?.tema === "string" && it.tema.trim() && explicacaoConfere(it.tema, [textoTodo]) ? it.tema.trim() : null;
+    itens.push({ ...ok, tema });
+  }
+  console.log(`STF pauta: "${post.titulo}" (${post.data}), ${lista(lidos?.itens).length} itens lidos, ${itens.length} conferidos no texto.`);
+  return itens.length ? { titulo: post.titulo, url: post.url, data: post.data, itens, hash: h } : null;
+}
+
+/* ---------------- composição por partido ---------------- */
+
+async function bancadaCamara(): Promise<Bancada> {
+  const siglas: unknown[] = [];
+  let url: string | undefined = `${CAMARA}/deputados?itens=100`;
+  for (let pag = 0; url && pag < 20; pag++) {
+    const r = await pegar(url);
+    for (const d of lista(r?.dados)) siglas.push(d?.siglaPartido);
+    url = lista(r?.links).find((l) => l?.rel === "next")?.href;
+  }
+  if (siglas.length < 400) throw new Error(`Câmara: só ${siglas.length} deputados na lista`);
+  return { total: siglas.length, partidos: contarPartidos(siglas), fonte: "Câmara dos Deputados — Dados Abertos", url: `${CAMARA}/deputados`, lidoEm: new Date().toISOString() };
+}
+
+async function bancadaSenado(): Promise<Bancada> {
+  const url = `${SENADO}/senador/lista/atual.json`;
+  const r = await pegar(url);
+  const siglas = lista(r?.ListaParlamentarEmExercicio?.Parlamentares?.Parlamentar).map((p) => p?.IdentificacaoParlamentar?.SiglaPartidoParlamentar);
+  if (siglas.length < 70) throw new Error(`Senado: só ${siglas.length} senadores na lista`);
+  return { total: siglas.length, partidos: contarPartidos(siglas), fonte: "Senado Federal — Dados Abertos", url, lidoEm: new Date().toISOString() };
+}
+
+/** Casa que falhou mantém a anterior; contagem igual à anterior mantém a anterior (com o `lidoEm` dela). */
+async function composicao(antes: Composicao | null): Promise<Composicao> {
+  const ler = async (nome: string, f: () => Promise<Bancada>, velha: Bancada | null) => {
+    try {
+      const nova = await f();
+      console.log(`${nome}: ${nova.total} cadeiras, ${nova.partidos.length} partidos`);
+      return velha && velha.total === nova.total && JSON.stringify(velha.partidos) === JSON.stringify(nova.partidos) ? velha : nova;
+    } catch (e) { console.warn(`Composição ${nome} falhou: ${(e as Error).message}`); return velha; }
+  };
+  return {
+    versao: VERSAO_COMPOSICAO, geradoEm: new Date().toISOString(),
+    camara: await ler("Câmara", bancadaCamara, antes?.camara ?? null),
+    senado: await ler("Senado", bancadaSenado, antes?.senado ?? null),
+  };
 }
 
 /* ---------------- montagem ---------------- */
@@ -414,41 +577,85 @@ async function fonte<T>(nome: string, f: () => Promise<T>): Promise<{ estado: Es
   }
 }
 
+const lerJson = (arq: string): Solto => { try { return existsSync(arq) ? JSON.parse(readFileSync(arq, "utf8")) : null; } catch { return null; } };
+const DATA_ISO = /^\d{4}-\d{2}-\d{2}$/;
+const lerCobertura = (v: Solto): Cobertura | null => (DATA_ISO.test(v?.inicio) && DATA_ISO.test(v?.fim) ? { inicio: v.inicio, fim: v.fim } : null);
+const porData = (a: { data: string; id: string }, b: { data: string; id: string }) => b.data.localeCompare(a.data) || a.id.localeCompare(b.id);
+
+/** Grava; sem mudança de conteúdo, mantém o geradoEm anterior (o ramo dados não ganha commit à toa). */
+function gravar(arq: string, novo: Solto, anteriorBruto: Solto) {
+  const semData = (x: Solto) => JSON.stringify({ ...x, geradoEm: "" });
+  if (anteriorBruto && semData(anteriorBruto) === semData(novo)) novo.geradoEm = anteriorBruto.geradoEm;
+  mkdirSync(dirname(arq), { recursive: true });
+  const corpo = JSON.stringify(novo, null, 1) + "\n";
+  writeFileSync(arq, corpo);
+  console.log(`Gravado ${arq} (${(Buffer.byteLength(corpo) / 1024).toFixed(0)} KB)`);
+}
+
 async function main() {
-  const anteriorBruto = existsSync(ANTERIOR) ? JSON.parse(readFileSync(ANTERIOR, "utf8")) : null;
+  const t0 = Date.now();
+  const anteriorBruto = lerJson(ANTERIOR);
   const anterior = lerSemana(anteriorBruto);
-  const pautasAntes = new Map((anterior?.pautas ?? []).map((p) => [p.id, p]));
-  const ignoradasAntes = new Set<string>(lista(anteriorBruto?.stfIgnoradas).filter((x) => typeof x === "string"));
+  const historicoBruto = lerJson(ARQ_HISTORICO);
+  const historico = lerSemana(historicoBruto);
+  const cobertura = historico ? lerCobertura(historicoBruto?.cobertura) : null;
+  // No máximo uma tentativa de carga longa por dia: se uma fonte seguir falhando (bloqueio, dia do
+  // Senado com erro), as outras execuções do dia buscam só a janela curta, sem martelar as APIs.
+  const cargaTentadaEm = typeof historicoBruto?.cargaTentadaEm === "string" ? historicoBruto.cargaTentadaEm : null;
+  const carga = precisaCarga(cobertura, hojeBR, HISTORICO_DIAS, INICIO_CURTO) && cargaTentadaEm !== hojeBR;
+  const inicioBusca = carga ? INICIO_HISTORICO : INICIO_CURTO;
+  console.log(carga ? `Carga de ${HISTORICO_DIAS} dias (${inicioBusca} a ${FIM}): histórico ausente, curto ou com buraco.` : `Janela curta: ${inicioBusca} a ${FIM}.`);
+
+  // Cache de IA e base da junção: o que já havia na semana e no histórico (o histórico vence).
+  const pautasAntigas = juntarPorId(anterior?.pautas ?? [], historico?.pautas ?? [], INICIO_HISTORICO);
+  const stfAntigas = juntarPorId(anterior?.stf ?? [], historico?.stf ?? [], INICIO_HISTORICO);
+  const pautasAntes = new Map(pautasAntigas.map((p) => [p.id, p]));
+  const ignoradasAntes = new Set<string>([...lista(historicoBruto?.stfIgnoradas), ...lista(anteriorBruto?.stfIgnoradas)].filter((x) => typeof x === "string"));
   if (!CHAVE) console.warn(SEM_IA ? "IA desligada (--sem-ia)." : "ANTHROPIC_API_KEY ausente: publica sem a camada didática.");
 
-  const [cam, sen] = [await fonte("Câmara", camara), await fonte("Senado", senado)];
-  const st = await fonte("STF", () => stf(anterior, ignoradasAntes));
+  const [cam, sen] = [await fonte("Câmara", () => camara(inicioBusca)), await fonte("Senado", () => senado(inicioBusca))];
+  const st = await fonte("STF", () => stf(inicioBusca, stfAntigas, ignoradasAntes));
 
-  // Fonte que falhou: mantém as pautas dela da última leitura boa que ainda estão na semana.
-  const daCasa = (casas: Pauta["casa"][]) => (anterior?.pautas ?? []).filter((p) => casas.includes(p.casa) && p.data >= INICIO);
-  const pautas: Pauta[] = [];
-  for (const b of [...(cam.valor ?? []), ...(sen.valor ?? [])]) pautas.push(await didatica(b, pautasAntes));
-  if (!cam.valor) pautas.push(...daCasa(["Câmara"]));
-  if (!sen.valor) pautas.push(...daCasa(["Senado", "Congresso"]));
+  // Junta ao que já havia: fonte que falhou não apaga nada dela; o dado novo vence pelo id.
+  const novas = await emLotes([...(cam.valor ?? []), ...(sen.valor ?? [])], IA_PARALELO, (b) => didatica(b, pautasAntes));
+  const pautas = ordenarPautas(juntarPorId(pautasAntigas, novas, INICIO_HISTORICO));
+  const decisoes = juntarPorId(stfAntigas, st.valor?.decisoes ?? [], INICIO_HISTORICO).sort(porData);
+  const ignoradas = [...new Set([...(st.valor?.ignoradas ?? []), ...ignoradasAntes])].slice(0, 5000);
 
+  // O período só conta como lido quando as três fontes responderam por inteiro.
+  const tudoOk = !!cam.valor && !!sen.valor && !!st.valor && senadoDiasFalhos === 0;
+  const novaCobertura = tudoOk && (carga || cobertura) ? { inicio: carga ? INICIO_HISTORICO : cobertura!.inicio, fim: FIM } : cobertura;
+  const base = { versao: VERSAO_SEMANA, geradoEm: new Date().toISOString(), fontes: { camara: cam.estado, senado: sen.estado, stf: st.estado }, modelo: CHAVE ? MODELO : (historico?.modelo ?? anterior?.modelo ?? null) };
+  const hist: Semana & { cobertura: Cobertura | null; cargaTentadaEm: string | null; stfIgnoradas: string[] } = {
+    ...base, periodo: { inicio: INICIO_HISTORICO, fim: FIM }, pautas, stf: decisoes, cobertura: novaCobertura,
+    cargaTentadaEm: carga ? hojeBR : cargaTentadaEm, stfIgnoradas: ignoradas,
+  };
   const semana: Semana & { stfIgnoradas: string[] } = {
-    versao: VERSAO_SEMANA,
-    geradoEm: new Date().toISOString(),
-    periodo: { inicio: INICIO, fim: FIM },
-    fontes: { camara: cam.estado, senado: sen.estado, stf: st.estado },
-    modelo: CHAVE ? MODELO : (anterior?.modelo ?? null),
-    pautas: ordenarPautas(pautas),
-    stf: st.valor?.decisoes ?? (anterior?.stf ?? []).filter((d) => d.data >= INICIO),
+    ...base, periodo: { inicio: INICIO, fim: FIM },
+    pautas: pautas.filter((p) => p.data >= INICIO), stf: decisoes.filter((d) => d.data >= INICIO),
     stfIgnoradas: st.valor?.ignoradas ?? [...ignoradasAntes],
   };
-  // Sem mudança de conteúdo, mantém o geradoEm anterior (o ramo dados não ganha commit à toa).
-  const semData = (x: Solto) => JSON.stringify({ ...x, geradoEm: "" });
-  if (anteriorBruto && semData(anteriorBruto) === semData(semana)) semana.geradoEm = anteriorBruto.geradoEm;
 
-  mkdirSync(dirname(resolve(SAIDA!)), { recursive: true });
-  writeFileSync(resolve(SAIDA!), JSON.stringify(semana, null, 1) + "\n");
-  const semTexto = semana.pautas.filter((p) => !p.texto).length;
-  console.log(`Gravado ${SAIDA}: ${semana.pautas.length} pautas (${semTexto} sem texto da IA), ${semana.stf.length} decisões do STF.`);
+  // Composição por partido e o extra do STF (ministros e pauta do Plenário).
+  const compBruto = lerJson(ARQ_COMPOSICAO), stfBruto = lerJson(ARQ_STF);
+  const comp = await composicao(lerComposicao(compBruto));
+  const extraAntes = lerSTFExtra(stfBruto);
+  const extra: STFExtra = {
+    versao: VERSAO_STF, geradoEm: new Date().toISOString(),
+    ministros: await ministrosSTF(extraAntes?.ministros ?? null),
+    pauta: await pautaSTF(extraAntes?.pauta ?? null),
+  };
+
+  gravar(resolve(SAIDA!), semana, anteriorBruto);
+  gravar(ARQ_HISTORICO, hist, historicoBruto);
+  gravar(ARQ_COMPOSICAO, comp, compBruto);
+  gravar(ARQ_STF, extra, stfBruto);
+  const conta = (ps: Pauta[], c: Pauta["casa"][]) => ps.filter((p) => c.includes(p.casa)).length;
+  for (const [nome, x] of [["semana", semana], ["histórico", hist]] as const) {
+    console.log(`${nome}: ${x.pautas.length} pautas (Câmara ${conta(x.pautas, ["Câmara"])}, Senado/Congresso ${conta(x.pautas, ["Senado", "Congresso"])}; ${x.pautas.filter((p) => !p.texto).length} sem texto da IA), ${x.stf.length} decisões do STF.`);
+  }
+  console.log(`Cobertura do histórico: ${novaCobertura ? `${novaCobertura.inicio} a ${novaCobertura.fim}` : "nenhuma"}.`);
+  console.log(`Rede: ${requisicoes} requisições. Duração: ${((Date.now() - t0) / 1000).toFixed(0)} s.`);
   console.log(`IA: ${chamadas} chamadas, ${tokensEntrada} tokens de entrada, ${tokensSaida} de saída (${MODELO}, esforço ${ESFORCO}).`);
   if (cam.estado === "falhou" && sen.estado === "falhou") process.exitCode = 1;
 }

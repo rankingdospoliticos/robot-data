@@ -1,8 +1,13 @@
 name: Dados de Brasília (Congresso e STF)
 
-# Lê as votações do Plenário da Câmara e do Senado dos últimos 7 dias e as decisões do Plenário do
-# STF (notícias oficiais), escreve a camada didática com a IA e publica brasilia/semana.json no ramo
-# "dados". O site lê esse arquivo, então a tela /resumo se atualiza sem deploy.
+# Lê as votações do Plenário da Câmara e do Senado e as decisões do Plenário do STF (notícias
+# oficiais), escreve a camada didática com a IA e publica o diretório brasilia/ no ramo "dados":
+#  - semana.json: últimos 7 dias (tela /resumo e o Pergunte);
+#  - historico.json: últimos 90 dias, mesma forma (cada execução busca só a janela curta e junta;
+#    sem histórico que cubra os 90 dias, a execução faz uma carga de 90 dias, mais demorada);
+#  - composicao.json: cadeiras por partido na Câmara e no Senado;
+#  - stf.json: ministros do STF e a pauta do Plenário mais recente.
+# O site lê esses arquivos, então as telas se atualizam sem deploy.
 #
 # Segredo necessário: ANTHROPIC_API_KEY (Settings > Secrets and variables > Actions). Sem ele, o
 # robô publica só o dado oficial, com o título tirado da ementa.
@@ -29,7 +34,7 @@ concurrency:
 jobs:
   brasilia:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60 # a carga de 90 dias (só na primeira vez ou depois de buraco) leva mais
     steps:
       - uses: actions/checkout@v4
 
@@ -58,7 +63,7 @@ jobs:
       - name: Publica no ramo dados
         run: |
           cd ../dados
-          git add brasilia/semana.json
+          git add brasilia/
           if git diff --cached --quiet; then
             echo "Sem mudanças."
             exit 0

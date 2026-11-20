@@ -2,6 +2,7 @@
   "scripts/robos/brasilia.ts",
   "scripts/robos/emendas.mjs",
   "src/lib/brasilia/agrupar.ts",
+  "src/lib/brasilia/coleta.ts",
   "src/lib/brasilia/editorial.ts",
   "src/lib/brasilia/glossario.ts",
   "src/lib/brasilia/tipos.ts",
