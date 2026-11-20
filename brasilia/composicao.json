@@ -1,0 +1,156 @@
+{
+ "versao": 1,
+ "geradoEm": "2026-11-20T22:39:01.578Z",
+ "camara": {
+  "total": 513,
+  "partidos": [
+   {
+    "sigla": "PL",
+    "n": 97
+   },
+   {
+    "sigla": "PT",
+    "n": 66
+   },
+   {
+    "sigla": "UNIÃO",
+    "n": 50
+   },
+   {
+    "sigla": "PSD",
+    "n": 49
+   },
+   {
+    "sigla": "PP",
+    "n": 47
+   },
+   {
+    "sigla": "REPUBLICANOS",
+    "n": 43
+   },
+   {
+    "sigla": "MDB",
+    "n": 38
+   },
+   {
+    "sigla": "PODE",
+    "n": 27
+   },
+   {
+    "sigla": "PSB",
+    "n": 17
+   },
+   {
+    "sigla": "PSDB",
+    "n": 17
+   },
+   {
+    "sigla": "PSOL",
+    "n": 13
+   },
+   {
+    "sigla": "PCdoB",
+    "n": 11
+   },
+   {
+    "sigla": "PDT",
+    "n": 9
+   },
+   {
+    "sigla": "PV",
+    "n": 6
+   },
+   {
+    "sigla": "AVANTE",
+    "n": 5
+   },
+   {
+    "sigla": "NOVO",
+    "n": 5
+   },
+   {
+    "sigla": "SOLIDARIEDADE",
+    "n": 4
+   },
+   {
+    "sigla": "PRD",
+    "n": 3
+   },
+   {
+    "sigla": "REDE",
+    "n": 3
+   },
+   {
+    "sigla": "CIDADANIA",
+    "n": 2
+   },
+   {
+    "sigla": "MISSÃO",
+    "n": 1
+   }
+  ],
+  "fonte": "Câmara dos Deputados — Dados Abertos",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/deputados",
+  "lidoEm": "2026-11-20T22:39:04.086Z"
+ },
+ "senado": {
+  "total": 81,
+  "partidos": [
+   {
+    "sigla": "PL",
+    "n": 15
+   },
+   {
+    "sigla": "PSD",
+    "n": 13
+   },
+   {
+    "sigla": "PT",
+    "n": 10
+   },
+   {
+    "sigla": "MDB",
+    "n": 9
+   },
+   {
+    "sigla": "PP",
+    "n": 8
+   },
+   {
+    "sigla": "PSB",
+    "n": 7
+   },
+   {
+    "sigla": "REPUBLICANOS",
+    "n": 6
+   },
+   {
+    "sigla": "PSDB",
+    "n": 4
+   },
+   {
+    "sigla": "PODE",
+    "n": 3
+   },
+   {
+    "sigla": "UNIÃO",
+    "n": 3
+   },
+   {
+    "sigla": "AVANTE",
+    "n": 1
+   },
+   {
+    "sigla": "PDT",
+    "n": 1
+   },
+   {
+    "sigla": "S/Partido",
+    "n": 1
+   }
+  ],
+  "fonte": "Senado Federal — Dados Abertos",
+  "url": "https://legis.senado.leg.br/dadosabertos/senador/lista/atual.json",
+  "lidoEm": "2026-11-20T22:39:05.201Z"
+ }
+}

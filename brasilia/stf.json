@@ -1,0 +1,25 @@
+{
+ "versao": 1,
+ "geradoEm": "2026-11-20T22:39:05.202Z",
+ "ministros": null,
+ "pauta": {
+  "titulo": "Confira a pauta do STF desta quinta-feira (19)",
+  "url": "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-19-3/",
+  "data": "2026-11-19",
+  "itens": [
+   {
+    "data": null,
+    "processo": "ADI 5405",
+    "relator": "Dias Toffoli",
+    "tema": "Dispensa de pagamento de honorários advocatícios em acordos e parcelamentos tributários com o poder público."
+   },
+   {
+    "data": null,
+    "processo": "RCL 78354",
+    "relator": "Edson Fachin",
+    "tema": "Indenização por danos morais por reportagem considerada vexatória; alegada violação ao entendimento sobre assédio judicial a jornalistas."
+   }
+  ],
+  "hash": "267c14cac9f259b359c3950b2d1e6d45"
+ }
+}

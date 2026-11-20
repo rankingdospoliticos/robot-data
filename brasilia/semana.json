@@ -1,16 +1,16 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-20T16:38:50.710Z",
- "periodo": {
-  "inicio": "2026-11-13",
-  "fim": "2026-11-20"
- },
+ "geradoEm": "2026-11-20T22:39:01.578Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
   "stf": "ok"
  },
  "modelo": "claude-haiku-5-5",
+ "periodo": {
+  "inicio": "2026-11-13",
+  "fim": "2026-11-20"
+ },
  "pautas": [
   {
    "id": "senado:176328",
@@ -26,10 +26,37 @@
    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
    "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/38df22dd-1022-46cf-ac9d-d24f038d1d0d",
    "resultado": "aprovado",
-   "resultadoTexto": "Aprovada pelo Plenário.",
+   "resultadoTexto": "Aprovada a Emenda nº 75 (Substitutivo), com adequação redacional, ressalvados os destaques.",
    "destino": "A matéria vai à Câmara dos Deputados.",
-   "placar": null,
+   "placar": {
+    "sim": 45,
+    "nao": 31,
+    "abstencao": 0
+   },
    "etapas": [
+    {
+     "data": "2026-11-12",
+     "descricao": "Requerimento nº 770, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-12",
+     "descricao": "Requerimento nº 770, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
+     "placar": {
+      "sim": 40,
+      "nao": 38,
+      "abstencao": 0
+     }
+    },
+    {
+     "data": "2026-11-12",
+     "descricao": "Aprovada a Emenda nº 75 (Substitutivo), com adequação redacional, ressalvados os destaques.",
+     "placar": {
+      "sim": 45,
+      "nao": 31,
+      "abstencao": 0
+     }
+    },
     {
      "data": "2026-11-18",
      "descricao": "Rejeitada a Emenda nº 40.",
@@ -80,33 +107,33 @@
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
     "titulo": "Ajuste fiscal permite ao governo reduzir benefícios fiscais e limitar despesas",
-    "abertura": "O Ajuste fiscal dá ao governo federal ferramentas para reduzir benefícios e incentivos de impostos e limitar gastos. O Senado aprovou a medida, que agora segue para a Câmara dos Deputados.",
-    "detalhes": "A medida altera a Lei Complementar nº 200, de 30 de agosto de 2023, e cria novos instrumentos de gestão para o Poder Executivo federal. Na votação, a Emenda nº 40 foi rejeitada por 30 votos a 47. O artigo 6º foi aprovado por 45 a 32, com 1 abstenção, e o artigo 6º-F por 49 a 31. Em turno suplementar, o placar foi 69 sim, 2 não e 1 abstenção, e a redação final foi aprovada de forma simbólica, sem registro de voto de cada senador. A medida também trata de repasses da União a estados, ao Distrito Federal e aos municípios, e agora vai à Câmara dos Deputados."
+    "abertura": "O governo federal ganha novas regras para reduzir benefícios fiscais, como incentivos de impostos, e limitar gastos públicos. O Senado aprovou a mudança e a envia à Câmara dos Deputados.",
+    "detalhes": "A mudança altera a Lei Complementar nº 200, de 2023. Ela também reduz valores de transferências para Estados, Distrito Federal e municípios. Na votação principal, o placar foi 45 votos a 31, em votação nominal. O texto segue agora para a Câmara dos Deputados."
    },
    "glossario": [
+    {
+     "termo": "Benefício fiscal",
+     "explicacao": "Redução ou isenção de imposto dada a um setor, região ou atividade. Na prática, é dinheiro que o governo deixa de arrecadar.",
+     "fonte": "curado"
+    },
     {
      "termo": "Lei complementar",
      "explicacao": "Tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Só é aprovada com o voto de mais da metade de todos os membros de cada Casa.",
      "fonte": "curado"
     },
     {
+     "termo": "transferências",
+     "explicacao": "Repasses de dinheiro feitos pela União para Estados, Distrito Federal e municípios.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Votação nominal",
+     "explicacao": "Cada parlamentar vota no painel eletrônico, e o voto de cada um fica registrado e público.",
+     "fonte": "curado"
+    },
+    {
      "termo": "Emenda",
      "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Turno suplementar",
-     "explicacao": "Nova rodada de votação, feita quando o Plenário aprova um substitutivo, para votar as emendas apresentadas a esse novo texto.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
     },
     {
@@ -120,8 +147,28 @@
      "fonte": "curado"
     },
     {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Turno suplementar",
+     "explicacao": "Nova rodada de votação, feita quando o Plenário aprova um substitutivo, para votar as emendas apresentadas a esse novo texto.",
+     "fonte": "curado"
+    },
+    {
      "termo": "Parecer",
      "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
@@ -130,7 +177,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "e7a9312596f624338e71a0b796710344"
+   "hash": "5dca7180b9d6a6e43f7e8e789893ff3c"
   },
   {
    "id": "senado:175261",
@@ -215,10 +262,20 @@
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=1194323",
    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1315063",
    "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+   "resultadoTexto": "Aprovado o Projeto de Lei nº 956, de 2015.",
    "destino": null,
    "placar": null,
    "etapas": [
+    {
+     "data": "2026-08-31",
+     "descricao": "Aprovado o Projeto de Lei nº 956, de 2015.",
+     "placar": null
+    },
+    {
+     "data": "2026-08-31",
+     "descricao": "Aprovadas as Emendas de nºs 1 a 4 da Comissão de Finanças e Tributação.",
+     "placar": null
+    },
     {
      "data": "2026-11-18",
      "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
@@ -227,28 +284,38 @@
    ],
    "tituloEmenta": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região",
    "texto": {
-    "titulo": "Rio Grande do Sul ganha novas Varas do Trabalho",
-    "abertura": "Novas Varas do Trabalho serão criadas em cidades gaúchas como Capão da Canoa, Marau, Nova Prata, São Sebastião do Caí e Tramandaí. A Câmara dos Deputados aprovou o texto, que segue agora para o Senado Federal.",
-    "detalhes": "A proposta cria varas na Justiça do Trabalho da 4ª Região, que atende o Rio Grande do Sul. Ela também prevê cargos de juiz do trabalho, cargo efetivo, cargo em comissão e função comissionada. A votação foi simbólica, sem registro do voto de cada deputado e sem placar. A Câmara aprovou a redação final em 18 de novembro de 2026."
+    "titulo": "Rio Grande do Sul pode ganhar novas Varas do Trabalho",
+    "abertura": "A lei criaria novas Varas do Trabalho em seis cidades gaúchas, com cargos de juiz e funções comissionadas. A Câmara dos Deputados aprovou o texto, que agora segue ao Senado Federal.",
+    "detalhes": "O texto trata da criação de Varas do Trabalho na área do Tribunal Regional do Trabalho da 4ª Região. Ele também fala de cargos efetivos, cargos em comissão e funções comissionadas. Em 31 de agosto de 2026, os deputados aprovaram o texto por votação simbólica, sem registro de voto de cada parlamentar, e também quatro emendas da Comissão de Finanças e Tributação. Em 18 de novembro de 2026, foi aprovada a redação final, e a matéria segue ao Senado Federal."
    },
    "glossario": [
     {
-     "termo": "cargo em comissão",
-     "explicacao": "Cargo de confiança, preenchido por indicação e sem concurso.",
+     "termo": "Varas do Trabalho",
+     "explicacao": "São os tribunais de primeira instância que julgam conflitos entre patrões e empregados.",
      "fonte": "ia"
     },
     {
-     "termo": "função comissionada",
-     "explicacao": "Função extra, paga a quem já tem cargo público, para tarefas de chefia.",
-     "fonte": "ia"
+     "termo": "Votação simbólica",
+     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
     },
     {
      "termo": "Redação final",
      "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
+    },
+    {
+     "termo": "Projeto de lei",
+     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
+     "fonte": "curado"
     }
    ],
-   "hash": "d177bd36a133ef975030911a57a31d35"
+   "hash": "8cc1880952343932aa1561283e4b2be6"
   },
   {
    "id": "camara:344542",
@@ -323,10 +390,15 @@
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=866002",
    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1296311",
    "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+   "resultadoTexto": "Aprovado o Projeto de Lei nº 8.332, de 2015.",
    "destino": null,
    "placar": null,
    "etapas": [
+    {
+     "data": "2026-08-31",
+     "descricao": "Aprovado o Projeto de Lei nº 8.332, de 2015.",
+     "placar": null
+    },
     {
      "data": "2026-11-18",
      "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
@@ -335,15 +407,25 @@
    ],
    "tituloEmenta": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no…",
    "texto": {
-    "titulo": "Tribunal do Trabalho em Fortaleza ganha novos cargos de juiz e servidores",
-    "abertura": "Cria cargos de Juiz do Trabalho Substituto e de servidores efetivos no Tribunal Regional do Trabalho da 7ª Região, em Fortaleza, no Ceará. A Câmara dos Deputados aprovou a redação final, e o texto segue para o Senado Federal.",
-    "detalhes": "Os cargos criados são de Juiz do Trabalho Substituto, Analista Judiciário e Técnico Judiciário. A aprovação da redação final, em 18 de novembro de 2026, foi feita por votação simbólica, sem registro do voto de cada deputado. A situação atual é de aguardando envio ao Senado Federal."
+    "titulo": "Tribunal de Fortaleza poderá ter novos cargos de juiz e servidor",
+    "abertura": "A proposta cria cargos de juiz do trabalho substituto e cargos efetivos no TRT da 7ª Região, em Fortaleza (CE). A Câmara dos Deputados aprovou o texto, que agora segue ao Senado Federal.",
+    "detalhes": "O texto trata da criação de cargos de juiz do trabalho substituto e de cargos de provimento efetivo, com destaque para analista judiciário e técnico judiciário. A votação foi simbólica, ou seja, não há registro de voto de cada deputado nem placar. A redação final foi aprovada em 18 de novembro de 2026, e a situação atual é aguardando envio ao Senado Federal."
    },
    "glossario": [
     {
-     "termo": "Juiz do Trabalho Substituto",
-     "explicacao": "Juiz de entrada na carreira da Justiça do Trabalho, que atua onde houver vaga.",
+     "termo": "juiz do trabalho substituto",
+     "explicacao": "Juiz que atua na Justiça do Trabalho e pode ser chamado para cobrir vagas ou faltas de outros juízes.",
      "fonte": "ia"
+    },
+    {
+     "termo": "cargos de provimento efetivo",
+     "explicacao": "Vagas fixas no quadro de servidores, preenchidas por concurso público.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Destaque",
+     "explicacao": "Pedido para votar em separado um trecho do texto ou uma emenda. Primeiro se vota o texto principal; depois, cada destaque.",
+     "fonte": "curado"
     },
     {
      "termo": "Redação final",
@@ -351,12 +433,12 @@
      "fonte": "curado"
     },
     {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
+     "termo": "Projeto de lei",
+     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
      "fonte": "curado"
     }
    ],
-   "hash": "afad2c011ce9bd46bfb2c50929135f96"
+   "hash": "7aa6307e5a9dda4d1e822a772236aa6b"
   },
   {
    "id": "senado:161596",
@@ -930,6 +1012,11 @@
    "placar": null,
    "etapas": [
     {
+     "data": "2026-11-10",
+     "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+     "placar": null
+    },
+    {
      "data": "2026-11-17",
      "descricao": "Aprovado o Projeto de Lei nº 5.127, de 2026.",
      "placar": null
@@ -942,19 +1029,19 @@
    ],
    "tituloEmenta": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no…",
    "texto": {
-    "titulo": "Romaria de Trindade (GO) passa a ser reconhecida como cultura nacional",
-    "abertura": "A Romaria do Divino Pai Eterno, realizada em Trindade (GO), passa a ser reconhecida como manifestação da cultura nacional. A Câmara dos Deputados aprovou o texto, que ainda aguarda os próximos passos.",
-    "detalhes": "O projeto de lei 5.127/2026 foi aprovado em 17/11/2026 por votação simbólica, sem registro de voto de cada deputado. Na mesma data, a Redação Final, assinada pelo relator, Dep. Luiz Gastão (PSD/CE), também foi aprovada. O texto está aguardando encaminhamento e publicação."
+    "titulo": "Romaria de Trindade (GO) é reconhecida como manifestação da cultura nacional",
+    "abertura": "A festa da Romaria do Divino Pai Eterno, em Trindade (GO), passa a ter reconhecimento oficial como parte da cultura do país. A Câmara dos Deputados aprovou o texto por votação simbólica, sem registro de voto de cada deputado.",
+    "detalhes": "Antes da votação, os deputados aprovaram por unanimidade um pedido de urgência para acelerar a análise. Depois, aprovaram o texto e a redação final, assinada pelo relator, deputado Luiz Gastão (PSD-CE), também por votação simbólica. A situação atual é de publicação do texto."
    },
    "glossario": [
     {
-     "termo": "Projeto de lei",
-     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
+     "termo": "Votação simbólica",
+     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
      "fonte": "curado"
     },
     {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
      "fonte": "curado"
     },
     {
@@ -966,9 +1053,19 @@
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
+    },
+    {
+     "termo": "Projeto de lei",
+     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
     }
    ],
-   "hash": "0276becdcd6d6b01504884fdc95c56ca"
+   "hash": "9fab7d72323bdecf77991b5353b32be3"
   },
   {
    "id": "camara:2646241",
@@ -1606,45 +1703,76 @@
    "hash": "d888e668ef677bf59c86cb6f023990db"
   },
   {
-   "id": "stf:168001",
+   "id": "stf:167974",
    "data": "2026-11-18",
    "situacao": "decidido",
    "processo": null,
-   "tituloOficial": "STF derruba exigência de comunicação eletrônica de transferência de veículos no Ceará",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-derruba-exigencia-de-comunicacao-eletronica-de-transferencia-de-veiculos-no-ceara/",
+   "tituloOficial": "STF invalida lei de Mato Grosso que criou verbas indenizatórias para agentes públicos",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-de-mato-grosso-que-criou-verbas-indenizatorias-para-agentes-publicos/",
    "texto": {
-    "titulo": "Cartórios do Ceará deixam de informar transferências de veículos ao estado",
-    "abertura": "Os cartórios do Ceará deixam de informar eletronicamente as transferências de veículos ao órgão de trânsito do estado. Por maioria, o Plenário do STF decidiu que a regra é inconstitucional, e ela deixa de valer a partir da publicação da ata do julgamento.",
-    "detalhes": "A lei alterada é a Lei estadual 14.826/2010, que mudou o artigo 16 da Lei estadual 14.605/2009. O relator, ministro Cristiano Zanin, disse que o estado legislou sobre trânsito e registros públicos, temas da competência da União. Só o ministro Gilmar Mendes ficou vencido. As transferências já feitas continuam valendo, mas os cartórios devem enviar os registros feitos enquanto a lei esteve em vigor."
+    "titulo": "STF derruba pagamentos extras a agentes públicos de Mato Grosso",
+    "abertura": "Pagamentos mensais e fixos, feitos sem comprovação de gastos, deixam de valer para membros do TCE-MT e outros agentes estaduais. O Supremo Tribunal Federal invalidou a lei de Mato Grosso que criou esses pagamentos.",
+    "detalhes": "A Lei estadual 11.087/2020 criava verbas indenizatórias, mas o STF entendeu que elas funcionavam como salário extra, pagas todo mês sem ligação com despesas reais, o que desrespeita o teto remuneratório. O projeto original veio do Tribunal de Contas do estado, mas emendas parlamentares ampliaram o texto para beneficiar integrantes do Poder Executivo, sem relação com a proposta inicial. Para o relator, ministro André Mendonça, isso aumentou despesas e afetou a autonomia do Tribunal de Contas. A decisão foi unânime, na sessão virtual encerrada em 10 de novembro."
    },
    "glossario": [
     {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
+     "termo": "verbas indenizatórias",
+     "explicacao": "Valores pagos para cobrir gastos feitos no trabalho. Precisam ser comprovados.",
+     "fonte": "ia"
     },
     {
-     "termo": "Inconstitucional",
-     "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
-     "fonte": "curado"
+     "termo": "teto remuneratório",
+     "explicacao": "Limite máximo que um servidor público pode receber por mês.",
+     "fonte": "ia"
     },
     {
-     "termo": "ata do julgamento",
-     "explicacao": "Documento oficial que registra o resultado da sessão do tribunal.",
+     "termo": "emendas parlamentares",
+     "explicacao": "Mudanças que deputados e senadores propõem em um projeto de lei.",
      "fonte": "ia"
     },
     {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
-    },
-    {
-     "termo": "competência da União",
-     "explicacao": "Poder exclusivo do governo federal para criar regras sobre determinado assunto.",
-     "fonte": "ia"
     }
    ],
-   "hash": "090b26b4a0e55f43e2f148e1dbdae6ae"
+   "hash": "8f93812767e123147ecc10e432a51ce5"
+  },
+  {
+   "id": "stf:167983",
+   "data": "2026-11-18",
+   "situacao": "decidido",
+   "processo": null,
+   "tituloOficial": "Fim da isenção de pena em crimes patrimoniais entre familiares vale a partir do julgamento, decide STF",
+   "url": "https://noticias.stf.jus.br/postsnoticias/fim-da-isencao-de-pena-em-crimes-patrimoniais-entre-familiares-vale-a-partir-do-julgamento-decide-stf/",
+   "texto": {
+    "titulo": "Crime patrimonial contra parente deixa de ter isenção de pena",
+    "abertura": "Quem comete crime patrimonial contra familiar deixa de ficar isento de pena. O STF decidiu por maioria que a mudança vale a partir da conclusão do julgamento, preservando condenações definitivas e ações penais em andamento.",
+    "detalhes": "Os artigos 181 e 182 do Código Penal isentavam de pena e exigiam representação da vítima nesses casos. O Plenário decidiu que essas regras não são compatíveis com a Constituição de 1988 e que valem para qualquer vítima da família, não só mulheres. O relator, ministro Dias Toffoli, foi acompanhado por Alexandre de Moraes, Luiz Fux, André Mendonça e Edson Fachin. Cármen Lúcia, Flávio Dino, Cristiano Zanin, Nunes Marques e Gilmar Mendes ficaram parcialmente vencidos."
+   },
+   "glossario": [
+    {
+     "termo": "condenações definitivas",
+     "explicacao": "Condenação criminal da qual não cabe mais recurso.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "ações penais em andamento",
+     "explicacao": "Processos criminais que ainda não terminaram.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "2c1c309bf340065e8c4f895f90c5b97d"
   },
   {
    "id": "stf:167985",
@@ -1688,76 +1816,45 @@
    "hash": "fd859420b3501ec7e507ba2b4aa0826e"
   },
   {
-   "id": "stf:167983",
+   "id": "stf:168001",
    "data": "2026-11-18",
    "situacao": "decidido",
    "processo": null,
-   "tituloOficial": "Fim da isenção de pena em crimes patrimoniais entre familiares vale a partir do julgamento, decide STF",
-   "url": "https://noticias.stf.jus.br/postsnoticias/fim-da-isencao-de-pena-em-crimes-patrimoniais-entre-familiares-vale-a-partir-do-julgamento-decide-stf/",
+   "tituloOficial": "STF derruba exigência de comunicação eletrônica de transferência de veículos no Ceará",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-derruba-exigencia-de-comunicacao-eletronica-de-transferencia-de-veiculos-no-ceara/",
    "texto": {
-    "titulo": "Crime patrimonial contra parente deixa de ter isenção de pena",
-    "abertura": "Quem comete crime patrimonial contra familiar deixa de ficar isento de pena. O STF decidiu por maioria que a mudança vale a partir da conclusão do julgamento, preservando condenações definitivas e ações penais em andamento.",
-    "detalhes": "Os artigos 181 e 182 do Código Penal isentavam de pena e exigiam representação da vítima nesses casos. O Plenário decidiu que essas regras não são compatíveis com a Constituição de 1988 e que valem para qualquer vítima da família, não só mulheres. O relator, ministro Dias Toffoli, foi acompanhado por Alexandre de Moraes, Luiz Fux, André Mendonça e Edson Fachin. Cármen Lúcia, Flávio Dino, Cristiano Zanin, Nunes Marques e Gilmar Mendes ficaram parcialmente vencidos."
+    "titulo": "Cartórios do Ceará deixam de informar transferências de veículos ao estado",
+    "abertura": "Os cartórios do Ceará deixam de informar eletronicamente as transferências de veículos ao órgão de trânsito do estado. Por maioria, o Plenário do STF decidiu que a regra é inconstitucional, e ela deixa de valer a partir da publicação da ata do julgamento.",
+    "detalhes": "A lei alterada é a Lei estadual 14.826/2010, que mudou o artigo 16 da Lei estadual 14.605/2009. O relator, ministro Cristiano Zanin, disse que o estado legislou sobre trânsito e registros públicos, temas da competência da União. Só o ministro Gilmar Mendes ficou vencido. As transferências já feitas continuam valendo, mas os cartórios devem enviar os registros feitos enquanto a lei esteve em vigor."
    },
    "glossario": [
-    {
-     "termo": "condenações definitivas",
-     "explicacao": "Condenação criminal da qual não cabe mais recurso.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "ações penais em andamento",
-     "explicacao": "Processos criminais que ainda não terminaram.",
-     "fonte": "ia"
-    },
     {
      "termo": "Plenário",
      "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
     },
     {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "termo": "Inconstitucional",
+     "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
      "fonte": "curado"
-    }
-   ],
-   "hash": "2c1c309bf340065e8c4f895f90c5b97d"
-  },
-  {
-   "id": "stf:167974",
-   "data": "2026-11-18",
-   "situacao": "decidido",
-   "processo": null,
-   "tituloOficial": "STF invalida lei de Mato Grosso que criou verbas indenizatórias para agentes públicos",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-de-mato-grosso-que-criou-verbas-indenizatorias-para-agentes-publicos/",
-   "texto": {
-    "titulo": "STF derruba pagamentos extras a agentes públicos de Mato Grosso",
-    "abertura": "Pagamentos mensais e fixos, feitos sem comprovação de gastos, deixam de valer para membros do TCE-MT e outros agentes estaduais. O Supremo Tribunal Federal invalidou a lei de Mato Grosso que criou esses pagamentos.",
-    "detalhes": "A Lei estadual 11.087/2020 criava verbas indenizatórias, mas o STF entendeu que elas funcionavam como salário extra, pagas todo mês sem ligação com despesas reais, o que desrespeita o teto remuneratório. O projeto original veio do Tribunal de Contas do estado, mas emendas parlamentares ampliaram o texto para beneficiar integrantes do Poder Executivo, sem relação com a proposta inicial. Para o relator, ministro André Mendonça, isso aumentou despesas e afetou a autonomia do Tribunal de Contas. A decisão foi unânime, na sessão virtual encerrada em 10 de novembro."
-   },
-   "glossario": [
-    {
-     "termo": "verbas indenizatórias",
-     "explicacao": "Valores pagos para cobrir gastos feitos no trabalho. Precisam ser comprovados.",
-     "fonte": "ia"
     },
     {
-     "termo": "teto remuneratório",
-     "explicacao": "Limite máximo que um servidor público pode receber por mês.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "emendas parlamentares",
-     "explicacao": "Mudanças que deputados e senadores propõem em um projeto de lei.",
+     "termo": "ata do julgamento",
+     "explicacao": "Documento oficial que registra o resultado da sessão do tribunal.",
      "fonte": "ia"
     },
     {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
+    },
+    {
+     "termo": "competência da União",
+     "explicacao": "Poder exclusivo do governo federal para criar regras sobre determinado assunto.",
+     "fonte": "ia"
     }
    ],
-   "hash": "8f93812767e123147ecc10e432a51ce5"
+   "hash": "090b26b4a0e55f43e2f148e1dbdae6ae"
   },
   {
    "id": "stf:167933",
@@ -1827,57 +1924,6 @@
    "hash": "64446347c420dc131108828ff628bbdb"
   },
   {
-   "id": "stf:167835",
-   "data": "2026-11-13",
-   "situacao": "decidido",
-   "processo": null,
-   "tituloOficial": "STF invalida lei que dispensava pagamento de honorários a procuradores municipais",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-que-dispensava-pagamento-de-honorarios-a-procuradores-municipais/",
-   "texto": {
-    "titulo": "Contribuintes de Nova Serrana (MG) devem pagar honorários a procuradores municipais",
-    "abertura": "Quem aderiu ao Refis de Nova Serrana deixa de ter isenção dos honorários devidos aos procuradores municipais. O Plenário do STF decidiu por unanimidade que a lei municipal é inconstitucional.",
-    "detalhes": "A lei municipal dispensava os contribuintes que aderissem ao Refis de pagar honorários sucumbenciais, valores que a parte perdedora paga à parte vencedora em uma ação. A OAB Nacional alegou que o tema é regulado por lei federal, como o Estatuto da OAB e o Código de Processo Civil. O relator, ministro Gilmar Mendes, afirmou que o desconto invade a competência privativa da União e propôs efeitos retroativos, pois a lei valeu apenas no exercício financeiro de 2026. A votação foi unânime, em sessão virtual."
-   },
-   "glossario": [
-    {
-     "termo": "Refis",
-     "explicacao": "Programa de regularização fiscal que oferece condições especiais para pagar dívidas com o governo.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Inconstitucional",
-     "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "honorários sucumbenciais",
-     "explicacao": "Valor que a parte perdedora de uma ação paga à parte vencedora.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "competência privativa da União",
-     "explicacao": "Tema que só o governo federal pode regular por lei.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "efeitos retroativos",
-     "explicacao": "Decisão que vale também para o passado, desde o início da lei.",
-     "fonte": "ia"
-    }
-   ],
-   "hash": "f1fa7100a81386f79ccdef40ed86025c"
-  },
-  {
    "id": "stf:167828",
    "data": "2026-11-13",
    "situacao": "decidido",
@@ -1927,12 +1973,106 @@
     }
    ],
    "hash": "a3b5c8c4cdf030d690234abc5ce284fe"
+  },
+  {
+   "id": "stf:167835",
+   "data": "2026-11-13",
+   "situacao": "decidido",
+   "processo": null,
+   "tituloOficial": "STF invalida lei que dispensava pagamento de honorários a procuradores municipais",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-que-dispensava-pagamento-de-honorarios-a-procuradores-municipais/",
+   "texto": {
+    "titulo": "Contribuintes de Nova Serrana (MG) devem pagar honorários a procuradores municipais",
+    "abertura": "Quem aderiu ao Refis de Nova Serrana deixa de ter isenção dos honorários devidos aos procuradores municipais. O Plenário do STF decidiu por unanimidade que a lei municipal é inconstitucional.",
+    "detalhes": "A lei municipal dispensava os contribuintes que aderissem ao Refis de pagar honorários sucumbenciais, valores que a parte perdedora paga à parte vencedora em uma ação. A OAB Nacional alegou que o tema é regulado por lei federal, como o Estatuto da OAB e o Código de Processo Civil. O relator, ministro Gilmar Mendes, afirmou que o desconto invade a competência privativa da União e propôs efeitos retroativos, pois a lei valeu apenas no exercício financeiro de 2026. A votação foi unânime, em sessão virtual."
+   },
+   "glossario": [
+    {
+     "termo": "Refis",
+     "explicacao": "Programa de regularização fiscal que oferece condições especiais para pagar dívidas com o governo.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Inconstitucional",
+     "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "honorários sucumbenciais",
+     "explicacao": "Valor que a parte perdedora de uma ação paga à parte vencedora.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "competência privativa da União",
+     "explicacao": "Tema que só o governo federal pode regular por lei.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "efeitos retroativos",
+     "explicacao": "Decisão que vale também para o passado, desde o início da lei.",
+     "fonte": "ia"
+    }
+   ],
+   "hash": "f1fa7100a81386f79ccdef40ed86025c"
   }
  ],
  "stfIgnoradas": [
   "d0200d9bee61fd86727e225803d4315e",
   "1db908fc56df9d2bdb6ab94184ce12ab",
   "2adea588ff7f2c2382b460e09a4b3367",
-  "93f92d4e6284a44f63d4ff9eb8374c71"
+  "93f92d4e6284a44f63d4ff9eb8374c71",
+  "1f5657f0e20da8c8d62f5671fd58eed9",
+  "475c77191bc825ff3a8d9931079358c0",
+  "e6e919c1a63a117feaf6aa38c78d06b9",
+  "e1b5ba23734690c35bbf8e39456cb190",
+  "b75673c58c8eb5016f68e0eb09ee49d3",
+  "a6cb904511b10d4cfd4a788be540a895",
+  "b6cca5de2f96f06b863697644c58e51e",
+  "ffaddf6156acd84e4ffe1a441522a65a",
+  "f9e62c6198c474c3f3119bee22f0ec1e",
+  "876d51184452a62bed4a563223f5fbd7",
+  "1adbfec7a2a0d6c9eab384af96717f70",
+  "e8564e2fc51fef278b686f3d7adc5492",
+  "71949c6ce4f79972691428fc79a13213",
+  "b84fd9fbc8596b350b6208b67703b63d",
+  "4233b09dd97989d5a963e213449af8e6",
+  "b7fbd5a2f934776481e621af245d3ab5",
+  "467ce8d0a9c4e472df4de9830f9dfb82",
+  "d123dc00e4caad6c4b3c5658bff6d698",
+  "36284a8673e9b8b8fb4167ae0fa7cc3a",
+  "2ee14a53b418679f8e0da961472b19eb",
+  "a25ea48b4aa539aa22c2d900ef494a22",
+  "d0017ff7f624b0b52502d92f5a2af76d",
+  "8ed1ae16e5fc7e91dc119fb0e358698c",
+  "749cb8d7584aad19c519efec58052424",
+  "63c20be7dc136a7a597799917d613975",
+  "5dd3c110158f5b0f21b4a69ca4a2dc78",
+  "3161a097136e4279718a3748e229b2df",
+  "45a1fe610b66869183d167e346511db7",
+  "fe615b4123e641c32b37f199a50a0df7",
+  "7e75d392a674d2913a5a93dc52d039ad",
+  "bd054561bdce7d4877b858b1b47b48e6",
+  "d084129c51c917acbbc5222b30446395",
+  "808f1a5d8ce8a751cc70e18053659505",
+  "f26fbaf5b0a7419c71546e5ae7bd060b",
+  "e87e388bf196812c4d5a3f6d23f9b4d2",
+  "4c5c53f91a6ab3bdecf7d5368d069d53",
+  "3744c47d8b178d7be57044dfdefb0ea9",
+  "121d682071e50b0460ed472cc46cd447",
+  "e37193f41f8c0cd3c3de2bddc64262a7",
+  "57c1f1b17f91dddc0d5e5d2f03bf0466",
+  "68aba0ea6ed9bd84bd0def5c3883f02b",
+  "3f8541bba41f017208801a325748dd67",
+  "27b67660e18d69b704ff1c884fa6142d"
  ]
 }
