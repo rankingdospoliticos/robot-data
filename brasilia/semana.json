@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-20T16:04:03.054Z",
+ "geradoEm": "2026-11-20T16:38:50.710Z",
  "periodo": {
   "inicio": "2026-11-13",
   "fim": "2026-11-20"
@@ -8,7 +8,7 @@
  "fontes": {
   "camara": "ok",
   "senado": "ok",
-  "stf": "falhou"
+  "stf": "ok"
  },
  "modelo": "claude-haiku-5-5",
  "pautas": [
@@ -1587,16 +1587,11 @@
    "tituloOficial": "STF tem maioria a favor de honorários advocatícios em renegociações de dívidas com poder público",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-tem-maioria-a-favor-de-honorarios-advocaticios-em-renegociacoes-de-dividas-com-poder-publico/",
    "texto": {
-    "titulo": "Honorários de advogados não podem ser dispensados em dívidas com o governo",
-    "abertura": "Leis que dispensavam o pagamento de honorários de advogados em acordos de dívida com o governo podem cair. Nove votos já foram dados contra essas regras, e faltam dois ministros.",
-    "detalhes": "A ação questiona cinco leis federais: Leis 11.775/2008, 11.941/2009, 12.249/2010, 12.844/2013 e 13.043/2014. O relator, ministro Dias Toffoli, entende que os honorários de sucumbência fazem parte da remuneração dos advogados. O julgamento começou no Plenário Virtual e foi retomado em sessão presencial, faltando votar Nunes Marques e Gilmar Mendes. Flávio Dino acompanhou o relator com uma ressalva: os atos já praticados seriam preservados, e nos casos futuros valeria o artigo 90 do Código de Processo Civil."
+    "titulo": "Maioria no Supremo mantém honorários de advogados em acordos de dívidas públicas",
+    "abertura": "Leis que dispensavam advogados de receber honorários em acordos com o governo podem deixar de valer. Nove votos já foram dados nesse sentido, e faltam dois ministros para o julgamento terminar.",
+    "detalhes": "O caso trata de cinco leis federais: 11.775/2008, 11.941/2009, 12.249/2010, 12.844/2013 e 13.043/2014. O relator, ministro Dias Toffoli, entende que os honorários de sucumbência fazem parte da remuneração dos advogados. O ministro Flávio Dino acompanhou o relator, mas propôs manter os atos já praticados e aplicar o artigo 90 do Código de Processo Civil aos casos futuros. O julgamento segue com Nunes Marques e Gilmar Mendes ainda por votar."
    },
    "glossario": [
-    {
-     "termo": "honorários",
-     "explicacao": "Valor pago ao advogado pelo seu trabalho em um processo.",
-     "fonte": "ia"
-    },
     {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
@@ -1604,21 +1599,11 @@
     },
     {
      "termo": "honorários de sucumbência",
-     "explicacao": "Valor que a parte que perde a ação paga ao advogado da parte vencedora.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Plenário virtual",
-     "explicacao": "Sessão em que os ministros do STF votam por um sistema eletrônico, ao longo de alguns dias, sem reunião presencial.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "ressalva",
-     "explicacao": "Condição ou exceção que um ministro acrescenta ao seu voto.",
+     "explicacao": "Valor pago pela parte que perde a ação ao advogado da parte que venceu.",
      "fonte": "ia"
     }
    ],
-   "hash": "eed5635e626cb54a516dc13a29f2105c"
+   "hash": "d888e668ef677bf59c86cb6f023990db"
   },
   {
    "id": "stf:168001",
@@ -1628,20 +1613,15 @@
    "tituloOficial": "STF derruba exigência de comunicação eletrônica de transferência de veículos no Ceará",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-derruba-exigencia-de-comunicacao-eletronica-de-transferencia-de-veiculos-no-ceara/",
    "texto": {
-    "titulo": "Cartórios do Ceará não precisam mais informar venda de veículos ao Estado",
-    "abertura": "Cartórios do Ceará deixam de ser obrigados a informar eletronicamente ao Detran-CE as compras, vendas e transferências de veículos. O STF decidiu por maioria, nesta quarta-feira (18), acompanhando o voto do relator, ministro Cristiano Zanin.",
-    "detalhes": "A decisão anula a alteração feita pela Lei estadual 14.826/2010 no artigo 16 da Lei estadual 14.605/2009. Para o relator, só a União pode legislar sobre trânsito e registros públicos, e o trecho é inconstitucional. O Plenário seguiu o voto do relator por maioria, ficando vencido o ministro Gilmar Mendes. A decisão vale a partir da publicação da ata; os cartórios devem enviar ao Detran-CE os registros feitos enquanto a norma esteve em vigor, e as transferências já feitas ficam mantidas."
+    "titulo": "Cartórios do Ceará deixam de informar transferências de veículos ao estado",
+    "abertura": "Os cartórios do Ceará deixam de informar eletronicamente as transferências de veículos ao órgão de trânsito do estado. Por maioria, o Plenário do STF decidiu que a regra é inconstitucional, e ela deixa de valer a partir da publicação da ata do julgamento.",
+    "detalhes": "A lei alterada é a Lei estadual 14.826/2010, que mudou o artigo 16 da Lei estadual 14.605/2009. O relator, ministro Cristiano Zanin, disse que o estado legislou sobre trânsito e registros públicos, temas da competência da União. Só o ministro Gilmar Mendes ficou vencido. As transferências já feitas continuam valendo, mas os cartórios devem enviar os registros feitos enquanto a lei esteve em vigor."
    },
    "glossario": [
     {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
-    },
-    {
-     "termo": "registros públicos",
-     "explicacao": "Documentos oficiais guardados pelo Estado, como os de imóveis e veículos feitos em cartório.",
-     "fonte": "ia"
     },
     {
      "termo": "Inconstitucional",
@@ -1649,17 +1629,22 @@
      "fonte": "curado"
     },
     {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "termo": "ata do julgamento",
+     "explicacao": "Documento oficial que registra o resultado da sessão do tribunal.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
     },
     {
-     "termo": "ata",
-     "explicacao": "Documento que registra oficialmente o que foi decidido em um julgamento.",
+     "termo": "competência da União",
+     "explicacao": "Poder exclusivo do governo federal para criar regras sobre determinado assunto.",
      "fonte": "ia"
     }
    ],
-   "hash": "9d03c72fb2d1d5e6e75bbb2c765fad4b"
+   "hash": "090b26b4a0e55f43e2f148e1dbdae6ae"
   },
   {
    "id": "stf:167985",
@@ -1669,11 +1654,16 @@
    "tituloOficial": "STF declara inconstitucional redução dos honorários de procuradores de Rondônia",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-declara-inconstitucional-reducao-dos-honorarios-de-procuradores-de-rondonia/",
    "texto": {
-    "titulo": "Corte nos honorários de procuradores de Rondônia deixa de valer",
-    "abertura": "Deixa de valer a regra que limitava a 5% do débito fiscal o pagamento de honorários a procuradores de Rondônia. O STF declarou inconstitucional o artigo 6º da Lei estadual 5.621/2023, na sessão desta quarta-feira (18).",
-    "detalhes": "A lei limitava a 5% do débito os honorários pagos em cobranças de contribuintes que aderem ao Refaz. A ação foi proposta pela Anape, associação dos procuradores dos estados. Prevaleceu a divergência do ministro Cristiano Zanin: a regra não vale para honorários sucumbenciais nem para os de atuação administrativa, protegidos pela irredutibilidade de vencimentos. A decisão vale a partir da publicação da ata do julgamento, por unanimidade. Ficaram vencidos o relator, ministro Flávio Dino, e o ministro Dias Toffoli."
+    "titulo": "Supremo derruba corte de honorários de procuradores de Rondônia",
+    "abertura": "A regra limitava a 5% do débito fiscal os honorários dos procuradores em cobranças ligadas ao Refaz. O Supremo decidiu que a lei é inconstitucional e só deixa de valer quando a ata do julgamento for publicada.",
+    "detalhes": "A norma é o artigo 6º da Lei estadual 5.621/2023 de Rondônia. Ela valia tanto para honorários sucumbenciais, pagos pela parte que perde a ação à parte vencedora, quanto para a atuação administrativa de negociação da dívida. Para a maioria, a União é que pode legislar sobre os honorários sucumbenciais, e os honorários administrativos têm natureza remuneratória, protegidos pela irredutibilidade de vencimentos. Ficaram vencidos o ministro Flávio Dino, relator, e o ministro Dias Toffoli."
    },
    "glossario": [
+    {
+     "termo": "Refaz",
+     "explicacao": "Programa de Recuperação de Créditos da Fazenda Pública, que permite negociar dívidas fiscais com o estado.",
+     "fonte": "ia"
+    },
     {
      "termo": "Inconstitucional",
      "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
@@ -1681,17 +1671,12 @@
     },
     {
      "termo": "honorários sucumbenciais",
-     "explicacao": "Valor que a parte perdedora de um processo paga à parte vencedora para cobrir os advogados.",
+     "explicacao": "Valor que a parte que perde uma ação na Justiça paga à parte que venceu.",
      "fonte": "ia"
     },
     {
      "termo": "irredutibilidade de vencimentos",
-     "explicacao": "Regra da Constituição que proíbe diminuir a remuneração de quem trabalha para o Estado.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "ata do julgamento",
-     "explicacao": "Documento oficial que registra o resultado e os detalhes do julgamento.",
+     "explicacao": "Regra que proíbe diminuir o valor da remuneração de quem trabalha para o Estado.",
      "fonte": "ia"
     },
     {
@@ -1700,7 +1685,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "1a45f2df322a8404fef8dc57a41698ec"
+   "hash": "fd859420b3501ec7e507ba2b4aa0826e"
   },
   {
    "id": "stf:167983",
@@ -1710,43 +1695,33 @@
    "tituloOficial": "Fim da isenção de pena em crimes patrimoniais entre familiares vale a partir do julgamento, decide STF",
    "url": "https://noticias.stf.jus.br/postsnoticias/fim-da-isencao-de-pena-em-crimes-patrimoniais-entre-familiares-vale-a-partir-do-julgamento-decide-stf/",
    "texto": {
-    "titulo": "Crimes contra bens da família deixam de ter isenção de pena",
-    "abertura": "Quem comete crime contra bens de um familiar pode ser punido, sem a isenção de pena que existia. Por maioria, o STF decidiu nesta quarta-feira que a mudança vale a partir da conclusão do julgamento. Condenações definitivas e ações penais em andamento ficam preservadas.",
-    "detalhes": "O STF afastou os artigos 181 e 182 do Código Penal, que isentavam de pena e exigiam representação. Na conclusão, a maioria aceitou a modulação proposta pelo relator, ministro Dias Toffoli, com efeitos a partir do fim do julgamento. Ficam preservadas as decisões definitivas e as ações penais em andamento baseadas no artigo 183, inciso I, do Código Penal, combinado com a Lei Maria da Penha (Lei 11.340/2006). Ficaram parcialmente vencidos Cármen Lúcia, Flávio Dino, Cristiano Zanin, Nunes Marques e Gilmar Mendes."
+    "titulo": "Crime patrimonial contra parente deixa de ter isenção de pena",
+    "abertura": "Quem comete crime patrimonial contra familiar deixa de ficar isento de pena. O STF decidiu por maioria que a mudança vale a partir da conclusão do julgamento, preservando condenações definitivas e ações penais em andamento.",
+    "detalhes": "Os artigos 181 e 182 do Código Penal isentavam de pena e exigiam representação da vítima nesses casos. O Plenário decidiu que essas regras não são compatíveis com a Constituição de 1988 e que valem para qualquer vítima da família, não só mulheres. O relator, ministro Dias Toffoli, foi acompanhado por Alexandre de Moraes, Luiz Fux, André Mendonça e Edson Fachin. Cármen Lúcia, Flávio Dino, Cristiano Zanin, Nunes Marques e Gilmar Mendes ficaram parcialmente vencidos."
    },
    "glossario": [
     {
-     "termo": "isenção de pena",
-     "explicacao": "Situação em que a pessoa que cometeu o crime não é punida.",
+     "termo": "condenações definitivas",
+     "explicacao": "Condenação criminal da qual não cabe mais recurso.",
      "fonte": "ia"
     },
     {
-     "termo": "ações penais",
-     "explicacao": "Processos judiciais em que o Estado acusa alguém de ter cometido crime.",
+     "termo": "ações penais em andamento",
+     "explicacao": "Processos criminais que ainda não terminaram.",
      "fonte": "ia"
     },
     {
-     "termo": "representação",
-     "explicacao": "Pedido formal da vítima para que o caso seja investigado e julgado.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "modulação",
-     "explicacao": "Definição de quando a decisão passa a valer e de quais casos ela alcança.",
-     "fonte": "ia"
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "fonte": "curado"
     },
     {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
-    },
-    {
-     "termo": "Lei Maria da Penha",
-     "explicacao": "Lei que protege mulheres contra a violência doméstica e familiar.",
-     "fonte": "ia"
     }
    ],
-   "hash": "99d0e3d15e827b976269bc449384be81"
+   "hash": "2c1c309bf340065e8c4f895f90c5b97d"
   },
   {
    "id": "stf:167974",
@@ -1756,38 +1731,33 @@
    "tituloOficial": "STF invalida lei de Mato Grosso que criou verbas indenizatórias para agentes públicos",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-de-mato-grosso-que-criou-verbas-indenizatorias-para-agentes-publicos/",
    "texto": {
-    "titulo": "Agentes públicos de Mato Grosso deixam de receber verbas sem gastos comprovados",
-    "abertura": "Agentes públicos de Mato Grosso deixam de receber verbas mensais sem comprovação de gastos. O Supremo Tribunal Federal (STF) invalidou a lei por unanimidade, em sessão virtual encerrada em 10 de novembro.",
-    "detalhes": "A Lei 11.087/2020 criou verbas indenizatórias para membros do Tribunal de Contas do estado (TCE-MT) e outros agentes estaduais. O relator, ministro André Mendonça, entendeu que esses valores eram pagos todo mês, sem ligação com gastos reais, e funcionavam como remuneração extra, acima do teto remuneratório. Ele também apontou que emendas parlamentares ampliaram o projeto original do TCE-MT para beneficiar integrantes do Poder Executivo, sem relação com a proposta inicial."
+    "titulo": "STF derruba pagamentos extras a agentes públicos de Mato Grosso",
+    "abertura": "Pagamentos mensais e fixos, feitos sem comprovação de gastos, deixam de valer para membros do TCE-MT e outros agentes estaduais. O Supremo Tribunal Federal invalidou a lei de Mato Grosso que criou esses pagamentos.",
+    "detalhes": "A Lei estadual 11.087/2020 criava verbas indenizatórias, mas o STF entendeu que elas funcionavam como salário extra, pagas todo mês sem ligação com despesas reais, o que desrespeita o teto remuneratório. O projeto original veio do Tribunal de Contas do estado, mas emendas parlamentares ampliaram o texto para beneficiar integrantes do Poder Executivo, sem relação com a proposta inicial. Para o relator, ministro André Mendonça, isso aumentou despesas e afetou a autonomia do Tribunal de Contas. A decisão foi unânime, na sessão virtual encerrada em 10 de novembro."
    },
    "glossario": [
     {
-     "termo": "sessão virtual",
-     "explicacao": "Julgamento feito pelo sistema eletrônico do STF, sem reunião presencial dos ministros.",
+     "termo": "verbas indenizatórias",
+     "explicacao": "Valores pagos para cobrir gastos feitos no trabalho. Precisam ser comprovados.",
      "fonte": "ia"
     },
     {
-     "termo": "verbas indenizatórias",
-     "explicacao": "Pagamentos feitos para cobrir um gasto real do trabalho, que precisa ser comprovado.",
+     "termo": "teto remuneratório",
+     "explicacao": "Limite máximo que um servidor público pode receber por mês.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "emendas parlamentares",
+     "explicacao": "Mudanças que deputados e senadores propõem em um projeto de lei.",
      "fonte": "ia"
     },
     {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
-    },
-    {
-     "termo": "teto remuneratório",
-     "explicacao": "Limite máximo de dinheiro público que um servidor pode receber.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "emendas parlamentares",
-     "explicacao": "Sugestões de mudança apresentadas por deputados ou senadores em um projeto de lei.",
-     "fonte": "ia"
     }
    ],
-   "hash": "15acd4aebf60afdfa9c1fc02f0e43ebc"
+   "hash": "8f93812767e123147ecc10e432a51ce5"
   },
   {
    "id": "stf:167933",
@@ -1797,19 +1767,14 @@
    "tituloOficial": "STF valida lei que criou microrregião de água e esgoto no Pará",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-valida-lei-que-criou-microrregiao-de-agua-e-esgoto-no-para/",
    "texto": {
-    "titulo": "Lei que cria microrregião de água e esgoto no Pará segue valendo",
-    "abertura": "Os 144 municípios paraenses e o estado seguem reunidos na microrregião de água e esgoto. O STF manteve a lei estadual que a criou, por unanimidade, em sessão virtual encerrada em 10 de novembro.",
-    "detalhes": "A Lei Complementar estadual 171/2023 criou a microrregião, formada pelo estado do Pará e pelos municípios. A relatora, ministra Cármen Lúcia, afirmou que a lei não invade a competência da União sobre saneamento básico. Sobre a divisão em quatro blocos, ela disse que foi feita depois, por concorrência pública, e que eventuais irregularidades devem ser contestadas por outras vias. A distribuição de votos no colegiado é de 40% para o estado e 60% para os municípios."
+    "titulo": "Supremo mantém microrregião de saneamento que reúne 144 municípios do Pará",
+    "abertura": "O Pará e seus 144 municípios seguem juntos na microrregião de água e esgoto criada por lei estadual. Por unanimidade, o Supremo decidiu que a lei é constitucional e continua valendo.",
+    "detalhes": "A Lei Complementar estadual 171/2023 criou a microrregião de água e esgoto do Pará (MRAE), formada pelo estado e pelos 144 municípios. Os autores da ação, o partido Rede Sustentabilidade e a Assemae, diziam que a divisão em quatro blocos para licitação favoreceria a privatização das partes lucrativas e deixaria 27 municípios ao abandono. A relatora, ministra Cármen Lúcia, afirmou que os blocos foram definidos depois, por concorrência pública, e que eventuais falhas devem ser questionadas por outros caminhos. A votação foi unânime, em sessão virtual encerrada em 10 de novembro, e o caso está concluído."
    },
    "glossario": [
     {
      "termo": "microrregião de água e esgoto",
-     "explicacao": "Grupo de municípios de uma mesma região que se organiza junto para cuidar de água e esgoto.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "sessão virtual",
-     "explicacao": "Julgamento feito pela internet, em que os ministros registram seus votos em um prazo definido.",
+     "explicacao": "Estrutura que organiza, por região, os serviços de água e esgoto de municípios vizinhos. É criada por lei estadual.",
      "fonte": "ia"
     },
     {
@@ -1818,22 +1783,17 @@
      "fonte": "curado"
     },
     {
+     "termo": "licitação",
+     "explicacao": "Processo em que o governo escolhe, por concorrência, quem vai prestar um serviço.",
+     "fonte": "ia"
+    },
+    {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
-    },
-    {
-     "termo": "saneamento básico",
-     "explicacao": "Conjunto de serviços de água, esgoto, coleta de lixo e drenagem para a população.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "concorrência pública",
-     "explicacao": "Processo em que empresas disputam um contrato com o governo, e vence a melhor proposta.",
-     "fonte": "ia"
     }
    ],
-   "hash": "3b91d0cb667ccb4862e510037a93246d"
+   "hash": "d6d07f5f51a1cb239116d0382e0e9189"
   },
   {
    "id": "stf:167904",
@@ -1843,33 +1803,28 @@
    "tituloOficial": "STF mantém lei do RJ que protege dados pessoais de envolvidos em ocorrências policiais",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-mantem-lei-do-rj-que-protege-dados-pessoais-de-envolvidos-em-ocorrencias-policiais/",
    "texto": {
-    "titulo": "Dados de envolvidos em ocorrências policiais seguem em sigilo no Rio",
-    "abertura": "Endereços, telefones e documentos de pessoas envolvidas em ocorrências policiais no Rio de Janeiro continuam protegidos. O STF manteve, por unanimidade, a lei estadual que cria esse sigilo. A decisão foi tomada em sessão virtual encerrada em 10 de novembro.",
-    "detalhes": "A Lei estadual 5.061/2007 determina que endereços, telefones e números de documentos de envolvidos e testemunhas fiquem em sigilo, com acesso restrito a Polícia Civil, Ministério Público e Judiciário. O relator, ministro Nunes Marques, entendeu que a lei não muda a investigação criminal nem o processo penal. Quando os dados forem relevantes para a defesa, o advogado pode pedir acesso ao juiz, conforme a Súmula Vinculante 14 do STF. A ação questionava a lei e foi proposta pela OAB Nacional."
+    "titulo": "Rio de Janeiro mantém sigilo de endereços e telefones de envolvidos em ocorrências policiais",
+    "abertura": "Endereço, telefone e número de documento de envolvidos e testemunhas continuam em sigilo. O STF decidiu, por unanimidade, manter a regra, e a defesa pode pedir esses dados ao juiz quando forem relevantes.",
+    "detalhes": "A Lei estadual 5.061/2007 manda manter em sigilo endereço, telefone e números de documentos de envolvidos e testemunhas em ocorrências policiais. O acesso fica restrito à Polícia Civil, ao Ministério Público e ao Judiciário, e a OAB Nacional questionava a regra por limitar a defesa. O relator, ministro Nunes Marques, disse que a lei não altera investigações nem o processo penal. A votação foi unânime, na sessão virtual encerrada em 10 de novembro."
    },
    "glossario": [
-    {
-     "termo": "sigilo",
-     "explicacao": "Regra que impede que determinadas informações sejam vistas por qualquer pessoa.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "sessão virtual",
-     "explicacao": "Julgamento feito pela internet, em que os ministros registram seus votos em um sistema eletrônico.",
-     "fonte": "ia"
-    },
     {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
     },
     {
-     "termo": "Súmula Vinculante 14",
-     "explicacao": "Regra do STF que dá à defesa acesso a provas já reunidas em documentos.",
+     "termo": "processo penal",
+     "explicacao": "Conjunto de regras para apurar e julgar crimes.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "sessão virtual",
+     "explicacao": "Julgamento feito por meio eletrônico, sem reunião presencial dos ministros.",
      "fonte": "ia"
     }
    ],
-   "hash": "0994aa7f91a05f3477d677534d426e53"
+   "hash": "64446347c420dc131108828ff628bbdb"
   },
   {
    "id": "stf:167835",
@@ -1879,14 +1834,14 @@
    "tituloOficial": "STF invalida lei que dispensava pagamento de honorários a procuradores municipais",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-que-dispensava-pagamento-de-honorarios-a-procuradores-municipais/",
    "texto": {
-    "titulo": "Cidades não podem dispensar pagamento de honorários a procuradores",
-    "abertura": "Quem aderir ao Refis de Nova Serrana (MG) continua pagando honorários aos procuradores municipais. O Plenário do STF decidiu isso por unanimidade, em sessão virtual encerrada em 10 de novembro.",
-    "detalhes": "A lei de Nova Serrana dispensava quem aderisse ao Refis de pagar os honorários sucumbenciais, valor que a parte que perde a ação paga à parte que ganha. Para a OAB Nacional, autora da ação, o tema segue lei federal, como o Estatuto da OAB e o Código de Processo Civil, e o município não podia legislar sobre ele. O relator, ministro Gilmar Mendes, concordou e propôs efeitos retroativos, pois a lei valeu só no exercício de 2026. A decisão foi unânime."
+    "titulo": "Contribuintes de Nova Serrana (MG) devem pagar honorários a procuradores municipais",
+    "abertura": "Quem aderiu ao Refis de Nova Serrana deixa de ter isenção dos honorários devidos aos procuradores municipais. O Plenário do STF decidiu por unanimidade que a lei municipal é inconstitucional.",
+    "detalhes": "A lei municipal dispensava os contribuintes que aderissem ao Refis de pagar honorários sucumbenciais, valores que a parte perdedora paga à parte vencedora em uma ação. A OAB Nacional alegou que o tema é regulado por lei federal, como o Estatuto da OAB e o Código de Processo Civil. O relator, ministro Gilmar Mendes, afirmou que o desconto invade a competência privativa da União e propôs efeitos retroativos, pois a lei valeu apenas no exercício financeiro de 2026. A votação foi unânime, em sessão virtual."
    },
    "glossario": [
     {
      "termo": "Refis",
-     "explicacao": "Programa do governo que ajuda a pagar dívidas com impostos, com regras próprias e condições facilitadas.",
+     "explicacao": "Programa de regularização fiscal que oferece condições especiais para pagar dívidas com o governo.",
      "fonte": "ia"
     },
     {
@@ -1895,8 +1850,13 @@
      "fonte": "curado"
     },
     {
+     "termo": "Inconstitucional",
+     "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
+     "fonte": "curado"
+    },
+    {
      "termo": "honorários sucumbenciais",
-     "explicacao": "Valor que a parte que perde a ação paga à parte que ganha, para cobrir o advogado.",
+     "explicacao": "Valor que a parte perdedora de uma ação paga à parte vencedora.",
      "fonte": "ia"
     },
     {
@@ -1905,12 +1865,17 @@
      "fonte": "curado"
     },
     {
+     "termo": "competência privativa da União",
+     "explicacao": "Tema que só o governo federal pode regular por lei.",
+     "fonte": "ia"
+    },
+    {
      "termo": "efeitos retroativos",
-     "explicacao": "Decisão que vale também para o passado, e não só para o futuro.",
+     "explicacao": "Decisão que vale também para o passado, desde o início da lei.",
      "fonte": "ia"
     }
    ],
-   "hash": "77014fcfe6afbad7c9553bf3e4678d30"
+   "hash": "f1fa7100a81386f79ccdef40ed86025c"
   },
   {
    "id": "stf:167828",
@@ -1920,15 +1885,30 @@
    "tituloOficial": "STF invalida emenda sobre eleição de dirigentes de Tribunais de Justiça",
    "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-emenda-sobre-eleicao-de-dirigentes-de-tribunais-de-justica/",
    "texto": {
-    "titulo": "Regras para eleger chefes de Tribunais de Justiça deixam de valer",
-    "abertura": "A regra que mudava a escolha dos chefes de tribunais com mais de 170 desembargadores deixa de valer. O Supremo considerou a norma inconstitucional em julgamento concluído pelo Plenário, em sessão virtual encerrada na terça-feira (10).",
-    "detalhes": "A Emenda Constitucional (EC) 134/2024 foi declarada inconstitucional. Ela previa que o plenário escolheria os dirigentes por maioria absoluta, em voto direto e secreto, com mandatos de dois anos e uma recondução consecutiva; na prática, atingia os Tribunais de Justiça de São Paulo e do Rio de Janeiro. O voto de Alexandre de Moraes prevaleceu, e ele redigirá o acórdão, que é o texto completo da decisão. A relatora, ministra Cármen Lúcia, afastou o argumento sobre a iniciativa da proposta, ponto que Nunes Marques e André Mendonça acompanharam."
+    "titulo": "STF derruba regra especial para escolher dirigentes de tribunais grandes",
+    "abertura": "Deixa de valer a regra que mudaria a escolha de dirigentes dos tribunais de São Paulo e do Rio de Janeiro. A maioria dos ministros do STF considerou a emenda inconstitucional.",
+    "detalhes": "A Emenda Constitucional 134/2024 previa que, em tribunais com mais de 170 desembargadores, o plenário escolheria os dirigentes por maioria absoluta e voto direto e secreto. Os mandatos seriam de dois anos, com uma recondução. O ministro Alexandre de Moraes teve o voto vencedor e vai redigir o acórdão, que é o texto completo da decisão."
    },
    "glossario": [
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
     {
      "termo": "Inconstitucional",
      "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
      "fonte": "curado"
+    },
+    {
+     "termo": "Emenda constitucional",
+     "explicacao": "Mudança no texto da Constituição, já aprovada pelo Congresso e promulgada.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "desembargadores",
+     "explicacao": "Juízes de segunda instância, que atuam nos Tribunais de Justiça dos estados.",
+     "fonte": "ia"
     },
     {
      "termo": "Plenário",
@@ -1936,38 +1916,23 @@
      "fonte": "curado"
     },
     {
-     "termo": "Proposta de emenda à Constituição",
-     "explicacao": "Proposta que muda o texto da Constituição. Precisa de três quintos dos votos, em dois turnos, na Câmara (308 deputados) e no Senado (49 senadores). Não vai à sanção: é promulgada pelo próprio Congresso.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "maioria absoluta",
-     "explicacao": "Quando mais da metade do total de integrantes de um órgão aprova algo.",
-     "fonte": "ia"
-    },
-    {
      "termo": "recondução",
-     "explicacao": "Permissão para a mesma pessoa ocupar o mesmo cargo por mais um período.",
+     "explicacao": "Permissão para a mesma pessoa continuar no mesmo cargo por mais um mandato.",
      "fonte": "ia"
     },
     {
      "termo": "acórdão",
-     "explicacao": "Documento que reúne o resultado e os fundamentos de uma decisão de tribunal.",
+     "explicacao": "Documento que reúne a decisão final de um tribunal, com os fundamentos dos ministros.",
      "fonte": "ia"
-    },
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
     }
    ],
-   "hash": "5fa92f0284c7814ee531603f6342239f"
+   "hash": "a3b5c8c4cdf030d690234abc5ce284fe"
   }
  ],
  "stfIgnoradas": [
-  "8d1fc42721449980fff4933200de993c",
-  "f1e521bb95239bdab1c53c565ae19d5e",
-  "f052c99ce2487addba1c3e5738567db8",
-  "72dc3812d83066c17ceefd2f9988a8f5"
+  "d0200d9bee61fd86727e225803d4315e",
+  "1db908fc56df9d2bdb6ab94184ce12ab",
+  "2adea588ff7f2c2382b460e09a4b3367",
+  "93f92d4e6284a44f63d4ff9eb8374c71"
  ]
 }
