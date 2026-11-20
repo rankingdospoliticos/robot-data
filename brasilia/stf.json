@@ -1,7 +1,83 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-20T22:39:05.202Z",
- "ministros": null,
+ "geradoEm": "2026-11-20T23:12:55.542Z",
+ "ministros": {
+  "lista": [
+   {
+    "nome": "Edson Fachin",
+    "cargo": "Presidente",
+    "posse": null,
+    "cargoDesde": "2025-09-29",
+    "indicadoPor": null
+   },
+   {
+    "nome": "Gilmar Mendes",
+    "cargo": null,
+    "posse": "2002-06-20",
+    "cargoDesde": null,
+    "indicadoPor": null
+   },
+   {
+    "nome": "Cármen Lúcia",
+    "cargo": null,
+    "posse": "2006-06-21",
+    "cargoDesde": null,
+    "indicadoPor": null
+   },
+   {
+    "nome": "Dias Toffoli",
+    "cargo": null,
+    "posse": "2009-10-23",
+    "cargoDesde": null,
+    "indicadoPor": null
+   },
+   {
+    "nome": "Luiz Fux",
+    "cargo": null,
+    "posse": "2011-03-03",
+    "cargoDesde": null,
+    "indicadoPor": null
+   },
+   {
+    "nome": "Alexandre de Moraes",
+    "cargo": "Vice-Presidente",
+    "posse": "2017-03-22",
+    "cargoDesde": null,
+    "indicadoPor": null
+   },
+   {
+    "nome": "Nunes Marques",
+    "cargo": null,
+    "posse": "2020-11-05",
+    "cargoDesde": null,
+    "indicadoPor": null
+   },
+   {
+    "nome": "André Mendonça",
+    "cargo": null,
+    "posse": "2021-12-16",
+    "cargoDesde": null,
+    "indicadoPor": null
+   },
+   {
+    "nome": "Cristiano Zanin",
+    "cargo": null,
+    "posse": "2023-08-03",
+    "cargoDesde": null,
+    "indicadoPor": null
+   },
+   {
+    "nome": "Flávio Dino",
+    "cargo": null,
+    "posse": "2024-02-22",
+    "cargoDesde": null,
+    "indicadoPor": null
+   }
+  ],
+  "fonte": "Portal do STF — Composição do Plenário",
+  "url": "https://portal.stf.jus.br/ostf/",
+  "lidoEm": "2026-11-20T23:12:59.335Z"
+ },
  "pauta": {
   "titulo": "Confira a pauta do STF desta quinta-feira (19)",
   "url": "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-19-3/",
@@ -10,14 +86,14 @@
    {
     "data": null,
     "processo": "ADI 5405",
-    "relator": "Dias Toffoli",
-    "tema": "Dispensa de pagamento de honorários advocatícios em acordos e parcelamentos tributários com o poder público."
+    "tema": "Dispensa de pagamento de honorários advocatícios em acordos e parcelamentos tributários com o poder público.",
+    "relator": "Dias Toffoli"
    },
    {
     "data": null,
     "processo": "RCL 78354",
-    "relator": "Edson Fachin",
-    "tema": "Indenização por danos morais por reportagem considerada vexatória; alegada violação ao entendimento sobre assédio judicial a jornalistas."
+    "tema": "Indenização por danos morais por reportagem considerada vexatória; alegada violação ao entendimento sobre assédio judicial a jornalistas.",
+    "relator": "Edson Fachin"
    }
   ],
   "hash": "267c14cac9f259b359c3950b2d1e6d45"

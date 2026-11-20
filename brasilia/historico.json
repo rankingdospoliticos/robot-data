@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-20T22:39:01.578Z",
+ "geradoEm": "2026-11-20T23:12:44.531Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -3231,7 +3231,7 @@
    "ano": 2026,
    "identificacao": "PL 278/2026",
    "tipo": "Projeto de Lei",
-   "apelido": "REDATA ",
+   "apelido": "REDATA",
    "ementa": "Altera a Lei nº 11.196, de 21 de novembro de 2005, para instituir o Regime Especial de Tributação para Serviços de Datacenter (Redata), e a Lei nº 15.211, de 17 de setembro de 2025.",
    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172786",
    "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/e5436a2e-6fe0-4409-bf9d-e7f44621bb61",
@@ -3335,7 +3335,7 @@
    "ano": 2026,
    "identificacao": "MPV 1366/2026",
    "tipo": "Medida Provisória",
-   "apelido": "Criação de linha de financiamento para trabalhadores que atuam no transporte urbano individual de passageiros ou de cargas",
+   "apelido": "Criação de linha de financiamento para trabalhadores que atuam no transporte urbano individual de passageiros ou de carg",
    "ementa": "Altera a Lei nº 12.087, de 11 de novembro de 2009, que dispõe sobre a participação da União em fundos garantidores de risco de crédito para microempresas, pequenas e médias empresas e para produtores rurais e suas cooperativas; a Lei nº 13.999, de 18 de maio de 2020, que institui o Programa Nacional de Apoio às Microempresas e Empresas de Pequeno Porte - Pronampe; a Lei nº 14.947, de 2 de agosto de 2024, que dispõe sobre a criação do Fundo de Investimento em Infraestrutura Social - FIIS; a Medida Provisória nº 1.359, de 19 de maio de 2026, que autoriza a União a destinar recursos para disponibilizar linhas de financiamento reembolsável a profissionais de transporte remunerado privado individual de passageiros, taxistas e cooperativas de taxistas, para aquisição de veículos automotores novos que atendam a critérios de sustentabilidade ambiental, social e econômica, e a Lei nº 9.998, de 17 de agosto de 2000, que institui o Fundo de Universalização dos Serviços de Telecomunicações.",
    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/174622",
    "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/5be5c360-023d-46c3-bb5d-83b552d362e0",
@@ -3429,20 +3429,10 @@
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=1194323",
    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1315063",
    "resultado": "aprovado",
-   "resultadoTexto": "Aprovado o Projeto de Lei nº 956, de 2015.",
+   "resultadoTexto": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
    "destino": null,
    "placar": null,
    "etapas": [
-    {
-     "data": "2026-08-31",
-     "descricao": "Aprovado o Projeto de Lei nº 956, de 2015.",
-     "placar": null
-    },
-    {
-     "data": "2026-08-31",
-     "descricao": "Aprovadas as Emendas de nºs 1 a 4 da Comissão de Finanças e Tributação.",
-     "placar": null
-    },
     {
      "data": "2026-11-18",
      "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
@@ -3451,25 +3441,15 @@
    ],
    "tituloEmenta": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região",
    "texto": {
-    "titulo": "Rio Grande do Sul pode ganhar novas Varas do Trabalho",
-    "abertura": "A lei criaria novas Varas do Trabalho em seis cidades gaúchas, com cargos de juiz e funções comissionadas. A Câmara dos Deputados aprovou o texto, que agora segue ao Senado Federal.",
-    "detalhes": "O texto trata da criação de Varas do Trabalho na área do Tribunal Regional do Trabalho da 4ª Região. Ele também fala de cargos efetivos, cargos em comissão e funções comissionadas. Em 31 de agosto de 2026, os deputados aprovaram o texto por votação simbólica, sem registro de voto de cada parlamentar, e também quatro emendas da Comissão de Finanças e Tributação. Em 18 de novembro de 2026, foi aprovada a redação final, e a matéria segue ao Senado Federal."
+    "titulo": "Porto Alegre e outras cinco cidades gaúchas podem receber Varas do Trabalho",
+    "abertura": "Seis cidades do Rio Grande do Sul podem passar a ter Varas do Trabalho, unidades da Justiça que julgam ações trabalhistas. A Câmara dos Deputados aprovou a redação final por votação simbólica, e a decisão segue para o Senado Federal.",
+    "detalhes": "A mudança cria Varas do Trabalho na área do Tribunal Regional do Trabalho da 4ª Região, que cobre o Rio Grande do Sul. As cidades citadas são Porto Alegre, Capão da Canoa, Marau, Nova Prata, São Sebastião do Caí e Tramandaí. A regra também trata de juiz do trabalho, cargo efetivo, cargo em comissão e função comissionada. A votação foi simbólica, ou seja, não houve registro do voto de cada deputado."
    },
    "glossario": [
     {
      "termo": "Varas do Trabalho",
-     "explicacao": "São os tribunais de primeira instância que julgam conflitos entre patrões e empregados.",
+     "explicacao": "Unidades da Justiça que julgam ações entre trabalhadores e empregadores.",
      "fonte": "ia"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Emenda",
-     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
-     "fonte": "curado"
     },
     {
      "termo": "Redação final",
@@ -3477,12 +3457,27 @@
      "fonte": "curado"
     },
     {
-     "termo": "Projeto de lei",
-     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
+     "termo": "Votação simbólica",
+     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
      "fonte": "curado"
+    },
+    {
+     "termo": "cargo efetivo",
+     "explicacao": "Posto público de carreira, com vaga fixa e sem prazo para acabar.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "cargo em comissão",
+     "explicacao": "Posto de confiança, preenchido por indicação e que pode ser encerrado a qualquer momento.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "função comissionada",
+     "explicacao": "Função de chefia ou assessoria paga a mais, além do salário do cargo efetivo.",
+     "fonte": "ia"
     }
    ],
-   "hash": "8cc1880952343932aa1561283e4b2be6"
+   "hash": "d177bd36a133ef975030911a57a31d35"
   },
   {
    "id": "camara:344542",
@@ -3557,15 +3552,10 @@
    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=866002",
    "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1296311",
    "resultado": "aprovado",
-   "resultadoTexto": "Aprovado o Projeto de Lei nº 8.332, de 2015.",
+   "resultadoTexto": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
    "destino": null,
    "placar": null,
    "etapas": [
-    {
-     "data": "2026-08-31",
-     "descricao": "Aprovado o Projeto de Lei nº 8.332, de 2015.",
-     "placar": null
-    },
     {
      "data": "2026-11-18",
      "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
@@ -3574,38 +3564,33 @@
    ],
    "tituloEmenta": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no…",
    "texto": {
-    "titulo": "Tribunal de Fortaleza poderá ter novos cargos de juiz e servidor",
-    "abertura": "A proposta cria cargos de juiz do trabalho substituto e cargos efetivos no TRT da 7ª Região, em Fortaleza (CE). A Câmara dos Deputados aprovou o texto, que agora segue ao Senado Federal.",
-    "detalhes": "O texto trata da criação de cargos de juiz do trabalho substituto e de cargos de provimento efetivo, com destaque para analista judiciário e técnico judiciário. A votação foi simbólica, ou seja, não há registro de voto de cada deputado nem placar. A redação final foi aprovada em 18 de novembro de 2026, e a situação atual é aguardando envio ao Senado Federal."
+    "titulo": "Cria novos cargos de juiz e servidores no TRT do Ceará",
+    "abertura": "Cria cargos efetivos de Juiz do Trabalho Substituto, Analista Judiciário e Técnico Judiciário no TRT da 7ª Região. A Câmara dos Deputados aprovou a versão final por votação simbólica, e a medida segue ao Senado Federal.",
+    "detalhes": "A lei cria vagas de Juiz do Trabalho Substituto e de cargos de provimento efetivo, como Analista Judiciário e Técnico Judiciário. A Câmara aprovou a redação final sem placar, por votação simbólica, ou seja, sem registro de voto de cada deputado. Agora o texto vai ao Senado Federal."
    },
    "glossario": [
     {
-     "termo": "juiz do trabalho substituto",
-     "explicacao": "Juiz que atua na Justiça do Trabalho e pode ser chamado para cobrir vagas ou faltas de outros juízes.",
+     "termo": "Juiz do Trabalho Substituto",
+     "explicacao": "Juiz de início de carreira na Justiça do Trabalho, que julga causas entre patrões e trabalhadores.",
      "fonte": "ia"
     },
     {
-     "termo": "cargos de provimento efetivo",
-     "explicacao": "Vagas fixas no quadro de servidores, preenchidas por concurso público.",
+     "termo": "TRT",
+     "explicacao": "Tribunal Regional do Trabalho, órgão que julga causas trabalhistas de uma região do país.",
      "fonte": "ia"
     },
     {
-     "termo": "Destaque",
-     "explicacao": "Pedido para votar em separado um trecho do texto ou uma emenda. Primeiro se vota o texto principal; depois, cada destaque.",
+     "termo": "Votação simbólica",
+     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
      "fonte": "curado"
     },
     {
      "termo": "Redação final",
      "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
-    },
-    {
-     "termo": "Projeto de lei",
-     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
-     "fonte": "curado"
     }
    ],
-   "hash": "7aa6307e5a9dda4d1e822a772236aa6b"
+   "hash": "afad2c011ce9bd46bfb2c50929135f96"
   },
   {
    "id": "senado:161596",
@@ -4179,11 +4164,6 @@
    "placar": null,
    "etapas": [
     {
-     "data": "2026-11-10",
-     "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
-     "placar": null
-    },
-    {
      "data": "2026-11-17",
      "descricao": "Aprovado o Projeto de Lei nº 5.127, de 2026.",
      "placar": null
@@ -4196,19 +4176,14 @@
    ],
    "tituloEmenta": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no…",
    "texto": {
-    "titulo": "Romaria de Trindade (GO) é reconhecida como manifestação da cultura nacional",
-    "abertura": "A festa da Romaria do Divino Pai Eterno, em Trindade (GO), passa a ter reconhecimento oficial como parte da cultura do país. A Câmara dos Deputados aprovou o texto por votação simbólica, sem registro de voto de cada deputado.",
-    "detalhes": "Antes da votação, os deputados aprovaram por unanimidade um pedido de urgência para acelerar a análise. Depois, aprovaram o texto e a redação final, assinada pelo relator, deputado Luiz Gastão (PSD-CE), também por votação simbólica. A situação atual é de publicação do texto."
+    "titulo": "Romaria do Divino Pai Eterno é reconhecida como cultura nacional",
+    "abertura": "A romaria de Trindade, em Goiás, passa a ser reconhecida oficialmente como manifestação da cultura do país. A Câmara aprovou o texto, que agora aguarda a etapa de publicação.",
+    "detalhes": "O texto reconhece a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás, como manifestação da cultura nacional. A aprovação ocorreu em 17/11/2026 por votação simbólica, ou seja, sem registro do voto de cada parlamentar. Em seguida, a Redação Final foi aprovada, assinada pelo relator, Dep. Luiz Gastão (PSD/CE). A situação atual é de encaminhamento à publicação."
    },
    "glossario": [
     {
      "termo": "Votação simbólica",
      "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
      "fonte": "curado"
     },
     {
@@ -4225,14 +4200,9 @@
      "termo": "Projeto de lei",
      "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
      "fonte": "curado"
-    },
-    {
-     "termo": "Requerimento",
-     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
-     "fonte": "curado"
     }
    ],
-   "hash": "9fab7d72323bdecf77991b5353b32be3"
+   "hash": "0276becdcd6d6b01504884fdc95c56ca"
   },
   {
    "id": "camara:2646241",
@@ -13684,8 +13654,8 @@
   "1db908fc56df9d2bdb6ab94184ce12ab",
   "2adea588ff7f2c2382b460e09a4b3367",
   "93f92d4e6284a44f63d4ff9eb8374c71",
-  "1f5657f0e20da8c8d62f5671fd58eed9",
   "475c77191bc825ff3a8d9931079358c0",
+  "1f5657f0e20da8c8d62f5671fd58eed9",
   "e6e919c1a63a117feaf6aa38c78d06b9",
   "e1b5ba23734690c35bbf8e39456cb190",
   "b75673c58c8eb5016f68e0eb09ee49d3",
