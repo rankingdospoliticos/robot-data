@@ -1,0 +1,195 @@
+{
+ "v": 1,
+ "fonteAtualizadaEm": "2026-11-19",
+ "ultimoMes": "2026-11",
+ "anos": [
+  2026,
+  2025,
+  2024,
+  2023,
+  2022,
+  2021,
+  2020,
+  2019,
+  2018,
+  2017,
+  2016,
+  2015,
+  2014
+ ],
+ "ufs": [
+  "AC",
+  "AL",
+  "AM",
+  "AP",
+  "BA",
+  "CE",
+  "DF",
+  "ES",
+  "GO",
+  "MA",
+  "MG",
+  "MS",
+  "MT",
+  "PA",
+  "PB",
+  "PE",
+  "PI",
+  "PR",
+  "RJ",
+  "RN",
+  "RO",
+  "RR",
+  "RS",
+  "SC",
+  "SE",
+  "SP",
+  "TO"
+ ],
+ "fonte": {
+  "nome": "Portal da Transparência (CGU): emendas parlamentares, por favorecido",
+  "url": "https://portaldatransparencia.gov.br/emendas"
+ },
+ "criterio": "Soma dos pagamentos (Valor Recebido) à prefeitura e a entidades sem fins lucrativos com sede no município, no ano do pagamento. Empresas, pessoas físicas, governo estadual e federal e estatais ficam fora do total, porque a sede de quem recebe não diz onde o dinheiro foi usado. Favorecidos sem identificação não entram.",
+ "qualidade": {
+  "linhasLidas": 836298,
+  "valorLido": 284115062550,
+  "semFavorecidoIdentificado": {
+   "linhas": 6651,
+   "valor": 11026129451
+  },
+  "semMunicipio": {
+   "linhas": 3800,
+   "valor": 260483818
+  },
+  "municipioSemCodigo": {
+   "nomes": 2,
+   "linhas": 13,
+   "valor": 1451,
+   "maiores": [
+    {
+     "chave": "SP|RIO DE JANEIRO",
+     "linhas": 6,
+     "valor": 1011
+    },
+    {
+     "chave": "RO|BOA VISTA",
+     "linhas": 7,
+     "valor": 440
+    }
+   ]
+  },
+  "linhasSemTipoDeEmenda": 0,
+  "municipiosComPagamento": 5570
+ },
+ "arquivos": {
+  "AC": {
+   "municipios": 22,
+   "bytes": 49404
+  },
+  "AL": {
+   "municipios": 102,
+   "bytes": 141843
+  },
+  "AM": {
+   "municipios": 62,
+   "bytes": 97151
+  },
+  "AP": {
+   "municipios": 16,
+   "bytes": 31549
+  },
+  "BA": {
+   "municipios": 417,
+   "bytes": 611305
+  },
+  "CE": {
+   "municipios": 184,
+   "bytes": 265169
+  },
+  "DF": {
+   "municipios": 1,
+   "bytes": 3874
+  },
+  "ES": {
+   "municipios": 78,
+   "bytes": 131996
+  },
+  "GO": {
+   "municipios": 246,
+   "bytes": 368805
+  },
+  "MA": {
+   "municipios": 217,
+   "bytes": 261291
+  },
+  "MG": {
+   "municipios": 853,
+   "bytes": 1179486
+  },
+  "MS": {
+   "municipios": 79,
+   "bytes": 122281
+  },
+  "MT": {
+   "municipios": 142,
+   "bytes": 184305
+  },
+  "PA": {
+   "municipios": 144,
+   "bytes": 201973
+  },
+  "PB": {
+   "municipios": 223,
+   "bytes": 323334
+  },
+  "PE": {
+   "municipios": 184,
+   "bytes": 275574
+  },
+  "PI": {
+   "municipios": 224,
+   "bytes": 298799
+  },
+  "PR": {
+   "municipios": 399,
+   "bytes": 637540
+  },
+  "RJ": {
+   "municipios": 92,
+   "bytes": 153550
+  },
+  "RN": {
+   "municipios": 167,
+   "bytes": 256355
+  },
+  "RO": {
+   "municipios": 52,
+   "bytes": 101273
+  },
+  "RR": {
+   "municipios": 15,
+   "bytes": 32922
+  },
+  "RS": {
+   "municipios": 497,
+   "bytes": 800043
+  },
+  "SC": {
+   "municipios": 295,
+   "bytes": 466248
+  },
+  "SE": {
+   "municipios": 75,
+   "bytes": 120739
+  },
+  "SP": {
+   "municipios": 645,
+   "bytes": 922945
+  },
+  "TO": {
+   "municipios": 139,
+   "bytes": 219706
+  }
+ }
+}
