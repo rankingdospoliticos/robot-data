@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-20T23:12:44.531Z",
+ "geradoEm": "2026-11-21T09:58:48.697Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -8,8 +8,8 @@
  },
  "modelo": "claude-haiku-5-5",
  "periodo": {
-  "inicio": "2026-11-13",
-  "fim": "2026-11-20"
+  "inicio": "2026-11-14",
+  "fim": "2026-11-21"
  },
  "pautas": [
   {
@@ -26,37 +26,10 @@
    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
    "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/38df22dd-1022-46cf-ac9d-d24f038d1d0d",
    "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Emenda nº 75 (Substitutivo), com adequação redacional, ressalvados os destaques.",
+   "resultadoTexto": "Aprovada pelo Plenário.",
    "destino": "A matéria vai à Câmara dos Deputados.",
-   "placar": {
-    "sim": 45,
-    "nao": 31,
-    "abstencao": 0
-   },
+   "placar": null,
    "etapas": [
-    {
-     "data": "2026-11-12",
-     "descricao": "Requerimento nº 770, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-12",
-     "descricao": "Requerimento nº 770, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
-     "placar": {
-      "sim": 40,
-      "nao": 38,
-      "abstencao": 0
-     }
-    },
-    {
-     "data": "2026-11-12",
-     "descricao": "Aprovada a Emenda nº 75 (Substitutivo), com adequação redacional, ressalvados os destaques.",
-     "placar": {
-      "sim": 45,
-      "nao": 31,
-      "abstencao": 0
-     }
-    },
     {
      "data": "2026-11-18",
      "descricao": "Rejeitada a Emenda nº 40.",
@@ -106,9 +79,9 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
-    "titulo": "Ajuste fiscal permite ao governo reduzir benefícios fiscais e limitar despesas",
-    "abertura": "O governo federal ganha novas regras para reduzir benefícios fiscais, como incentivos de impostos, e limitar gastos públicos. O Senado aprovou a mudança e a envia à Câmara dos Deputados.",
-    "detalhes": "A mudança altera a Lei Complementar nº 200, de 2023. Ela também reduz valores de transferências para Estados, Distrito Federal e municípios. Na votação principal, o placar foi 45 votos a 31, em votação nominal. O texto segue agora para a Câmara dos Deputados."
+    "titulo": "Governo federal ganha ferramentas para reduzir benefícios fiscais e limitar despesas",
+    "abertura": "O Senado aprovou o chamado Ajuste fiscal, que dá ao Poder Executivo federal novos instrumentos para reduzir benefícios fiscais e limitar despesas. A medida agora segue para a Câmara dos Deputados.",
+    "detalhes": "A decisão altera a Lei Complementar nº 200, de 30 de agosto de 2023. Na votação do art. 6º, o placar foi 45 sim e 32 não, com 1 abstenção. Nas emendas aprovadas, o placar foi 69 sim e 2 não, com 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada parlamentar."
    },
    "glossario": [
     {
@@ -122,18 +95,18 @@
      "fonte": "curado"
     },
     {
-     "termo": "transferências",
-     "explicacao": "Repasses de dinheiro feitos pela União para Estados, Distrito Federal e municípios.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Votação nominal",
-     "explicacao": "Cada parlamentar vota no painel eletrônico, e o voto de cada um fica registrado e público.",
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
      "fonte": "curado"
     },
     {
-     "termo": "Emenda",
-     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
     },
     {
@@ -147,16 +120,6 @@
      "fonte": "curado"
     },
     {
-     "termo": "Requerimento",
-     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Turno suplementar",
      "explicacao": "Nova rodada de votação, feita quando o Plenário aprova um substitutivo, para votar as emendas apresentadas a esse novo texto.",
      "fonte": "curado"
@@ -167,17 +130,12 @@
      "fonte": "curado"
     },
     {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
     }
    ],
-   "hash": "5dca7180b9d6a6e43f7e8e789893ff3c"
+   "hash": "e7a9312596f624338e71a0b796710344"
   },
   {
    "id": "senado:175261",
@@ -1892,117 +1850,12 @@
     }
    ],
    "hash": "64446347c420dc131108828ff628bbdb"
-  },
-  {
-   "id": "stf:167828",
-   "data": "2026-11-13",
-   "situacao": "decidido",
-   "processo": null,
-   "tituloOficial": "STF invalida emenda sobre eleição de dirigentes de Tribunais de Justiça",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-emenda-sobre-eleicao-de-dirigentes-de-tribunais-de-justica/",
-   "texto": {
-    "titulo": "STF derruba regra especial para escolher dirigentes de tribunais grandes",
-    "abertura": "Deixa de valer a regra que mudaria a escolha de dirigentes dos tribunais de São Paulo e do Rio de Janeiro. A maioria dos ministros do STF considerou a emenda inconstitucional.",
-    "detalhes": "A Emenda Constitucional 134/2024 previa que, em tribunais com mais de 170 desembargadores, o plenário escolheria os dirigentes por maioria absoluta e voto direto e secreto. Os mandatos seriam de dois anos, com uma recondução. O ministro Alexandre de Moraes teve o voto vencedor e vai redigir o acórdão, que é o texto completo da decisão."
-   },
-   "glossario": [
-    {
-     "termo": "Emenda",
-     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Inconstitucional",
-     "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Emenda constitucional",
-     "explicacao": "Mudança no texto da Constituição, já aprovada pelo Congresso e promulgada.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "desembargadores",
-     "explicacao": "Juízes de segunda instância, que atuam nos Tribunais de Justiça dos estados.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "recondução",
-     "explicacao": "Permissão para a mesma pessoa continuar no mesmo cargo por mais um mandato.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "acórdão",
-     "explicacao": "Documento que reúne a decisão final de um tribunal, com os fundamentos dos ministros.",
-     "fonte": "ia"
-    }
-   ],
-   "hash": "a3b5c8c4cdf030d690234abc5ce284fe"
-  },
-  {
-   "id": "stf:167835",
-   "data": "2026-11-13",
-   "situacao": "decidido",
-   "processo": null,
-   "tituloOficial": "STF invalida lei que dispensava pagamento de honorários a procuradores municipais",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-que-dispensava-pagamento-de-honorarios-a-procuradores-municipais/",
-   "texto": {
-    "titulo": "Contribuintes de Nova Serrana (MG) devem pagar honorários a procuradores municipais",
-    "abertura": "Quem aderiu ao Refis de Nova Serrana deixa de ter isenção dos honorários devidos aos procuradores municipais. O Plenário do STF decidiu por unanimidade que a lei municipal é inconstitucional.",
-    "detalhes": "A lei municipal dispensava os contribuintes que aderissem ao Refis de pagar honorários sucumbenciais, valores que a parte perdedora paga à parte vencedora em uma ação. A OAB Nacional alegou que o tema é regulado por lei federal, como o Estatuto da OAB e o Código de Processo Civil. O relator, ministro Gilmar Mendes, afirmou que o desconto invade a competência privativa da União e propôs efeitos retroativos, pois a lei valeu apenas no exercício financeiro de 2026. A votação foi unânime, em sessão virtual."
-   },
-   "glossario": [
-    {
-     "termo": "Refis",
-     "explicacao": "Programa de regularização fiscal que oferece condições especiais para pagar dívidas com o governo.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Inconstitucional",
-     "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "honorários sucumbenciais",
-     "explicacao": "Valor que a parte perdedora de uma ação paga à parte vencedora.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "competência privativa da União",
-     "explicacao": "Tema que só o governo federal pode regular por lei.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "efeitos retroativos",
-     "explicacao": "Decisão que vale também para o passado, desde o início da lei.",
-     "fonte": "ia"
-    }
-   ],
-   "hash": "f1fa7100a81386f79ccdef40ed86025c"
   }
  ],
  "stfIgnoradas": [
   "d0200d9bee61fd86727e225803d4315e",
   "1db908fc56df9d2bdb6ab94184ce12ab",
   "2adea588ff7f2c2382b460e09a4b3367",
-  "93f92d4e6284a44f63d4ff9eb8374c71",
-  "475c77191bc825ff3a8d9931079358c0",
-  "1f5657f0e20da8c8d62f5671fd58eed9",
-  "e6e919c1a63a117feaf6aa38c78d06b9"
+  "93f92d4e6284a44f63d4ff9eb8374c71"
  ]
 }

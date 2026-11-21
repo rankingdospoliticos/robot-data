@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-20T23:12:44.531Z",
+ "geradoEm": "2026-11-21T09:58:48.697Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -8,8 +8,8 @@
  },
  "modelo": "claude-haiku-5-5",
  "periodo": {
-  "inicio": "2026-08-22",
-  "fim": "2026-11-20"
+  "inicio": "2026-08-23",
+  "fim": "2026-11-21"
  },
  "pautas": [
   {
@@ -135,37 +135,10 @@
    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
    "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/38df22dd-1022-46cf-ac9d-d24f038d1d0d",
    "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Emenda nº 75 (Substitutivo), com adequação redacional, ressalvados os destaques.",
+   "resultadoTexto": "Aprovada pelo Plenário.",
    "destino": "A matéria vai à Câmara dos Deputados.",
-   "placar": {
-    "sim": 45,
-    "nao": 31,
-    "abstencao": 0
-   },
+   "placar": null,
    "etapas": [
-    {
-     "data": "2026-11-12",
-     "descricao": "Requerimento nº 770, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-12",
-     "descricao": "Requerimento nº 770, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
-     "placar": {
-      "sim": 40,
-      "nao": 38,
-      "abstencao": 0
-     }
-    },
-    {
-     "data": "2026-11-12",
-     "descricao": "Aprovada a Emenda nº 75 (Substitutivo), com adequação redacional, ressalvados os destaques.",
-     "placar": {
-      "sim": 45,
-      "nao": 31,
-      "abstencao": 0
-     }
-    },
     {
      "data": "2026-11-18",
      "descricao": "Rejeitada a Emenda nº 40.",
@@ -215,9 +188,9 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
-    "titulo": "Ajuste fiscal permite ao governo reduzir benefícios fiscais e limitar despesas",
-    "abertura": "O governo federal ganha novas regras para reduzir benefícios fiscais, como incentivos de impostos, e limitar gastos públicos. O Senado aprovou a mudança e a envia à Câmara dos Deputados.",
-    "detalhes": "A mudança altera a Lei Complementar nº 200, de 2023. Ela também reduz valores de transferências para Estados, Distrito Federal e municípios. Na votação principal, o placar foi 45 votos a 31, em votação nominal. O texto segue agora para a Câmara dos Deputados."
+    "titulo": "Governo federal ganha ferramentas para reduzir benefícios fiscais e limitar despesas",
+    "abertura": "O Senado aprovou o chamado Ajuste fiscal, que dá ao Poder Executivo federal novos instrumentos para reduzir benefícios fiscais e limitar despesas. A medida agora segue para a Câmara dos Deputados.",
+    "detalhes": "A decisão altera a Lei Complementar nº 200, de 30 de agosto de 2023. Na votação do art. 6º, o placar foi 45 sim e 32 não, com 1 abstenção. Nas emendas aprovadas, o placar foi 69 sim e 2 não, com 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada parlamentar."
    },
    "glossario": [
     {
@@ -231,18 +204,18 @@
      "fonte": "curado"
     },
     {
-     "termo": "transferências",
-     "explicacao": "Repasses de dinheiro feitos pela União para Estados, Distrito Federal e municípios.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Votação nominal",
-     "explicacao": "Cada parlamentar vota no painel eletrônico, e o voto de cada um fica registrado e público.",
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
      "fonte": "curado"
     },
     {
-     "termo": "Emenda",
-     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
     },
     {
@@ -256,16 +229,6 @@
      "fonte": "curado"
     },
     {
-     "termo": "Requerimento",
-     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Turno suplementar",
      "explicacao": "Nova rodada de votação, feita quando o Plenário aprova um substitutivo, para votar as emendas apresentadas a esse novo texto.",
      "fonte": "curado"
@@ -276,17 +239,12 @@
      "fonte": "curado"
     },
     {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
     }
    ],
-   "hash": "5dca7180b9d6a6e43f7e8e789893ff3c"
+   "hash": "e7a9312596f624338e71a0b796710344"
   },
   {
    "id": "senado:175939",
@@ -1756,7 +1714,7 @@
    "ano": 2026,
    "identificacao": "PLN 28/2026",
    "tipo": "Projeto de Lei do Congresso Nacional",
-   "apelido": "Saúde, Assistência Social, Desenvolvimento Agrário, Integração, Empreendedorismo, Cultura, Esporte, Ciência, Turismo, Meio Ambiente e outros",
+   "apelido": "Saúde, Assistência Social, Desenvolvimento Agrário, Integração, Empreendedorismo, Cultura, Esporte, Ciência, Turismo, Me",
    "ementa": "Abre aos Orçamentos Fiscal e da Seguridade Social da União, em favor de diversos órgãos do Poder Executivo federal e de Transferências a Estados, Distrito Federal e Municípios, crédito suplementar no valor de R$ 39.002.919,00,para reforço de dotações constantes da Lei Orçamentária vigente.",
    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175942",
    "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/88052c4b-aed8-4070-9dcc-b95054977575",
@@ -1952,7 +1910,7 @@
    "ano": 2026,
    "identificacao": "PLN 35/2026",
    "tipo": "Projeto de Lei do Congresso Nacional",
-   "apelido": "Tribunal de Contas da União, Justiças Federal, Eleitoral e do Trabalho, Defensoria Pública da União e Ministério Público da União",
+   "apelido": "Tribunal de Contas da União, Justiças Federal, Eleitoral e do Trabalho, Defensoria Pública da União e Ministério Público",
    "ementa": "Abre ao Orçamento Fiscal da União, em favor do TCU, das Justiças Federal, Eleitoral e do Trabalho, da DPU, e do MPU crédito especial no valor de R$ 114.969.959,00, para os fins que especifica.",
    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175981",
    "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/553cdcf7-c02d-4875-b089-6229d17493ba",
@@ -13646,7 +13604,7 @@
  ],
  "cobertura": {
   "inicio": "2026-08-22",
-  "fim": "2026-11-20"
+  "fim": "2026-11-21"
  },
  "cargaTentadaEm": "2026-11-20",
  "stfIgnoradas": [
