@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-21T09:58:48.697Z",
+ "geradoEm": "2026-11-22T09:57:10.173Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -8,8 +8,8 @@
  },
  "modelo": "claude-haiku-5-5",
  "periodo": {
-  "inicio": "2026-08-23",
-  "fim": "2026-11-21"
+  "inicio": "2026-08-24",
+  "fim": "2026-11-22"
  },
  "pautas": [
   {
@@ -13604,7 +13604,7 @@
  ],
  "cobertura": {
   "inicio": "2026-08-22",
-  "fim": "2026-11-21"
+  "fim": "2026-11-22"
  },
  "cargaTentadaEm": "2026-11-20",
  "stfIgnoradas": [
