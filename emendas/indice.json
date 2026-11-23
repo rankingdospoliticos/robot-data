@@ -63,10 +63,15 @@
    "valor": 260483818
   },
   "municipioSemCodigo": {
-   "nomes": 2,
-   "linhas": 13,
-   "valor": 1451,
+   "nomes": 3,
+   "linhas": 51,
+   "valor": 10586987,
    "maiores": [
+    {
+     "chave": "MA|GOVERNADOR EDISON LOBAO",
+     "linhas": 38,
+     "valor": 10585536
+    },
     {
      "chave": "SP|RIO DE JANEIRO",
      "linhas": 6,
@@ -80,7 +85,7 @@
    ]
   },
   "linhasSemTipoDeEmenda": 0,
-  "municipiosComPagamento": 5570
+  "municipiosComPagamento": 5569
  },
  "arquivos": {
   "AC": {
@@ -120,8 +125,8 @@
    "bytes": 368805
   },
   "MA": {
-   "municipios": 217,
-   "bytes": 261291
+   "municipios": 216,
+   "bytes": 260093
   },
   "MG": {
    "municipios": 853,
