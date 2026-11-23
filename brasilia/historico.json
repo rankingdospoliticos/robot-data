@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-22T09:57:10.173Z",
+ "geradoEm": "2026-11-23T10:57:03.718Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -8,8 +8,8 @@
  },
  "modelo": "claude-haiku-5-5",
  "periodo": {
-  "inicio": "2026-08-24",
-  "fim": "2026-11-22"
+  "inicio": "2026-08-25",
+  "fim": "2026-11-23"
  },
  "pautas": [
   {
@@ -188,9 +188,9 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
-    "titulo": "Governo federal ganha ferramentas para reduzir benefícios fiscais e limitar despesas",
-    "abertura": "O Senado aprovou o chamado Ajuste fiscal, que dá ao Poder Executivo federal novos instrumentos para reduzir benefícios fiscais e limitar despesas. A medida agora segue para a Câmara dos Deputados.",
-    "detalhes": "A decisão altera a Lei Complementar nº 200, de 30 de agosto de 2023. Na votação do art. 6º, o placar foi 45 sim e 32 não, com 1 abstenção. Nas emendas aprovadas, o placar foi 69 sim e 2 não, com 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada parlamentar."
+    "titulo": "Ajuste fiscal dá ao governo federal novas regras para limitar gastos",
+    "abertura": "O texto reduz benefícios fiscais e incentivos fiscais e limita despesas do governo federal. O Senado aprovou a matéria e ela segue para a Câmara dos Deputados.",
+    "detalhes": "A decisão altera a Lei Complementar nº 200, de 2023. Na votação do artigo 6º-F, o placar foi de 49 votos sim e 31 não. A Emenda nº 40 foi rejeitada por 30 a 47, e a votação das emendas teve 69 sim, 2 não e 1 abstenção. A redação final foi aprovada de forma simbólica."
    },
    "glossario": [
     {
@@ -244,7 +244,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "e7a9312596f624338e71a0b796710344"
+   "hash": "f450cd3cbc151a2cac259e9a1ae89753"
   },
   {
    "id": "senado:175939",
@@ -13569,42 +13569,11 @@
     }
    ],
    "hash": "bbd38aa870bb5718318227451d00ace8"
-  },
-  {
-   "id": "stf:165553",
-   "data": "2026-08-24",
-   "situacao": "decidido",
-   "processo": "ADI 7446",
-   "tituloOficial": "STF invalida lei que perdoava débitos determinados pelo TCE-SC",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-invalida-lei-que-perdoava-debitos-impostos-pelo-tribunal-de-contas-de-sc/",
-   "texto": {
-    "titulo": "Santa Catarina não pode mais perdoar dívidas cobradas pelo Tribunal de Contas",
-    "abertura": "Débitos perdoados pelo TCE-SC voltam a ser cobrados. Por unanimidade, o STF declarou inconstitucionais as leis catarinenses que faziam esse perdão, e o TCE-SC deve cobrar os valores.",
-    "detalhes": "As Leis 17.878/2019 e 18.319/2021 perdoavam dívidas de repasses públicos, como ressarcimentos, devoluções e multas do TCE-SC, de até R$ 20 mil e depois até R$ 30 mil por processo. A Lei 18.851/2024 revogou esses trechos, mas manteve o perdão de ressarcimentos e devoluções. Para o ministro Cristiano Zanin, o perdão apagava a dívida e enfraquecia a punição. Os prazos de prescrição ficam suspensos desde a publicação das leis até a publicação do acórdão."
-   },
-   "glossario": [
-    {
-     "termo": "Inconstitucional",
-     "explicacao": "Contrário à Constituição. Uma norma declarada inconstitucional pelo STF deixa de valer.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "prescrição",
-     "explicacao": "Prazo máximo para cobrar uma dívida. Depois dele, a cobrança não pode mais ser feita.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "acórdão",
-     "explicacao": "Documento oficial que registra a decisão final de um julgamento.",
-     "fonte": "ia"
-    }
-   ],
-   "hash": "bb1fb2593457300817bbb5265ce067fb"
   }
  ],
  "cobertura": {
   "inicio": "2026-08-22",
-  "fim": "2026-11-22"
+  "fim": "2026-11-23"
  },
  "cargaTentadaEm": "2026-11-20",
  "stfIgnoradas": [

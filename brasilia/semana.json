@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-22T09:57:10.173Z",
+ "geradoEm": "2026-11-23T10:57:03.718Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -8,8 +8,8 @@
  },
  "modelo": "claude-haiku-5-5",
  "periodo": {
-  "inicio": "2026-11-15",
-  "fim": "2026-11-22"
+  "inicio": "2026-11-16",
+  "fim": "2026-11-23"
  },
  "pautas": [
   {
@@ -79,9 +79,9 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
-    "titulo": "Governo federal ganha ferramentas para reduzir benefícios fiscais e limitar despesas",
-    "abertura": "O Senado aprovou o chamado Ajuste fiscal, que dá ao Poder Executivo federal novos instrumentos para reduzir benefícios fiscais e limitar despesas. A medida agora segue para a Câmara dos Deputados.",
-    "detalhes": "A decisão altera a Lei Complementar nº 200, de 30 de agosto de 2023. Na votação do art. 6º, o placar foi 45 sim e 32 não, com 1 abstenção. Nas emendas aprovadas, o placar foi 69 sim e 2 não, com 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada parlamentar."
+    "titulo": "Ajuste fiscal dá ao governo federal novas regras para limitar gastos",
+    "abertura": "O texto reduz benefícios fiscais e incentivos fiscais e limita despesas do governo federal. O Senado aprovou a matéria e ela segue para a Câmara dos Deputados.",
+    "detalhes": "A decisão altera a Lei Complementar nº 200, de 2023. Na votação do artigo 6º-F, o placar foi de 49 votos sim e 31 não. A Emenda nº 40 foi rejeitada por 30 a 47, e a votação das emendas teve 69 sim, 2 não e 1 abstenção. A redação final foi aprovada de forma simbólica."
    },
    "glossario": [
     {
@@ -135,7 +135,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "e7a9312596f624338e71a0b796710344"
+   "hash": "f450cd3cbc151a2cac259e9a1ae89753"
   },
   {
    "id": "senado:175261",
