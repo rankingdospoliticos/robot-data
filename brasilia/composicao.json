@@ -1,12 +1,12 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-23T22:08:18.733Z",
+ "geradoEm": "2026-11-24T20:44:44.402Z",
  "camara": {
   "total": 513,
   "partidos": [
    {
     "sigla": "PL",
-    "n": 97
+    "n": 98
    },
    {
     "sigla": "PT",
@@ -18,7 +18,7 @@
    },
    {
     "sigla": "PSD",
-    "n": 49
+    "n": 48
    },
    {
     "sigla": "PP",
@@ -91,7 +91,7 @@
   ],
   "fonte": "Câmara dos Deputados — Dados Abertos",
   "url": "https://dadosabertos.camara.leg.br/api/v2/deputados",
-  "lidoEm": "2026-11-23T22:08:20.603Z"
+  "lidoEm": "2026-11-24T20:44:46.021Z"
  },
  "senado": {
   "total": 81,

@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-24T12:40:54.666Z",
+ "geradoEm": "2026-11-24T20:44:44.402Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -79,14 +79,14 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
-    "titulo": "Ajuste fiscal: governo ganha regras para reduzir benefícios fiscais e limitar despesas",
-    "abertura": "O governo federal poderá reduzir benefícios fiscais e criar limites para despesas, para manter a economia estável. O Senado aprovou a medida, que agora segue para a Câmara dos Deputados.",
-    "detalhes": "A decisão altera a Lei Complementar nº 200, de 2023, e usa um substitutivo como base da votação. A Emenda nº 40 foi rejeitada, por 30 votos sim e 47 não; o artigo 6º passou por 45 sim, 32 não e 1 abstenção, e o artigo 6º-F por 49 sim e 31 não. Em turno suplementar, as Emendas nºs 90, 91 e 92 e a Emenda nº 83, com subemenda, foram aprovadas por 69 sim, 2 não e 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada senador, e a decisão vai à Câmara dos Deputados."
+    "titulo": "Governo ganha novas regras para limitar gastos e reduzir benefícios fiscais",
+    "abertura": "Dá ao governo federal instrumentos para segurar despesas e reduzir incentivos e benefícios de impostos. O Plenário do Senado aprovou o texto, que segue agora para a Câmara dos Deputados.",
+    "detalhes": "O texto muda a Lei Complementar nº 200, de 2023, e dá ao governo novos instrumentos para limitar despesas e reduzir benefícios fiscais. A Emenda nº 40 foi rejeitada por 30 votos a 47, o art. 6º foi aprovado por 45 a 32, com 1 abstenção, e o art. 6º-F por 49 a 31. Em turno suplementar, as Emendas nºs 90, 91, 92 e 83 foram aprovadas por 69 votos sim e 2 não, com 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada senador, e o texto segue para a Câmara dos Deputados."
    },
    "glossario": [
     {
-     "termo": "Benefício fiscal",
-     "explicacao": "Redução ou isenção de imposto dada a um setor, região ou atividade. Na prática, é dinheiro que o governo deixa de arrecadar.",
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
     },
     {
@@ -95,8 +95,8 @@
      "fonte": "curado"
     },
     {
-     "termo": "Substitutivo",
-     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
+     "termo": "Benefício fiscal",
+     "explicacao": "Redução ou isenção de imposto dada a um setor, região ou atividade. Na prática, é dinheiro que o governo deixa de arrecadar.",
      "fonte": "curado"
     },
     {
@@ -115,8 +115,8 @@
      "fonte": "curado"
     },
     {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "termo": "Substitutivo",
+     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
      "fonte": "curado"
     },
     {
@@ -135,7 +135,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "e7a9312596f624338e71a0b796710344"
+   "hash": "a93afaeb8bf16434cba055da3ce6f2aa"
   },
   {
    "id": "camara:2655570",
@@ -259,16 +259,11 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de…",
    "texto": {
-    "titulo": "Governo federal ganha novos instrumentos de gestão da economia",
-    "abertura": "Dá ao governo federal novos instrumentos de gestão para garantir a estabilidade macroeconômica. Os deputados aprovaram o texto por 353 votos a 128, e ele segue para sanção.",
-    "detalhes": "O texto altera a Lei Complementar nº 200, de 2023, a nº 176, de 2020, a nº 235, de 2026, a nº 224, de 2025, e as Leis nº 11.540, de 2007, e nº 9.796, de 1999. Não diz quais instrumentos serão criados. Na votação nominal, 353 deputados votaram sim, 128 não e 5 se abstiveram. As Emendas de Plenário foram rejeitadas, e o texto foi mantido nos destaques."
+    "titulo": "Governo federal ganha novos instrumentos de gestão para a economia",
+    "abertura": "O texto dá ao Poder Executivo federal novos instrumentos de gestão e altera leis já existentes. A Câmara dos Deputados aprovou o texto por 353 votos a 128, e ele segue para sanção.",
+    "detalhes": "O texto muda a Lei Complementar 200, de 2023, a Lei Complementar 176, de 2020, a Lei Complementar 235, de 2026, a Lei Complementar 224, de 2025, a Lei 11.540, de 2007, e a Lei 9.796, de 1999. O objetivo declarado é garantir a estabilidade macroeconômica do País e criar condições para o desenvolvimento socioeconômico. A urgência foi aprovada por 318 votos a 135, e a votação final foi nominal, com 5 abstenções. As Emendas de Plenário foram rejeitadas, e o texto foi mantido nas votações dos destaques."
    },
    "glossario": [
-    {
-     "termo": "estabilidade macroeconômica",
-     "explicacao": "Equilíbrio das contas públicas e da inflação do país.",
-     "fonte": "ia"
-    },
     {
      "termo": "Sanção",
      "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
@@ -280,13 +275,18 @@
      "fonte": "curado"
     },
     {
-     "termo": "Votação nominal",
-     "explicacao": "Cada parlamentar vota no painel eletrônico, e o voto de cada um fica registrado e público.",
+     "termo": "estabilidade macroeconômica",
+     "explicacao": "Situação em que a economia do país fica em equilíbrio, com preços e contas públicas sob controle.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
      "fonte": "curado"
     },
     {
      "termo": "Emendas de Plenário",
-     "explicacao": "Mudanças no texto propostas pelos parlamentares durante a votação no plenário.",
+     "explicacao": "Sugestões de mudança apresentadas pelos deputados durante a votação no plenário.",
      "fonte": "ia"
     },
     {
@@ -305,11 +305,6 @@
      "fonte": "curado"
     },
     {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Projeto de lei",
      "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
      "fonte": "curado"
@@ -325,7 +320,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "234969e25a2d9f635f7eb2c5dda69fb9"
+   "hash": "27c79798d4776b841e8a5715fd12791b"
   },
   {
    "id": "senado:175261",
@@ -906,8 +901,8 @@
    "tituloEmenta": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia…",
    "texto": {
     "titulo": "Empresas de energia e de telefonia poderão dividir postes e torres",
-    "abertura": "Empresas de telefonia poderão usar postes e torres aéreas das distribuidoras de energia. A decisão foi tomada pelo Senado Federal, e o texto segue para sanção.",
-    "detalhes": "O texto trata do compartilhamento de infraestrutura física aérea entre distribuidoras de energia elétrica e prestadoras de telecomunicações. Ele altera as Leis nºs 9.427, de 1996, 9.472, de 1997, e 14.947, de 2024. A votação foi simbólica, sem registro de voto de cada senador. Primeiro, o Senado aprovou a urgência. Depois, aprovou o substitutivo da Câmara dos Deputados, com uma ressalva sobre o termo \"diretamente ou\". Por fim, aprovou a redação final. O próximo passo é a sanção."
+    "abertura": "O texto permite que empresas de telefonia usem postes e estruturas aéreas das distribuidoras de energia elétrica. A decisão foi tomada pelo Senado Federal, e a matéria vai à sanção.",
+    "detalhes": "O texto trata do compartilhamento de infraestrutura física aérea entre distribuidoras de energia e prestadoras de telecomunicações. Ele altera as Leis nºs 9.427, de 1996, 9.472, de 1997, e 14.947, de 2024. A votação foi simbólica, sem registro de voto de cada senador. O Senado aprovou o substitutivo da Câmara dos Deputados e a redação final no mesmo dia, 18 de novembro de 2026. Agora, o texto segue para sanção."
    },
    "glossario": [
     {
@@ -917,13 +912,8 @@
     },
     {
      "termo": "infraestrutura física aérea",
-     "explicacao": "Estruturas instaladas no alto, como postes e torres, por onde passam fios e cabos.",
+     "explicacao": "Estruturas instaladas no alto, como postes e torres, que sustentam fios e cabos.",
      "fonte": "ia"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
     },
     {
      "termo": "Substitutivo",
@@ -941,12 +931,17 @@
      "fonte": "curado"
     },
     {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
      "termo": "Parecer",
      "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
      "fonte": "curado"
     }
    ],
-   "hash": "2d90591a13a17203ea811e6318840bce"
+   "hash": "09f25529c574196592130216b9dd1b2f"
   },
   {
    "id": "camara:2643429",
@@ -1554,6 +1549,55 @@
     }
    ],
    "hash": "5aaf00f2832b789353152ea7bfbd4488"
+  },
+  {
+   "id": "senado:175950",
+   "casa": "Senado",
+   "data": "2026-11-24",
+   "sigla": "PL",
+   "numero": 5894,
+   "ano": 2025,
+   "identificacao": "PL 5894/2025",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Institui o Plano Nacional de Cultura (PNC) para o decênio 2026-2036; e altera a Lei nº 14.399, de 8 de julho de 2022.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175950",
+   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/40ff22b6-7421-49bf-aa86-d515cb40b410",
+   "resultado": "outro",
+   "resultadoTexto": "Requerimento nº 781, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
+   "destino": null,
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-24",
+     "descricao": "Requerimento nº 781, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Institui o Plano Nacional de Cultura (PNC) para o decênio 2026-2036",
+   "texto": {
+    "titulo": "Cultura terá plano nacional até 2036 e regras para receber recursos",
+    "abertura": "Estados, o Distrito Federal e os municípios terão de cumprir requisitos para receber recursos da cultura. O Senado aprovou pedido de urgência para o texto, que está na pauta do Plenário.",
+    "detalhes": "O texto institui o Plano Nacional de Cultura para o período de 2026 a 2036 e altera a Lei nº 14.399, de 8 de julho de 2022. Ele trata de diretrizes, estratégias, objetivos, monitoramento e avaliação. A votação foi simbólica, ou seja, não há registro de voto de cada senador nem placar. O pedido de urgência foi aprovado."
+   },
+   "glossario": [
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "4761550d892e4ce2d18d92f7a72ed5c5"
   },
   {
    "id": "camara:2565161",
