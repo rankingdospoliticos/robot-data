@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-24T06:12:23.463Z",
+ "geradoEm": "2026-11-24T12:40:54.666Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -188,9 +188,9 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
-    "titulo": "Ajuste fiscal limita gastos e reduz benefícios fiscais do governo federal",
-    "abertura": "O Poder Executivo federal ganha novas ferramentas para controlar despesas e reduzir benefícios fiscais. O Senado aprovou a medida, que agora segue para a Câmara dos Deputados.",
-    "detalhes": "A medida altera a Lei Complementar nº 200, de 30 de agosto de 2023, e trata do art. 6º-F dessa lei. Na votação nominal, o art. 6º teve 45 votos sim, 32 não e 1 abstenção, e o art. 6º-F teve 49 sim e 31 não. O Plenário rejeitou a Emenda nº 40 por 30 a 47 e aprovou as Emendas nºs 90, 91 e 92 e a Emenda nº 83, com subemenda, com 69 votos sim, 2 não e 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada senador, e a matéria segue para a Câmara dos Deputados."
+    "titulo": "Ajuste fiscal: governo ganha regras para reduzir benefícios fiscais e limitar despesas",
+    "abertura": "O governo federal poderá reduzir benefícios fiscais e criar limites para despesas, para manter a economia estável. O Senado aprovou a medida, que agora segue para a Câmara dos Deputados.",
+    "detalhes": "A decisão altera a Lei Complementar nº 200, de 2023, e usa um substitutivo como base da votação. A Emenda nº 40 foi rejeitada, por 30 votos sim e 47 não; o artigo 6º passou por 45 sim, 32 não e 1 abstenção, e o artigo 6º-F por 49 sim e 31 não. Em turno suplementar, as Emendas nºs 90, 91 e 92 e a Emenda nº 83, com subemenda, foram aprovadas por 69 sim, 2 não e 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada senador, e a decisão vai à Câmara dos Deputados."
    },
    "glossario": [
     {
@@ -204,13 +204,8 @@
      "fonte": "curado"
     },
     {
-     "termo": "Votação nominal",
-     "explicacao": "Cada parlamentar vota no painel eletrônico, e o voto de cada um fica registrado e público.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "termo": "Substitutivo",
+     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
      "fonte": "curado"
     },
     {
@@ -219,23 +214,23 @@
      "fonte": "curado"
     },
     {
+     "termo": "Turno suplementar",
+     "explicacao": "Nova rodada de votação, feita quando o Plenário aprova um substitutivo, para votar as emendas apresentadas a esse novo texto.",
+     "fonte": "curado"
+    },
+    {
      "termo": "Redação final",
      "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
-     "termo": "Substitutivo",
-     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
     },
     {
      "termo": "Destaque",
      "explicacao": "Pedido para votar em separado um trecho do texto ou uma emenda. Primeiro se vota o texto principal; depois, cada destaque.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Turno suplementar",
-     "explicacao": "Nova rodada de votação, feita quando o Plenário aprova um substitutivo, para votar as emendas apresentadas a esse novo texto.",
      "fonte": "curado"
     },
     {
@@ -249,7 +244,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "963247f2eeb6f2f39f728419c6f5bfa2"
+   "hash": "e7a9312596f624338e71a0b796710344"
   },
   {
    "id": "camara:2655570",
@@ -4077,19 +4072,29 @@
    ],
    "tituloEmenta": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia…",
    "texto": {
-    "titulo": "Empresas de telefonia poderão usar a infraestrutura aérea de distribuidoras de energia",
-    "abertura": "Prestadoras de telefonia poderão dividir a infraestrutura aérea de distribuidoras de energia elétrica. O Senado aprovou o substitutivo da Câmara dos Deputados, e a matéria vai à sanção.",
-    "detalhes": "O texto altera as Leis nºs 9.427, de 26 de dezembro de 1996, 9.472, de 16 de julho de 1997, e 14.947, de 2 de agosto de 2024, sobre o compartilhamento dessa infraestrutura. A votação foi simbólica, sem registro de voto de cada senador. Os senadores aprovaram o substitutivo com a ressalva do termo \"diretamente ou\" no inciso II do § 2º do art. 7º e um ajuste de redação no § 7º do art. 10. Depois, aprovaram a redação final no mesmo dia."
+    "titulo": "Empresas de energia e de telefonia poderão dividir postes e torres",
+    "abertura": "Empresas de telefonia poderão usar postes e torres aéreas das distribuidoras de energia. A decisão foi tomada pelo Senado Federal, e o texto segue para sanção.",
+    "detalhes": "O texto trata do compartilhamento de infraestrutura física aérea entre distribuidoras de energia elétrica e prestadoras de telecomunicações. Ele altera as Leis nºs 9.427, de 1996, 9.472, de 1997, e 14.947, de 2024. A votação foi simbólica, sem registro de voto de cada senador. Primeiro, o Senado aprovou a urgência. Depois, aprovou o substitutivo da Câmara dos Deputados, com uma ressalva sobre o termo \"diretamente ou\". Por fim, aprovou a redação final. O próximo passo é a sanção."
    },
    "glossario": [
     {
-     "termo": "Substitutivo",
-     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
+     "termo": "Sanção",
+     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
      "fonte": "curado"
     },
     {
-     "termo": "Sanção",
-     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
+     "termo": "infraestrutura física aérea",
+     "explicacao": "Estruturas instaladas no alto, como postes e torres, por onde passam fios e cabos.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Substitutivo",
+     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
      "fonte": "curado"
     },
     {
@@ -4103,17 +4108,12 @@
      "fonte": "curado"
     },
     {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Parecer",
      "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
      "fonte": "curado"
     }
    ],
-   "hash": "09f25529c574196592130216b9dd1b2f"
+   "hash": "2d90591a13a17203ea811e6318840bce"
   },
   {
    "id": "camara:2643429",
@@ -13684,10 +13684,10 @@
  },
  "cargaTentadaEm": "2026-11-20",
  "stfIgnoradas": [
+  "d549892f23193b397ee8bae64d589a59",
   "56724f83c721967b504e665b23303182",
   "4f4cb99ca3192ad230ad132fae56d591",
   "1db908fc56df9d2bdb6ab94184ce12ab",
-  "d549892f23193b397ee8bae64d589a59",
   "f86fa2ab34ca723dd511aad439f2d1b1",
   "d0200d9bee61fd86727e225803d4315e",
   "2adea588ff7f2c2382b460e09a4b3367",
