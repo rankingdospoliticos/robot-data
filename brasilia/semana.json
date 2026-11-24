@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-23T22:08:18.732Z",
+ "geradoEm": "2026-11-24T06:12:23.463Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -8,8 +8,8 @@
  },
  "modelo": "claude-haiku-5-5",
  "periodo": {
-  "inicio": "2026-11-16",
-  "fim": "2026-11-23"
+  "inicio": "2026-11-17",
+  "fim": "2026-11-24"
  },
  "pautas": [
   {
@@ -141,6 +141,196 @@
     }
    ],
    "hash": "963247f2eeb6f2f39f728419c6f5bfa2"
+  },
+  {
+   "id": "camara:2655570",
+   "casa": "Câmara",
+   "data": "2026-11-23",
+   "sigla": "PLP",
+   "numero": 299,
+   "ano": 2026,
+   "identificacao": "PLP 299/2026",
+   "tipo": "Projeto de Lei Complementar",
+   "apelido": null,
+   "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570",
+   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199234",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o Projeto de Lei Complementar nº 299, de 2026, ressalvados os destaques. Sim: 353; Não: 128; Abstenção: 5; Total: 486.",
+   "destino": null,
+   "placar": {
+    "sim": 353,
+    "nao": 128,
+    "abstencao": 5
+   },
+   "etapas": [
+    {
+     "data": "2026-11-23",
+     "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 318; Não: 135; Abstenção: 6; Total: 459.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Aprovado o requerimento nº 4504/2026, Do Sr. Paulo Pimenta e outros, que solicita urgência (art. 155) para o PLP 299/2026.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Aprovado o requerimento nº 4504/2026, Do Sr. Paulo Pimenta e outros, que solicita urgência (art. 155) para o PLP 299/2026.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Rejeitado o Requerimento. Sim: 127; Não: 347; Abstenção: 7; Total: 481.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Aprovado o Requerimento.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Aprovado o Projeto de Lei Complementar nº 299, de 2026, ressalvados os destaques. Sim: 353; Não: 128; Abstenção: 5; Total: 486.",
+     "placar": {
+      "sim": 353,
+      "nao": 128,
+      "abstencao": 5
+     }
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Rejeitadas as Emendas de Plenário. Sim: 129; Não: 319; Abstenção: 4; Total: 452.",
+     "placar": {
+      "sim": 129,
+      "nao": 319,
+      "abstencao": 4
+     }
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Mantido o texto. Sim: 413; Não: 29; Total: 442.",
+     "placar": {
+      "sim": 413,
+      "nao": 29,
+      "abstencao": 0
+     }
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Rejeitada a Emenda de Plenário nº 23. Sim: 146; Não: 315; Abstenção: 1; Total: 462.",
+     "placar": {
+      "sim": 146,
+      "nao": 315,
+      "abstencao": 1
+     }
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Rejeitada a Emenda de Plenário nº 38. Sim: 172; Não: 282; Abstenção: 2; Total: 456.",
+     "placar": {
+      "sim": 172,
+      "nao": 282,
+      "abstencao": 2
+     }
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Mantido o texto. Sim: 333; Não: 138; Abstenção: 1; Total: 472.",
+     "placar": {
+      "sim": 333,
+      "nao": 138,
+      "abstencao": 1
+     }
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Mantido o texto. Sim: 310; Não: 132; Total: 442.",
+     "placar": {
+      "sim": 310,
+      "nao": 132,
+      "abstencao": 0
+     }
+    },
+    {
+     "data": "2026-11-23",
+     "descricao": "Mantido o texto. Sim: 319; Não: 127; Abstenção: 1; Total: 447.",
+     "placar": {
+      "sim": 319,
+      "nao": 127,
+      "abstencao": 1
+     }
+    }
+   ],
+   "tituloEmenta": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de…",
+   "texto": {
+    "titulo": "Governo federal ganha novos instrumentos de gestão da economia",
+    "abertura": "Dá ao governo federal novos instrumentos de gestão para garantir a estabilidade macroeconômica. Os deputados aprovaram o texto por 353 votos a 128, e ele segue para sanção.",
+    "detalhes": "O texto altera a Lei Complementar nº 200, de 2023, a nº 176, de 2020, a nº 235, de 2026, a nº 224, de 2025, e as Leis nº 11.540, de 2007, e nº 9.796, de 1999. Não diz quais instrumentos serão criados. Na votação nominal, 353 deputados votaram sim, 128 não e 5 se abstiveram. As Emendas de Plenário foram rejeitadas, e o texto foi mantido nos destaques."
+   },
+   "glossario": [
+    {
+     "termo": "estabilidade macroeconômica",
+     "explicacao": "Equilíbrio das contas públicas e da inflação do país.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Sanção",
+     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Lei complementar",
+     "explicacao": "Tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Só é aprovada com o voto de mais da metade de todos os membros de cada Casa.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Votação nominal",
+     "explicacao": "Cada parlamentar vota no painel eletrônico, e o voto de cada um fica registrado e público.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emendas de Plenário",
+     "explicacao": "Mudanças no texto propostas pelos parlamentares durante a votação no plenário.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Destaque",
+     "explicacao": "Pedido para votar em separado um trecho do texto ou uma emenda. Primeiro se vota o texto principal; depois, cada destaque.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Projeto de lei complementar",
+     "explicacao": "Proposta de lei complementar, o tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Precisa do voto de mais da metade de todos os membros da Casa: 257 deputados ou 41 senadores.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Projeto de lei",
+     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "234969e25a2d9f635f7eb2c5dda69fb9"
   },
   {
    "id": "senado:175261",
@@ -1824,43 +2014,12 @@
     }
    ],
    "hash": "d6d07f5f51a1cb239116d0382e0e9189"
-  },
-  {
-   "id": "stf:167904",
-   "data": "2026-11-16",
-   "situacao": "decidido",
-   "processo": null,
-   "tituloOficial": "STF mantém lei do RJ que protege dados pessoais de envolvidos em ocorrências policiais",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-mantem-lei-do-rj-que-protege-dados-pessoais-de-envolvidos-em-ocorrencias-policiais/",
-   "texto": {
-    "titulo": "Rio de Janeiro mantém sigilo de endereços e telefones de envolvidos em ocorrências policiais",
-    "abertura": "Endereço, telefone e número de documento de envolvidos e testemunhas continuam em sigilo. O STF decidiu, por unanimidade, manter a regra, e a defesa pode pedir esses dados ao juiz quando forem relevantes.",
-    "detalhes": "A Lei estadual 5.061/2007 manda manter em sigilo endereço, telefone e números de documentos de envolvidos e testemunhas em ocorrências policiais. O acesso fica restrito à Polícia Civil, ao Ministério Público e ao Judiciário, e a OAB Nacional questionava a regra por limitar a defesa. O relator, ministro Nunes Marques, disse que a lei não altera investigações nem o processo penal. A votação foi unânime, na sessão virtual encerrada em 10 de novembro."
-   },
-   "glossario": [
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "processo penal",
-     "explicacao": "Conjunto de regras para apurar e julgar crimes.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "sessão virtual",
-     "explicacao": "Julgamento feito por meio eletrônico, sem reunião presencial dos ministros.",
-     "fonte": "ia"
-    }
-   ],
-   "hash": "64446347c420dc131108828ff628bbdb"
   }
  ],
  "stfIgnoradas": [
-  "1db908fc56df9d2bdb6ab94184ce12ab",
+  "56724f83c721967b504e665b23303182",
   "4f4cb99ca3192ad230ad132fae56d591",
-  "f86fa2ab34ca723dd511aad439f2d1b1",
-  "56724f83c721967b504e665b23303182"
+  "1db908fc56df9d2bdb6ab94184ce12ab",
+  "d549892f23193b397ee8bae64d589a59"
  ]
 }
