@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-25T04:24:20.968Z",
+ "geradoEm": "2026-11-25T11:30:50.462Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -188,24 +188,14 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
-    "titulo": "Governo ganha novas regras para limitar gastos e reduzir benefícios fiscais",
-    "abertura": "Dá ao governo federal instrumentos para segurar despesas e reduzir incentivos e benefícios de impostos. O Plenário do Senado aprovou o texto, que segue agora para a Câmara dos Deputados.",
-    "detalhes": "O texto muda a Lei Complementar nº 200, de 2023, e dá ao governo novos instrumentos para limitar despesas e reduzir benefícios fiscais. A Emenda nº 40 foi rejeitada por 30 votos a 47, o art. 6º foi aprovado por 45 a 32, com 1 abstenção, e o art. 6º-F por 49 a 31. Em turno suplementar, as Emendas nºs 90, 91, 92 e 83 foram aprovadas por 69 votos sim e 2 não, com 1 abstenção. A redação final foi aprovada de forma simbólica, sem registro de voto de cada senador, e o texto segue para a Câmara dos Deputados."
+    "titulo": "Ajuste fiscal limita gastos e reduz benefícios fiscais do governo federal",
+    "abertura": "Descontos de impostos concedidos pelo governo federal podem ser reduzidos, e os gastos públicos ganham novos limites. O Senado aprovou a medida, que agora vai à Câmara dos Deputados.",
+    "detalhes": "A medida altera a Lei Complementar nº 200, de 30 de agosto de 2023, e dá ao Poder Executivo federal novos instrumentos de gestão. Os senadores rejeitaram a Emenda nº 40 por 47 votos a 30. Depois, aprovaram o artigo 6º por 45 a 32, com uma abstenção, e o artigo 6º-F por 49 a 31. A redação final foi aprovada de forma simbólica, sem registro de voto de cada senador."
    },
    "glossario": [
     {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Lei complementar",
      "explicacao": "Tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Só é aprovada com o voto de mais da metade de todos os membros de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Benefício fiscal",
-     "explicacao": "Redução ou isenção de imposto dada a um setor, região ou atividade. Na prática, é dinheiro que o governo deixa de arrecadar.",
      "fonte": "curado"
     },
     {
@@ -214,13 +204,13 @@
      "fonte": "curado"
     },
     {
-     "termo": "Turno suplementar",
-     "explicacao": "Nova rodada de votação, feita quando o Plenário aprova um substitutivo, para votar as emendas apresentadas a esse novo texto.",
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
     },
     {
@@ -234,6 +224,11 @@
      "fonte": "curado"
     },
     {
+     "termo": "Turno suplementar",
+     "explicacao": "Nova rodada de votação, feita quando o Plenário aprova um substitutivo, para votar as emendas apresentadas a esse novo texto.",
+     "fonte": "curado"
+    },
+    {
      "termo": "Parecer",
      "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
      "fonte": "curado"
@@ -244,7 +239,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "a93afaeb8bf16434cba055da3ce6f2aa"
+   "hash": "b5fd01e85a0765d5e3cdea6a796c812e"
   },
   {
    "id": "camara:2655570",
@@ -4549,9 +4544,9 @@
    ],
    "tituloEmenta": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia…",
    "texto": {
-    "titulo": "Empresas de energia e de telefonia poderão dividir postes e torres",
-    "abertura": "O texto permite que empresas de telefonia usem postes e estruturas aéreas das distribuidoras de energia elétrica. A decisão foi tomada pelo Senado Federal, e a matéria vai à sanção.",
-    "detalhes": "O texto trata do compartilhamento de infraestrutura física aérea entre distribuidoras de energia e prestadoras de telecomunicações. Ele altera as Leis nºs 9.427, de 1996, 9.472, de 1997, e 14.947, de 2024. A votação foi simbólica, sem registro de voto de cada senador. O Senado aprovou o substitutivo da Câmara dos Deputados e a redação final no mesmo dia, 18 de novembro de 2026. Agora, o texto segue para sanção."
+    "titulo": "Empresas de telefonia e internet poderão usar postes de energia elétrica",
+    "abertura": "Empresas de telefonia e internet poderão dividir postes e outras estruturas aéreas das distribuidoras de energia. O Senado aprovou o texto vindo da Câmara, que agora segue para a sanção do presidente.",
+    "detalhes": "O texto trata do compartilhamento de infraestrutura física aérea entre empresas de energia elétrica e de telecomunicações. Ele também altera as Leis nºs 9.427, de 1996, 9.472, de 1997, e 14.947, de 2024. A votação foi simbólica, sem registro de voto de cada senador. O Senado aprovou o substitutivo da Câmara com uma ressalva sobre a expressão \"diretamente ou\" e um ajuste de redação, e a redação final também foi aprovada."
    },
    "glossario": [
     {
@@ -4561,7 +4556,7 @@
     },
     {
      "termo": "infraestrutura física aérea",
-     "explicacao": "Estruturas instaladas no alto, como postes e torres, que sustentam fios e cabos.",
+     "explicacao": "Estruturas instaladas no alto, como postes e torres, por onde passam fios e cabos.",
      "fonte": "ia"
     },
     {
@@ -4590,7 +4585,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "09f25529c574196592130216b9dd1b2f"
+   "hash": "2d90591a13a17203ea811e6318840bce"
   },
   {
    "id": "camara:2643429",
@@ -14120,10 +14115,10 @@
  },
  "cargaTentadaEm": "2026-11-20",
  "stfIgnoradas": [
+  "7a95a7899b530c853b8fe6a384135324",
   "56724f83c721967b504e665b23303182",
   "4f4cb99ca3192ad230ad132fae56d591",
   "1db908fc56df9d2bdb6ab94184ce12ab",
-  "7a95a7899b530c853b8fe6a384135324",
   "d549892f23193b397ee8bae64d589a59",
   "f86fa2ab34ca723dd511aad439f2d1b1",
   "d0200d9bee61fd86727e225803d4315e",
