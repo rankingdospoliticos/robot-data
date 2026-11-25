@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-24T20:44:44.402Z",
+ "geradoEm": "2026-11-25T04:24:20.968Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -8,8 +8,8 @@
  },
  "modelo": "claude-haiku-5-5",
  "periodo": {
-  "inicio": "2026-11-17",
-  "fim": "2026-11-24"
+  "inicio": "2026-11-18",
+  "fim": "2026-11-25"
  },
  "pautas": [
   {
@@ -323,64 +323,141 @@
    "hash": "27c79798d4776b841e8a5715fd12791b"
   },
   {
-   "id": "senado:175261",
-   "casa": "Senado",
-   "data": "2026-11-17",
-   "sigla": "MPV",
-   "numero": 1379,
-   "ano": 2026,
-   "identificacao": "MPV 1379/2026",
-   "tipo": "Medida Provisória",
-   "apelido": "Plano Brasil Soberano 3",
-   "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
-   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175261",
-   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/a9baadb3-3d83-47da-8e99-78a5ff5c0e64",
+   "id": "camara:2332174",
+   "casa": "Câmara",
+   "data": "2026-11-24",
+   "sigla": "PL",
+   "numero": 1969,
+   "ano": 2022,
+   "identificacao": "PL 1969/2022",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação e Não-Repetição para vítimas e familiares da Chacina de Acari.",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2332174",
+   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2197137",
    "resultado": "aprovado",
-   "resultadoTexto": "Aprovado o projeto de lei de conversão, ficam prejudicadas a medida provisória e as demais emendas apresentadas.",
-   "destino": "A matéria vai à sanção.",
-   "placar": null,
+   "resultadoTexto": "Aprovado o Substitutivo ao Projeto de Lei nº 1.969, de 2022, da Comissão de Direitos Humanos, Minorias e Igualdade Racial. Sim: 292; Não: 147; Abstenção: 2; Total: 441.",
+   "destino": null,
+   "placar": {
+    "sim": 292,
+    "nao": 147,
+    "abstencao": 2
+   },
    "etapas": [
     {
      "data": "2026-11-17",
-     "descricao": "Aprovado o projeto de lei de conversão, ficam prejudicadas a medida provisória e as demais emendas apresentadas.",
+     "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 1.969, de 2022, da Comissão de Direitos Humanos, Minorias e Igualdade Racial. Sim: 292; Não: 147; Abstenção: 2; Total: 441.",
+     "placar": {
+      "sim": 292,
+      "nao": 147,
+      "abstencao": 2
+     }
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Orlando Silva (PCdoB/SP).",
      "placar": null
     }
    ],
-   "tituloEmenta": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de…",
+   "tituloEmenta": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação…",
    "texto": {
-    "titulo": "Plano Brasil Soberano 3 amplia recursos para financiar exportações",
-    "abertura": "A medida aumenta o limite de dinheiro para as linhas de financiamento às exportações e define regras para usá-lo. O Senado aprovou a medida, que agora segue para sanção.",
-    "detalhes": "A medida altera a Lei nº 15.473, de 2026, que trata do apoio oficial ao crédito à exportação. A votação foi simbólica, ou seja, não há registro do voto de cada senador. Com a aprovação, a medida provisória deixa de valer, e as demais emendas deixam de ser analisadas. O texto segue para sanção do presidente da República."
+    "titulo": "Familiares de vítimas da Chacina de Acari poderão receber pensão especial vitalícia",
+    "abertura": "Familiares das 11 vítimas poderão receber pensão especial vitalícia. A Câmara aprovou a medida, que agora segue para o Senado Federal.",
+    "detalhes": "A medida reconhece que o Estado tem responsabilidade pelo desaparecimento forçado das 11 vítimas de Acari. Ela também cria medidas de reparação para vítimas e familiares e prevê a inscrição de nomes no Livro dos Heróis e Heroínas da Pátria, com homenagem póstuma. A votação foi nominal, com 292 votos sim, 147 não e 2 abstenções, sobre um substitutivo da Comissão de Direitos Humanos, Minorias e Igualdade Racial. Depois, a redação final foi aprovada de forma simbólica, sem registro individual de voto. O texto segue agora para o Senado Federal."
    },
    "glossario": [
     {
-     "termo": "linhas de financiamento",
-     "explicacao": "Tipos de empréstimo com regras próprias, feitos para um fim específico.",
+     "termo": "desaparecimento forçado",
+     "explicacao": "Quando uma pessoa some por ação de agentes do Estado, e o Estado não informa onde ela está.",
      "fonte": "ia"
     },
     {
-     "termo": "Sanção",
-     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
+     "termo": "Substitutivo",
+     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
      "fonte": "curado"
     },
     {
-     "termo": "Medida provisória",
-     "explicacao": "Norma com força de lei editada pelo presidente da República. Vale desde a publicação, mas perde a validade se o Congresso não a aprovar em até 120 dias.",
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
-     "termo": "Emenda",
-     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "termo": "Projeto de lei",
+     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
      "fonte": "curado"
     },
     {
-     "termo": "Projeto de lei de conversão",
-     "explicacao": "O texto de uma medida provisória com as mudanças feitas pelo Congresso. Se aprovado, segue para sanção no lugar da medida original.",
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
      "fonte": "curado"
     },
     {
-     "termo": "Prejudicada",
-     "explicacao": "Proposta que deixa de ser votada porque perdeu o sentido, por exemplo quando outro texto sobre o mesmo ponto já foi aprovado.",
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "5fd2cd23b4364d7573a90da9e57823a6"
+  },
+  {
+   "id": "camara:2253448",
+   "casa": "Câmara",
+   "data": "2026-11-24",
+   "sigla": "PL",
+   "numero": 2819,
+   "ano": 2020,
+   "identificacao": "PL 2819/2020",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Dispõe sobre medidas de garantia da equidade na atenção integral à saúde da população negra em casos de epidemias ou pandemias, surtos provocados por doenças contagiosas ou durante a decretação de Estado de Calamidade Pública.",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2253448",
+   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1896502",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o Substitutivo ao Projeto de Lei nº 2.819, de 2020, adotado pela relatora da Comissão de Saúde.",
+   "destino": null,
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 2.819, de 2020, adotado pela relatora da Comissão de Saúde.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Carol Dartora (PT/PR).",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Dispõe sobre medidas de garantia da equidade na atenção integral à saúde da população negra em casos de…",
+   "texto": {
+    "titulo": "Regras garantem atenção à saúde da população negra em epidemias e calamidades",
+    "abertura": "Define como o atendimento de saúde à população negra deve ocorrer em epidemias, pandemias, surtos de doenças contagiosas e calamidades públicas. A Câmara dos Deputados aprovou a proposta e ela segue para o Senado Federal.",
+    "detalhes": "A Câmara aprovou um substitutivo, uma versão nova do texto, adotado pela relatora da Comissão de Saúde. A votação foi simbólica, por isso não há registro do voto de cada deputado. A redação final também foi aprovada na mesma data, assinada pela relatora, a deputada Carol Dartora (PT/PR). O texto agora segue para o Senado Federal."
+   },
+   "glossario": [
+    {
+     "termo": "Substitutivo",
+     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
@@ -389,7 +466,343 @@
      "fonte": "curado"
     }
    ],
-   "hash": "c1f9ace8e1c5c61ac791ab9098e634ee"
+   "hash": "21d469ba46f2c8a1bb90924712216d80"
+  },
+  {
+   "id": "camara:606005",
+   "casa": "Câmara",
+   "data": "2026-11-24",
+   "sigla": "PL",
+   "numero": 7103,
+   "ano": 2014,
+   "identificacao": "PL 7103/2014",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Modifica a Lei nº 12.288,de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=606005",
+   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1225472",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o Substitutivo ao Projeto de Lei nº 7.103, de 2014, da Comissão de Seguridade Social e Família.",
+   "destino": null,
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-17",
+     "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 7.103, de 2014, da Comissão de Seguridade Social e Família.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovada a Emenda de Redação nº 1.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Talíria Petrone (PSOL/RJ).",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Modifica a Lei nº 12.288,de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito…",
+   "texto": {
+    "titulo": "SUS passa a anotar cor ou raça de pacientes em prontuários",
+    "abertura": "Prontuários, registros e cadastros do SUS passarão a incluir o quesito cor ou raça dos pacientes. A Câmara aprovou a mudança, que segue agora para o Senado Federal.",
+    "detalhes": "A mudança altera o Estatuto da Igualdade Racial, a Lei nº 12.288, de 2010. Antes, a Câmara aprovou um requerimento de urgência, por unanimidade. A votação do texto principal foi simbólica, sem registro do voto de cada deputado. Depois, a Câmara aprovou uma emenda de redação e a redação final."
+   },
+   "glossario": [
+    {
+     "termo": "prontuários",
+     "explicacao": "Registros que guardam o histórico de saúde de cada paciente.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "quesito cor ou raça",
+     "explicacao": "Pergunta padronizada sobre a cor ou a raça declarada pela pessoa atendida.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Substitutivo",
+     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Projeto de lei",
+     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "03814c1f7f3bfc89cf95bef70cef67db"
+  },
+  {
+   "id": "senado:171599",
+   "casa": "Senado",
+   "data": "2026-11-24",
+   "sigla": "PL",
+   "numero": 5809,
+   "ano": 2025,
+   "identificacao": "PL 5809/2025",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Altera a Lei nº 9.605, de 12 de fevereiro de 1998 (Lei dos Crimes Ambientais), para tipificar o crime de tráfico de animais silvestres e aumentar penas de crimes nela previstos.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/171599",
+   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/4cf2adbc-338d-453f-88de-1fd8f1c1c5a5",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o projeto com a Emenda nº 1, de redação.",
+   "destino": "A matéria vai à sanção.",
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-24",
+     "descricao": "Requerimento nº 22, de 2026, da Comissão de Meio Ambiente, que solicita urgência para a matéria: Aprovado o requerimento.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovado o projeto com a Emenda nº 1, de redação.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Parecer nº 233, de 2026, da Comissão Diretora, com a redação final: Aprovada a redação final.",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Altera a Lei nº 9.605, de 12 de fevereiro de 1998 (Lei dos Crimes Ambientais), para tipificar o…",
+   "texto": {
+    "titulo": "Tráfico de animais silvestres vira crime e penas de crimes ambientais sobem",
+    "abertura": "Tráfico de animais silvestres passa a ser crime com regra própria na lei ambiental. O Senado aprovou a mudança, e ela segue para sanção.",
+    "detalhes": "A mudança altera a Lei nº 9.605, de 1998, conhecida como Lei dos Crimes Ambientais. Ela também aumenta as penas de crimes já previstos nessa lei. O Senado aprovou o urgente pedido de tramitação e depois aprovou o texto com uma emenda de redação, em votação simbólica, sem registro de voto de cada senador. A redação final também foi aprovada em votação simbólica. Agora, a matéria vai à sanção."
+   },
+   "glossario": [
+    {
+     "termo": "Sanção",
+     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Lei dos Crimes Ambientais",
+     "explicacao": "É a lei que define os crimes contra o meio ambiente e as penas para cada um.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "emenda de redação",
+     "explicacao": "É uma mudança feita só para corrigir o texto, sem alterar o sentido da proposta.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Votação simbólica",
+     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Parecer",
+     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "c09cd1c06a7bf24cb3dccb604e60486d"
+  },
+  {
+   "id": "senado:175741",
+   "casa": "Senado",
+   "data": "2026-11-24",
+   "sigla": "PL",
+   "numero": 4921,
+   "ano": 2026,
+   "identificacao": "PL 4921/2026",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Dispõe sobre a transformação de cargos vagos no quadro permanente do Tribunal Regional do Trabalho da 18ª Região, sem aumento de despesas.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175741",
+   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/694b7a2d-6657-46a5-9969-7f227990f6c5",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o projeto.",
+   "destino": "A matéria vai à sanção.",
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-24",
+     "descricao": "Requerimento nº 41, de 2026, da Comissão de Constituição, Justiça e Cidadania, que solicita urgência para a matéria: Aprovado o requerimento.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovado o projeto.",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Dispõe sobre a transformação de cargos vagos no quadro permanente do Tribunal Regional do Trabalho da 18ª Região…",
+   "texto": {
+    "titulo": "Cargos vagos da Justiça do Trabalho em Goiás mudam sem gasto extra",
+    "abertura": "Cargos vagos do Tribunal Regional do Trabalho da 18ª Região, em Goiás, podem ser transformados em outros cargos, sem aumento de despesas. O Senado aprovou o texto, que agora vai à sanção.",
+    "detalhes": "A lei muda o quadro de pessoal do tribunal e fixa a quantidade de cargos em comissão e funções em comissão. A votação foi simbólica, sem registro de voto de cada senador. Antes, os senadores aprovaram um pedido de urgência, também simbólico. Agora, o texto vai à sanção."
+   },
+   "glossario": [
+    {
+     "termo": "Sanção",
+     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "cargos em comissão",
+     "explicacao": "Cargos de confiança, ocupados por nomeação e que podem ser desfeitos a qualquer momento.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "funções em comissão",
+     "explicacao": "Funções de chefia ou assessoria, ocupadas por pessoas de confiança do órgão.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "bd3e131fde01f1b9f6da73852d025c69"
+  },
+  {
+   "id": "senado:175950",
+   "casa": "Senado",
+   "data": "2026-11-24",
+   "sigla": "PL",
+   "numero": 5894,
+   "ano": 2025,
+   "identificacao": "PL 5894/2025",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Institui o Plano Nacional de Cultura (PNC) para o decênio 2026-2036; e altera a Lei nº 14.399, de 8 de julho de 2022.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175950",
+   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/40ff22b6-7421-49bf-aa86-d515cb40b410",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o projeto, com as Emendas nºs 19 a 22, de redação e com as adequações redacionais apresentadas pelo Relator em Plenário.",
+   "destino": "A matéria vai à sanção.",
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-24",
+     "descricao": "Requerimento nº 781, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Aprovado o projeto, com as Emendas nºs 19 a 22, de redação e com as adequações redacionais apresentadas pelo Relator em Plenário.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-24",
+     "descricao": "Parecer nº 232, de 2026, da Comissão Diretora, com a redação final: Aprovada a redação final.",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Institui o Plano Nacional de Cultura (PNC) para o decênio 2026-2036",
+   "texto": {
+    "titulo": "Plano Nacional de Cultura fixa regras para estados e cidades receberem verbas",
+    "abertura": "Para receber recursos de cultura, estados, Distrito Federal e municípios terão de cumprir requisitos e aderir ao Sistema Nacional de Cultura. O Senado aprovou o texto, e a matéria vai à sanção.",
+    "detalhes": "O texto também altera a Lei nº 14.399, de 8 de julho de 2022. A votação foi simbólica, sem registro do voto de cada senador. Foram aprovadas as Emendas nºs 19 a 22, com ajustes de redação feitos pelo relator em Plenário. Depois, a redação final foi aprovada."
+   },
+   "glossario": [
+    {
+     "termo": "Sistema Nacional de Cultura",
+     "explicacao": "Conjunto de órgãos e regras que organizam a cultura entre União, estados e cidades.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Sanção",
+     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Parecer",
+     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "5f417c95b34a00f495bfd2f362d44f8a"
   },
   {
    "id": "camara:1194323",
@@ -944,662 +1357,6 @@
    "hash": "09f25529c574196592130216b9dd1b2f"
   },
   {
-   "id": "camara:2643429",
-   "casa": "Câmara",
-   "data": "2026-11-17",
-   "sigla": "MPV",
-   "numero": 1383,
-   "ano": 2026,
-   "identificacao": "MPV 1383/2026",
-   "tipo": "Medida Provisória",
-   "apelido": null,
-   "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 360.000.000,00, para o fim que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643429",
-   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3171692",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Medida Provisória nº 1.383, de 2026.",
-   "destino": null,
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Medida Provisória nº 1.383, de 2026.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Mauro Benevides Filho (UNIÃO-CE).",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 360.000.000,00",
-   "texto": {
-    "titulo": "Ministério da Integração ganha R$ 360 milhões extras para desastres e calamidades",
-    "abertura": "O dinheiro novo vai para o Ministério da Integração e do Desenvolvimento Regional, que pode repassar recursos a estados e cidades em situação de emergência. A Câmara dos Deputados aprovou a medida, que agora segue para o Senado Federal.",
-    "detalhes": "A medida abre crédito extraordinário de R$ 360 milhões, que é gasto novo para um fim específico. Os recursos são para situações de emergência e calamidade pública causadas por desastres ambientais ou fenômenos meteorológicos adversos. A Câmara aprovou a Medida Provisória nº 1.383, de 2026, em 17 de novembro de 2026, por votação simbólica, sem registro de voto de cada deputado. A medida segue agora para o Senado Federal."
-   },
-   "glossario": [
-    {
-     "termo": "situação de emergência",
-     "explicacao": "Reconhecimento de que uma região foi muito atingida por um problema grave e precisa de ajuda rápida.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Crédito extraordinário",
-     "explicacao": "Autorização de gasto fora do Orçamento aprovado, permitida só para despesas urgentes e imprevisíveis, como calamidades. É aberto por medida provisória.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "calamidade pública",
-     "explicacao": "Situação mais grave que a emergência, em que a ajuda é necessária em larga escala.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Medida provisória",
-     "explicacao": "Norma com força de lei editada pelo presidente da República. Vale desde a publicação, mas perde a validade se o Congresso não a aprovar em até 120 dias.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Parecer",
-     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Comissão mista",
-     "explicacao": "Comissão formada por deputados e senadores. Entre outras tarefas, analisa as medidas provisórias antes do Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Pressupostos constitucionais",
-     "explicacao": "Os dois requisitos que a Constituição exige de uma medida provisória: relevância e urgência. Sem eles, a medida nem é analisada.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "52e4f6c7635a88f3d1e6650361f212a3"
-  },
-  {
-   "id": "camara:2643435",
-   "casa": "Câmara",
-   "data": "2026-11-17",
-   "sigla": "MPV",
-   "numero": 1384,
-   "ano": 2026,
-   "identificacao": "MPV 1384/2026",
-   "tipo": "Medida Provisória",
-   "apelido": null,
-   "ementa": "Abre crédito extraordinário, em favor dos Ministérios do Desenvolvimento Agrário e Agricultura Familiar e do Desenvolvimento e Assistência Social, Família e Combate à Fome, no valor de R$ 924.985.960,00, para os fins que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643435",
-   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3171701",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Medida Provisória nº 1.384, de 2026.",
-   "destino": null,
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Medida Provisória nº 1.384, de 2026.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Redação Final assinada pelo Dep. Aj Albuquerque (PP/CE).",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Abre crédito extraordinário, em favor dos Ministérios do Desenvolvimento Agrário e Agricultura Familiar e do Desenvolvimento e Assistência…",
-   "texto": {
-    "titulo": "Governo libera R$ 925 milhões para agricultura familiar e combate à fome",
-    "abertura": "Dois ministérios recebem R$ 925 milhões em crédito extraordinário para agricultura familiar, segurança alimentar e fenômeno meteorológico adverso. A Câmara aprovou a medida, que segue para o Senado.",
-    "detalhes": "A medida provisória 1.384, de 2026, abre crédito extraordinário de R$ 925 milhões para os Ministérios do Desenvolvimento Agrário e Agricultura Familiar e do Desenvolvimento e Assistência Social, Família e Combate à Fome. Os deputados aprovaram a medida em 17 de novembro de 2026, por votação simbólica, sem registro de voto de cada parlamentar. Antes, a Comissão Mista de Planos, Orçamentos Públicos e Fiscalização aprovou o parecer sobre a urgência e a adequação financeira e orçamentária. Agora a decisão segue para o Senado Federal."
-   },
-   "glossario": [
-    {
-     "termo": "Crédito extraordinário",
-     "explicacao": "Autorização de gasto fora do Orçamento aprovado, permitida só para despesas urgentes e imprevisíveis, como calamidades. É aberto por medida provisória.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Medida provisória",
-     "explicacao": "Norma com força de lei editada pelo presidente da República. Vale desde a publicação, mas perde a validade se o Congresso não a aprovar em até 120 dias.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Comissão mista",
-     "explicacao": "Comissão formada por deputados e senadores. Entre outras tarefas, analisa as medidas provisórias antes do Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Parecer",
-     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Pressupostos constitucionais",
-     "explicacao": "Os dois requisitos que a Constituição exige de uma medida provisória: relevância e urgência. Sem eles, a medida nem é analisada.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "7ca118d830217331d0ca610af1d77b7b"
-  },
-  {
-   "id": "camara:2644208",
-   "casa": "Câmara",
-   "data": "2026-11-17",
-   "sigla": "PL",
-   "numero": 5127,
-   "ano": 2026,
-   "identificacao": "PL 5127/2026",
-   "tipo": "Projeto de Lei",
-   "apelido": null,
-   "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644208",
-   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3173788",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovado o Projeto de Lei nº 5.127, de 2026.",
-   "destino": null,
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado o Projeto de Lei nº 5.127, de 2026.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Luiz Gastão (PSD/CE).",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no…",
-   "texto": {
-    "titulo": "Romaria do Divino Pai Eterno é reconhecida como cultura nacional",
-    "abertura": "A romaria de Trindade, em Goiás, passa a ser reconhecida oficialmente como manifestação da cultura do país. A Câmara aprovou o texto, que agora aguarda a etapa de publicação.",
-    "detalhes": "O texto reconhece a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás, como manifestação da cultura nacional. A aprovação ocorreu em 17/11/2026 por votação simbólica, ou seja, sem registro do voto de cada parlamentar. Em seguida, a Redação Final foi aprovada, assinada pelo relator, Dep. Luiz Gastão (PSD/CE). A situação atual é de encaminhamento à publicação."
-   },
-   "glossario": [
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Projeto de lei",
-     "explicacao": "Proposta de lei comum (ordinária). É aprovada pela maioria dos votos, desde que a maioria dos membros da Casa esteja presente.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "0276becdcd6d6b01504884fdc95c56ca"
-  },
-  {
-   "id": "camara:2646241",
-   "casa": "Câmara",
-   "data": "2026-11-17",
-   "sigla": "MPV",
-   "numero": 1389,
-   "ano": 2026,
-   "identificacao": "MPV 1389/2026",
-   "tipo": "Medida Provisória",
-   "apelido": null,
-   "ementa": "Abre crédito extraordinário, em favor do Ministério de Minas e Energia, no valor de R$ 6.605.000.000,00, para os fins que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646241",
-   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3179188",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Medida Provisória nº 1.389, de 2026.",
-   "destino": null,
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Medida Provisória nº 1.389, de 2026.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Redação Final assinada pelo Dep. Hugo Leal (PSD/RJ).",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Abre crédito extraordinário, em favor do Ministério de Minas e Energia, no valor de R$ 6.605.000.000,00, para os…",
-   "texto": {
-    "titulo": "Governo ganha R$ 6,6 bilhões extras para subvenção ao diesel importado",
-    "abertura": "O dinheiro vai para subvenção econômica ao óleo diesel, usada na produção e na importação do combustível para abastecer o mercado interno. A Câmara dos Deputados aprovou a medida provisória, que agora segue para o Senado.",
-    "detalhes": "A medida abre crédito extraordinário de R$ 6,6 bilhões em favor do Ministério de Minas e Energia. O valor serve para os fins que a lei especifica, ligados ao diesel, que é um derivado do petróleo. A votação foi simbólica, sem registro de voto de cada deputado. A comissão mista aprovou o parecer sobre relevância, urgência e adequação orçamentária, e a redação final também foi aprovada."
-   },
-   "glossario": [
-    {
-     "termo": "subvenção econômica",
-     "explicacao": "Ajuda em dinheiro que o governo paga a uma atividade para reduzir o custo dela.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Medida provisória",
-     "explicacao": "Norma com força de lei editada pelo presidente da República. Vale desde a publicação, mas perde a validade se o Congresso não a aprovar em até 120 dias.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Crédito extraordinário",
-     "explicacao": "Autorização de gasto fora do Orçamento aprovado, permitida só para despesas urgentes e imprevisíveis, como calamidades. É aberto por medida provisória.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Comissão mista",
-     "explicacao": "Comissão formada por deputados e senadores. Entre outras tarefas, analisa as medidas provisórias antes do Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Parecer",
-     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Pressupostos constitucionais",
-     "explicacao": "Os dois requisitos que a Constituição exige de uma medida provisória: relevância e urgência. Sem eles, a medida nem é analisada.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "53742a0bf2bf9be29b3ac9e499d6b1b4"
-  },
-  {
-   "id": "camara:2648606",
-   "casa": "Câmara",
-   "data": "2026-11-17",
-   "sigla": "MPV",
-   "numero": 1397,
-   "ano": 2026,
-   "identificacao": "MPV 1397/2026",
-   "tipo": "Medida Provisória",
-   "apelido": null,
-   "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648606",
-   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3185390",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Medida Provisória nº 1.397, de 2026.",
-   "destino": null,
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Medida Provisória nº 1.397, de 2026.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Redação Final assinada pelo Dep. Mauro Benevides Filho (UNIÃO-CE).",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Rejeitada a Emenda de Comissão nº 1.",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00",
-   "texto": {
-    "titulo": "Governo recebe R$ 6,5 bilhões para financiar exportações sob tarifas dos EUA",
-    "abertura": "O dinheiro financia exportação de bens e serviços, por meio do Fundo de Garantia à Exportação (FGE), no Plano Brasil Soberano. A Câmara aprovou a medida, que agora segue para o Senado.",
-    "detalhes": "A medida abre crédito extraordinário de R$ 6,5 bilhões em favor de Encargos Financeiros da União, para o fim que especifica. Os deputados aprovaram o parecer da comissão mista sobre urgência e adequação financeira, rejeitaram a Emenda de Comissão nº 1 e aprovaram a redação final, tudo por votação simbólica, sem registro de voto de cada deputado. Como se trata de medida provisória, ela segue para o Senado, que ainda não votou."
-   },
-   "glossario": [
-    {
-     "termo": "Fundo de Garantia à Exportação (FGE)",
-     "explicacao": "É um fundo do governo que garante financiamentos ligados à venda de produtos para outros países.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Crédito extraordinário",
-     "explicacao": "Autorização de gasto fora do Orçamento aprovado, permitida só para despesas urgentes e imprevisíveis, como calamidades. É aberto por medida provisória.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Encargos Financeiros da União",
-     "explicacao": "É o órgão do governo federal que recebe a verba desta medida.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Parecer",
-     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Comissão mista",
-     "explicacao": "Comissão formada por deputados e senadores. Entre outras tarefas, analisa as medidas provisórias antes do Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Emenda",
-     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Medida provisória",
-     "explicacao": "Norma com força de lei editada pelo presidente da República. Vale desde a publicação, mas perde a validade se o Congresso não a aprovar em até 120 dias.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Pressupostos constitucionais",
-     "explicacao": "Os dois requisitos que a Constituição exige de uma medida provisória: relevância e urgência. Sem eles, a medida nem é analisada.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "cc59d08a3a35ef45cd915846a31f2a55"
-  },
-  {
-   "id": "camara:2648616",
-   "casa": "Câmara",
-   "data": "2026-11-17",
-   "sigla": "MPV",
-   "numero": 1398,
-   "ano": 2026,
-   "identificacao": "MPV 1398/2026",
-   "tipo": "Medida Provisória",
-   "apelido": null,
-   "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648616",
-   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3185402",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovada a Medida Provisória nº 1.398, de 2026.",
-   "destino": null,
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Medida Provisória nº 1.398, de 2026.",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00",
-   "texto": {
-    "titulo": "Governo libera R$ 300 milhões extras para cidades em emergência",
-    "abertura": "Cidades em situação de emergência ou calamidade pública poderão receber ajuda do governo. A Câmara aprovou a medida em votação simbólica, sem registro de voto de cada deputado.",
-    "detalhes": "A medida provisória abre um crédito extraordinário de R$ 300 milhões para o Ministério da Integração e do Desenvolvimento Regional. O dinheiro é destinado à assistência a municípios atingidos por fenômenos como seca, inundação e incêndio florestal, com apoio da defesa civil. Antes do Plenário, a Comissão Mista de Planos, Orçamentos Públicos e Fiscalização aprovou o parecer sobre a urgência e a adequação orçamentária. Agora o texto segue para a redação final."
-   },
-   "glossario": [
-    {
-     "termo": "calamidade pública",
-     "explicacao": "Situação grave reconhecida oficialmente quando um desastre causa danos muito grandes a uma região.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Medida provisória",
-     "explicacao": "Norma com força de lei editada pelo presidente da República. Vale desde a publicação, mas perde a validade se o Congresso não a aprovar em até 120 dias.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Crédito extraordinário",
-     "explicacao": "Autorização de gasto fora do Orçamento aprovado, permitida só para despesas urgentes e imprevisíveis, como calamidades. É aberto por medida provisória.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Comissão mista",
-     "explicacao": "Comissão formada por deputados e senadores. Entre outras tarefas, analisa as medidas provisórias antes do Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Parecer",
-     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Pressupostos constitucionais",
-     "explicacao": "Os dois requisitos que a Constituição exige de uma medida provisória: relevância e urgência. Sem eles, a medida nem é analisada.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "c943ff7589ad11fcb8f7ee3c8859aa37"
-  },
-  {
-   "id": "senado:169347",
-   "casa": "Senado",
-   "data": "2026-11-17",
-   "sigla": "PL",
-   "numero": 4035,
-   "ano": 2023,
-   "identificacao": "PL 4035/2023",
-   "tipo": "Projeto de Lei",
-   "apelido": null,
-   "ementa": "Institui o mês de agosto como o Mês Nacional de Combate à Desigualdade Social e de Enfrentamento à Pobreza.",
-   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/169347",
-   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/0c81c37f-512c-4979-9d4a-4c747ef89ed6",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovado o projeto.",
-   "destino": "A matéria vai à sanção.",
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado o projeto.",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Institui o mês de agosto como o Mês Nacional de Combate à Desigualdade Social e de Enfrentamento à…",
-   "texto": {
-    "titulo": "Agosto poderá virar Mês Nacional de Combate à Pobreza e à Desigualdade",
-    "abertura": "O Senado aprovou a criação de um mês nacional para combater a desigualdade social e a pobreza, em agosto. O texto segue para sanção, a etapa final antes de virar lei.",
-    "detalhes": "O projeto institui o mês de agosto como o Mês Nacional de Combate à Desigualdade Social e de Enfrentamento à Pobreza. A votação foi simbólica, sem registro do voto de cada senador. A matéria vai à sanção."
-   },
-   "glossario": [
-    {
-     "termo": "Sanção",
-     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "4cf3781b4cbb982c153d1930c064dae7"
-  },
-  {
-   "id": "senado:172286",
-   "casa": "Senado",
-   "data": "2026-11-17",
-   "sigla": "PL",
-   "numero": 6683,
-   "ano": 2025,
-   "identificacao": "PL 6683/2025",
-   "tipo": "Projeto de Lei",
-   "apelido": null,
-   "ementa": "Dispõe sobre os requisitos essenciais relativos aos implantes cirúrgicos; e estabelece a notificação compulsória das falhas detectadas em implantes.",
-   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172286",
-   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/f877de0c-ba69-463d-8144-0257efd23b89",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovado o projeto.",
-   "destino": "A matéria vai à sanção.",
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado o projeto.",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Dispõe sobre os requisitos essenciais relativos aos implantes cirúrgicos",
-   "texto": {
-    "titulo": "Implantes cirúrgicos deverão cumprir requisitos essenciais e falhas serão notificadas",
-    "abertura": "Fabricantes, importadores e vendedores de implantes cirúrgicos terão de seguir requisitos essenciais de qualidade. O Senado aprovou a medida, que segue para sanção.",
-    "detalhes": "A medida trata da fabricação, importação, comercialização e uso de implantes cirúrgicos em todo o território nacional. Também torna obrigatória a notificação compulsória das falhas detectadas nesses produtos. A votação foi simbólica, sem registro do voto de cada senador. O texto foi enviado à sanção."
-   },
-   "glossario": [
-    {
-     "termo": "requisitos essenciais",
-     "explicacao": "Regras mínimas que um produto precisa cumprir para ser considerado seguro e de boa qualidade.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Sanção",
-     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "notificação compulsória",
-     "explicacao": "Aviso obrigatório que deve ser feito às autoridades quando um problema é detectado.",
-     "fonte": "ia"
-    }
-   ],
-   "hash": "5aaf00f2832b789353152ea7bfbd4488"
-  },
-  {
-   "id": "senado:175950",
-   "casa": "Senado",
-   "data": "2026-11-24",
-   "sigla": "PL",
-   "numero": 5894,
-   "ano": 2025,
-   "identificacao": "PL 5894/2025",
-   "tipo": "Projeto de Lei",
-   "apelido": null,
-   "ementa": "Institui o Plano Nacional de Cultura (PNC) para o decênio 2026-2036; e altera a Lei nº 14.399, de 8 de julho de 2022.",
-   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/175950",
-   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/40ff22b6-7421-49bf-aa86-d515cb40b410",
-   "resultado": "outro",
-   "resultadoTexto": "Requerimento nº 781, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
-   "destino": null,
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-24",
-     "descricao": "Requerimento nº 781, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado o requerimento.",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Institui o Plano Nacional de Cultura (PNC) para o decênio 2026-2036",
-   "texto": {
-    "titulo": "Cultura terá plano nacional até 2036 e regras para receber recursos",
-    "abertura": "Estados, o Distrito Federal e os municípios terão de cumprir requisitos para receber recursos da cultura. O Senado aprovou pedido de urgência para o texto, que está na pauta do Plenário.",
-    "detalhes": "O texto institui o Plano Nacional de Cultura para o período de 2026 a 2036 e altera a Lei nº 14.399, de 8 de julho de 2022. Ele trata de diretrizes, estratégias, objetivos, monitoramento e avaliação. A votação foi simbólica, ou seja, não há registro de voto de cada senador nem placar. O pedido de urgência foi aprovado."
-   },
-   "glossario": [
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Requerimento",
-     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "4761550d892e4ce2d18d92f7a72ed5c5"
-  },
-  {
    "id": "camara:2565161",
    "casa": "Câmara",
    "data": "2026-11-18",
@@ -1751,95 +1508,6 @@
     }
    ],
    "hash": "e542556991293ced6af4497d7e52b3f6"
-  },
-  {
-   "id": "camara:2652524",
-   "casa": "Câmara",
-   "data": "2026-11-17",
-   "sigla": "PRC",
-   "numero": 50,
-   "ano": 2026,
-   "identificacao": "PRC 50/2026",
-   "tipo": "Projeto de Resolução",
-   "apelido": null,
-   "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
-   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652524",
-   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193174",
-   "resultado": "aprovado",
-   "resultadoTexto": "Aprovado o Projeto de Resolução nº 50, de 2026.",
-   "destino": null,
-   "placar": null,
-   "etapas": [
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovado o Projeto de Resolução nº 50, de 2026.",
-     "placar": null
-    },
-    {
-     "data": "2026-11-17",
-     "descricao": "Aprovada a Redação Final, assinada pelo relator, Dep. Lula da Fonte (PP/PE).",
-     "placar": null
-    }
-   ],
-   "tituloEmenta": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade",
-   "texto": {
-    "titulo": "Câmara cria prêmio sobre trajetórias de êxito na superdotação",
-    "abertura": "A Câmara cria um prêmio para histórias de sucesso de pessoas superdotadas e com dupla excepcionalidade. O Plenário aprovou o texto em votação simbólica, e a decisão segue para publicação.",
-    "detalhes": "A decisão institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade. Os temas ligados ao prêmio são educação especial e altas habilidades. Antes da votação principal, a Câmara aprovou por unanimidade a urgência, que faz o texto ser analisado mais rápido. Não houve registro de voto de cada deputado, e a redação final também foi aprovada de forma simbólica."
-   },
-   "glossario": [
-    {
-     "termo": "dupla excepcionalidade",
-     "explicacao": "Condição em que a pessoa é superdotada e também tem outra deficiência ou transtorno.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "superdotação",
-     "explicacao": "Capacidade acima da média em uma ou mais áreas, como inteligência, criatividade ou talento.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Projeto de resolução",
-     "explicacao": "Regula assuntos internos da própria Casa, como regras de funcionamento, cargos e homenagens. Não passa pela sanção do presidente.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Requerimento",
-     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "7eddc8ba3c820de2de0c51f0c5b0c676"
   }
  ],
  "stf": [
@@ -2022,48 +1690,12 @@
     }
    ],
    "hash": "090b26b4a0e55f43e2f148e1dbdae6ae"
-  },
-  {
-   "id": "stf:167933",
-   "data": "2026-11-17",
-   "situacao": "decidido",
-   "processo": null,
-   "tituloOficial": "STF valida lei que criou microrregião de água e esgoto no Pará",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-valida-lei-que-criou-microrregiao-de-agua-e-esgoto-no-para/",
-   "texto": {
-    "titulo": "Supremo mantém microrregião de saneamento que reúne 144 municípios do Pará",
-    "abertura": "O Pará e seus 144 municípios seguem juntos na microrregião de água e esgoto criada por lei estadual. Por unanimidade, o Supremo decidiu que a lei é constitucional e continua valendo.",
-    "detalhes": "A Lei Complementar estadual 171/2023 criou a microrregião de água e esgoto do Pará (MRAE), formada pelo estado e pelos 144 municípios. Os autores da ação, o partido Rede Sustentabilidade e a Assemae, diziam que a divisão em quatro blocos para licitação favoreceria a privatização das partes lucrativas e deixaria 27 municípios ao abandono. A relatora, ministra Cármen Lúcia, afirmou que os blocos foram definidos depois, por concorrência pública, e que eventuais falhas devem ser questionadas por outros caminhos. A votação foi unânime, em sessão virtual encerrada em 10 de novembro, e o caso está concluído."
-   },
-   "glossario": [
-    {
-     "termo": "microrregião de água e esgoto",
-     "explicacao": "Estrutura que organiza, por região, os serviços de água e esgoto de municípios vizinhos. É criada por lei estadual.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Lei complementar",
-     "explicacao": "Tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Só é aprovada com o voto de mais da metade de todos os membros de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "licitação",
-     "explicacao": "Processo em que o governo escolhe, por concorrência, quem vai prestar um serviço.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    }
-   ],
-   "hash": "d6d07f5f51a1cb239116d0382e0e9189"
   }
  ],
  "stfIgnoradas": [
-  "d549892f23193b397ee8bae64d589a59",
   "56724f83c721967b504e665b23303182",
   "4f4cb99ca3192ad230ad132fae56d591",
-  "1db908fc56df9d2bdb6ab94184ce12ab"
+  "1db908fc56df9d2bdb6ab94184ce12ab",
+  "7a95a7899b530c853b8fe6a384135324"
  ]
 }
