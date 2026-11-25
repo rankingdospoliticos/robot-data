@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-25T11:30:50.462Z",
+ "geradoEm": "2026-11-25T20:01:35.381Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -188,11 +188,21 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal…",
    "texto": {
-    "titulo": "Ajuste fiscal limita gastos e reduz benefícios fiscais do governo federal",
-    "abertura": "Descontos de impostos concedidos pelo governo federal podem ser reduzidos, e os gastos públicos ganham novos limites. O Senado aprovou a medida, que agora vai à Câmara dos Deputados.",
-    "detalhes": "A medida altera a Lei Complementar nº 200, de 30 de agosto de 2023, e dá ao Poder Executivo federal novos instrumentos de gestão. Os senadores rejeitaram a Emenda nº 40 por 47 votos a 30. Depois, aprovaram o artigo 6º por 45 a 32, com uma abstenção, e o artigo 6º-F por 49 a 31. A redação final foi aprovada de forma simbólica, sem registro de voto de cada senador."
+    "titulo": "Governo ganha novas ferramentas para limitar despesas e reduzir benefícios fiscais",
+    "abertura": "O governo federal ganha poder para limitar gastos e reduzir benefícios fiscais, com o objetivo de manter a estabilidade macroeconômica do País. O Senado aprovou essas regras, conhecidas como Ajuste fiscal, e a decisão segue para a Câmara dos Deputados.",
+    "detalhes": "A decisão altera a Lei Complementar nº 200, de 2023. Ela inclui regras para limitar despesas, reduzir benefícios fiscais e reduzir valores de transferências à União, aos estados, ao Distrito Federal e aos municípios. A Emenda nº 40 foi rejeitada, com 30 votos sim e 47 não, e um artigo foi aprovado com 49 votos sim e 31 não. A redação final foi aprovada de forma simbólica, sem registro de voto de cada parlamentar."
    },
    "glossario": [
+    {
+     "termo": "Benefício fiscal",
+     "explicacao": "Redução ou isenção de imposto dada a um setor, região ou atividade. Na prática, é dinheiro que o governo deixa de arrecadar.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Ajuste fiscal",
+     "explicacao": "Conjunto de medidas do governo para equilibrar as contas públicas, ou seja, gastar menos do que arrecada.",
+     "fonte": "ia"
+    },
     {
      "termo": "Lei complementar",
      "explicacao": "Tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Só é aprovada com o voto de mais da metade de todos os membros de cada Casa.",
@@ -239,7 +249,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "b5fd01e85a0765d5e3cdea6a796c812e"
+   "hash": "e08b0e581d069017acaa548f9099b1a1"
   },
   {
    "id": "camara:2655570",
@@ -363,24 +373,14 @@
    ],
    "tituloEmenta": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de…",
    "texto": {
-    "titulo": "Governo federal ganha novos instrumentos de gestão para a economia",
-    "abertura": "O texto dá ao Poder Executivo federal novos instrumentos de gestão e altera leis já existentes. A Câmara dos Deputados aprovou o texto por 353 votos a 128, e ele segue para sanção.",
-    "detalhes": "O texto muda a Lei Complementar 200, de 2023, a Lei Complementar 176, de 2020, a Lei Complementar 235, de 2026, a Lei Complementar 224, de 2025, a Lei 11.540, de 2007, e a Lei 9.796, de 1999. O objetivo declarado é garantir a estabilidade macroeconômica do País e criar condições para o desenvolvimento socioeconômico. A urgência foi aprovada por 318 votos a 135, e a votação final foi nominal, com 5 abstenções. As Emendas de Plenário foram rejeitadas, e o texto foi mantido nas votações dos destaques."
+    "titulo": "Governo federal ganha novas ferramentas de gestão para a economia",
+    "abertura": "A lei dá ao governo federal novos instrumentos de gestão para garantir a estabilidade macroeconômica do país. A Câmara aprovou o texto por 353 votos a 128, e o presidente sancionou a lei.",
+    "detalhes": "O texto altera seis leis, mas não detalha quais são os novos instrumentos. No mesmo dia, a Câmara aprovou pedido de urgência por 318 votos a 135, com um requerimento de urgência para acelerar a votação. A votação final foi nominal: 353 votos sim, 128 não e 5 abstenções. Emendas de Plenário foram rejeitadas, o texto foi mantido e a lei virou Lei Complementar nº 239, em 24 de novembro de 2026."
    },
    "glossario": [
     {
-     "termo": "Sanção",
-     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Lei complementar",
-     "explicacao": "Tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Só é aprovada com o voto de mais da metade de todos os membros de cada Casa.",
-     "fonte": "curado"
-    },
-    {
      "termo": "estabilidade macroeconômica",
-     "explicacao": "Situação em que a economia do país fica em equilíbrio, com preços e contas públicas sob controle.",
+     "explicacao": "Equilíbrio geral da economia do país, com preços, juros e contas públicas sob controle.",
      "fonte": "ia"
     },
     {
@@ -389,18 +389,28 @@
      "fonte": "curado"
     },
     {
-     "termo": "Emendas de Plenário",
-     "explicacao": "Sugestões de mudança apresentadas pelos deputados durante a votação no plenário.",
+     "termo": "requerimento de urgência",
+     "explicacao": "Pedido para que uma proposta seja votada logo, sem seguir todo o caminho normal de comissões.",
      "fonte": "ia"
     },
     {
-     "termo": "Destaque",
-     "explicacao": "Pedido para votar em separado um trecho do texto ou uma emenda. Primeiro se vota o texto principal; depois, cada destaque.",
+     "termo": "Emendas de Plenário",
+     "explicacao": "Sugestões de mudança no texto, apresentadas e votadas diretamente pelo plenário da Casa.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Lei complementar",
+     "explicacao": "Tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Só é aprovada com o voto de mais da metade de todos os membros de cada Casa.",
      "fonte": "curado"
     },
     {
      "termo": "Projeto de lei complementar",
      "explicacao": "Proposta de lei complementar, o tipo de lei que a Constituição exige para certos temas, como finanças públicas e impostos. Precisa do voto de mais da metade de todos os membros da Casa: 257 deputados ou 41 senadores.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Destaque",
+     "explicacao": "Pedido para votar em separado um trecho do texto ou uma emenda. Primeiro se vota o texto principal; depois, cada destaque.",
      "fonte": "curado"
     },
     {
@@ -424,7 +434,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "27c79798d4776b841e8a5715fd12791b"
+   "hash": "f36f7d41f408369be2614a163c63edeb"
   },
   {
    "id": "senado:175939",
@@ -3641,6 +3651,70 @@
    "hash": "4f7347371e4e2b15a2dbd20a6abc49e1"
   },
   {
+   "id": "senado:169659",
+   "casa": "Senado",
+   "data": "2026-11-25",
+   "sigla": "PL",
+   "numero": 351,
+   "ano": 2019,
+   "identificacao": "PL 351/2019",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Institui a Força Nacional do Sistema Único de Saúde (FN-SUS).",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/169659",
+   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/a82860e8-ad04-4b7c-ac69-28b928a96cbf",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o projeto, com a Emenda nº 1, de redação.",
+   "destino": null,
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-25",
+     "descricao": "Requerimentos nºs  801 e 811, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado os requerimentos.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-25",
+     "descricao": "Aprovado o projeto, com a Emenda nº 1, de redação.",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Institui a Força Nacional do Sistema Único de Saúde (FN-SUS)",
+   "texto": {
+    "titulo": "Senado decide criar Força Nacional do SUS para epidemias e desastres",
+    "abertura": "A proposta cria um grupo de apoio do SUS para atuar em epidemias, desastres e calamidades públicas. O Plenário do Senado aprovou o texto e o enviou adiante.",
+    "detalhes": "O texto prevê um quadro de pessoal para a força, com formação e programas nacionais. Entes federados poderiam aderir, e o Ministério da Saúde definiria os critérios de atuação. Servidores públicos civis e integrantes das Forças Armadas poderiam participar, com auxílio, remuneração e indenização. Antes, líderes pediram urgência, e o pedido foi aprovado. A votação final foi simbólica, sem registro do voto de cada senador, com a Emenda nº 1, de redação."
+   },
+   "glossario": [
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "quadro de pessoal",
+     "explicacao": "Conjunto de pessoas que trabalham em um órgão público.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "5cbbf6058ba10251e99db7830fe636c1"
+  },
+  {
    "id": "camara:2253448",
    "casa": "Câmara",
    "data": "2026-11-24",
@@ -3982,24 +4056,29 @@
    ],
    "tituloEmenta": "Institui o Plano Nacional de Cultura (PNC) para o decênio 2026-2036",
    "texto": {
-    "titulo": "Plano Nacional de Cultura fixa regras para estados e cidades receberem verbas",
-    "abertura": "Para receber recursos de cultura, estados, Distrito Federal e municípios terão de cumprir requisitos e aderir ao Sistema Nacional de Cultura. O Senado aprovou o texto, e a matéria vai à sanção.",
-    "detalhes": "O texto também altera a Lei nº 14.399, de 8 de julho de 2022. A votação foi simbólica, sem registro do voto de cada senador. Foram aprovadas as Emendas nºs 19 a 22, com ajustes de redação feitos pelo relator em Plenário. Depois, a redação final foi aprovada."
+    "titulo": "Estados e cidades precisam aderir ao Plano de Cultura para receber verbas",
+    "abertura": "Estados, Distrito Federal e municípios que quiserem receber recursos financeiros para cultura terão de cumprir requisitos e aderir ao plano. O Senado aprovou a medida e ela vai à sanção.",
+    "detalhes": "A lei institui o Plano Nacional de Cultura para o decênio 2026-2036 e altera a Lei nº 14.399, de 8 de julho de 2022, que trata da Política Nacional Aldir Blanc de Fomento à Cultura. Antes da votação final, os senadores aprovaram pedido de urgência. Depois, aprovaram o texto com as emendas nºs 19 a 22, que ajustam a redação, e a redação final. A votação foi simbólica, sem registro do voto de cada senador."
    },
    "glossario": [
-    {
-     "termo": "Sistema Nacional de Cultura",
-     "explicacao": "Conjunto de órgãos e regras que organizam a cultura entre União, estados e cidades.",
-     "fonte": "ia"
-    },
     {
      "termo": "Sanção",
      "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
      "fonte": "curado"
     },
     {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
      "termo": "Emenda",
      "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
@@ -4013,18 +4092,8 @@
      "fonte": "curado"
     },
     {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Requerimento",
      "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
      "fonte": "curado"
     },
     {
@@ -4033,7 +4102,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "5f417c95b34a00f495bfd2f362d44f8a"
+   "hash": "80e55af837c383f5cf94f7abb829ab47"
   },
   {
    "id": "camara:1194323",
@@ -4061,43 +4130,18 @@
    ],
    "tituloEmenta": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região",
    "texto": {
-    "titulo": "Porto Alegre e outras cinco cidades gaúchas podem receber Varas do Trabalho",
-    "abertura": "Seis cidades do Rio Grande do Sul podem passar a ter Varas do Trabalho, unidades da Justiça que julgam ações trabalhistas. A Câmara dos Deputados aprovou a redação final por votação simbólica, e a decisão segue para o Senado Federal.",
-    "detalhes": "A mudança cria Varas do Trabalho na área do Tribunal Regional do Trabalho da 4ª Região, que cobre o Rio Grande do Sul. As cidades citadas são Porto Alegre, Capão da Canoa, Marau, Nova Prata, São Sebastião do Caí e Tramandaí. A regra também trata de juiz do trabalho, cargo efetivo, cargo em comissão e função comissionada. A votação foi simbólica, ou seja, não houve registro do voto de cada deputado."
+    "titulo": "Rio Grande do Sul ganha novas Varas do Trabalho em seis cidades",
+    "abertura": "Novas Varas do Trabalho serão criadas em cidades gaúchas, com cargos de juiz do trabalho e de servidores. A Câmara dos Deputados concluiu o texto e a proposta segue para o Senado Federal.",
+    "detalhes": "O texto autoriza a criação de Varas do Trabalho na área do Tribunal Regional do Trabalho da 4ª Região, que cobre o Rio Grande do Sul. Ele prevê cargos efetivos, cargos em comissão e funções comissionadas para essas varas. A votação foi simbólica, sem registro do voto de cada deputado. Agora o texto vai ao Senado Federal."
    },
    "glossario": [
-    {
-     "termo": "Varas do Trabalho",
-     "explicacao": "Unidades da Justiça que julgam ações entre trabalhadores e empregadores.",
-     "fonte": "ia"
-    },
     {
      "termo": "Redação final",
      "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "cargo efetivo",
-     "explicacao": "Posto público de carreira, com vaga fixa e sem prazo para acabar.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "cargo em comissão",
-     "explicacao": "Posto de confiança, preenchido por indicação e que pode ser encerrado a qualquer momento.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "função comissionada",
-     "explicacao": "Função de chefia ou assessoria paga a mais, além do salário do cargo efetivo.",
-     "fonte": "ia"
     }
    ],
-   "hash": "d177bd36a133ef975030911a57a31d35"
+   "hash": "2a5f64b9a2e371fb9804820cba884c7d"
   },
   {
    "id": "camara:344542",
@@ -4125,38 +4169,33 @@
    ],
    "tituloEmenta": "Dispõe sobre a responsabilidade na transição administrativa, após a proclamação dos resultados eleitorais",
    "texto": {
-    "titulo": "Governo eleito terá acesso a dados; quem sonegar pode pagar multa",
-    "abertura": "Equipes de transição do candidato eleito terão acesso a informações e a local e estrutura de trabalho. Quem sonegar dados ou intimidar servidor pode receber multa ou pena de detenção, e a Câmara dos Deputados concluiu a votação, mas o texto ainda não virou lei.",
-    "detalhes": "Ela trata da responsabilidade na transição administrativa, após a proclamação dos resultados eleitorais, e prevê equipe de transição com composição paritária, designação e supervisão. Prevê também acompanhamento pelo Ministério Público e define punições para quem sonegar dados, intimidar servidor ou cometer crime de responsabilidade, com multa, detenção e reparação de danos. Os deputados aprovaram um substitutivo da Comissão de Trabalho, de Administração e Serviço Público, em votação simbólica, sem registro de voto de cada deputado. Depois, a redação final também foi aprovada, e o texto segue para a próxima etapa."
+    "titulo": "Eleitos ganham equipe de transição e acesso a dados antes da posse",
+    "abertura": "Quem sonegar dados ou intimidar servidores durante a transição pode pagar multa ou ir para a cadeia. A Câmara aprovou a redação final do texto, que agora segue para o Senado.",
+    "detalhes": "O texto cria regras para a transição administrativa após a proclamação dos resultados eleitorais. Prevê a designação de equipe de transição com composição paritária e acesso a informações do governo atual. Também prevê multa e pena de detenção para quem sonegar dados ou intimidar servidores. A votação foi simbólica, sem registro de voto de cada deputado, e a redação final foi aprovada em 18 de novembro de 2026. Depois, o texto segue para o Senado."
    },
    "glossario": [
-    {
-     "termo": "composição paritária",
-     "explicacao": "Grupo com número igual de integrantes de cada lado.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "crime de responsabilidade",
-     "explicacao": "Falta grave cometida por autoridade no exercício do cargo.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Substitutivo",
-     "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
-    },
     {
      "termo": "Redação final",
      "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
+    },
+    {
+     "termo": "transição administrativa",
+     "explicacao": "Período em que o governo que sai passa informações e funcionamento ao governo que chega.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "composição paritária",
+     "explicacao": "Equipe formada com o mesmo número de representantes de cada lado.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "pena de detenção",
+     "explicacao": "Punição criminal que pode levar a prisão, mas em regime mais leve.",
+     "fonte": "ia"
     }
    ],
-   "hash": "debf98d5f56065ee92cbcfec2399a54c"
+   "hash": "ebd85e8d36e1b113dcf861ea1f2c0b1f"
   },
   {
    "id": "camara:866002",
@@ -4184,25 +4223,25 @@
    ],
    "tituloEmenta": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no…",
    "texto": {
-    "titulo": "Cria novos cargos de juiz e servidores no TRT do Ceará",
-    "abertura": "Cria cargos efetivos de Juiz do Trabalho Substituto, Analista Judiciário e Técnico Judiciário no TRT da 7ª Região. A Câmara dos Deputados aprovou a versão final por votação simbólica, e a medida segue ao Senado Federal.",
-    "detalhes": "A lei cria vagas de Juiz do Trabalho Substituto e de cargos de provimento efetivo, como Analista Judiciário e Técnico Judiciário. A Câmara aprovou a redação final sem placar, por votação simbólica, ou seja, sem registro de voto de cada deputado. Agora o texto vai ao Senado Federal."
+    "titulo": "Justiça do Trabalho em Fortaleza ganha novos cargos de juiz e servidor",
+    "abertura": "Cria cargos de juiz do trabalho substituto e cargos efetivos de analista e técnico judiciário no Tribunal Regional do Trabalho da 7ª Região. A Câmara dos Deputados aprovou o texto, que agora segue para o Senado Federal.",
+    "detalhes": "A lei cria cargos de juiz do trabalho substituto e cargos efetivos de analista judiciário e técnico judiciário. A votação foi simbólica, por isso não há registro do voto de cada deputado. A Câmara aprovou a redação final, versão final do texto. O próximo passo é a análise do Senado Federal."
    },
    "glossario": [
     {
-     "termo": "Juiz do Trabalho Substituto",
-     "explicacao": "Juiz de início de carreira na Justiça do Trabalho, que julga causas entre patrões e trabalhadores.",
+     "termo": "juiz do trabalho substituto",
+     "explicacao": "Juiz que começa a carreira e atende onde falta um juiz titular.",
      "fonte": "ia"
     },
     {
-     "termo": "TRT",
-     "explicacao": "Tribunal Regional do Trabalho, órgão que julga causas trabalhistas de uma região do país.",
+     "termo": "técnico judiciário",
+     "explicacao": "Servidor que dá apoio às tarefas dos tribunais.",
      "fonte": "ia"
     },
     {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
+     "termo": "analista judiciário",
+     "explicacao": "Servidor de nível superior que atua nas tarefas administrativas e técnicas da Justiça.",
+     "fonte": "ia"
     },
     {
      "termo": "Redação final",
@@ -4210,7 +4249,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "afad2c011ce9bd46bfb2c50929135f96"
+   "hash": "db4bf0dafec36148af7fb010ab72307d"
   },
   {
    "id": "senado:161596",
@@ -4544,9 +4583,9 @@
    ],
    "tituloEmenta": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia…",
    "texto": {
-    "titulo": "Empresas de telefonia e internet poderão usar postes de energia elétrica",
-    "abertura": "Empresas de telefonia e internet poderão dividir postes e outras estruturas aéreas das distribuidoras de energia. O Senado aprovou o texto vindo da Câmara, que agora segue para a sanção do presidente.",
-    "detalhes": "O texto trata do compartilhamento de infraestrutura física aérea entre empresas de energia elétrica e de telecomunicações. Ele também altera as Leis nºs 9.427, de 1996, 9.472, de 1997, e 14.947, de 2024. A votação foi simbólica, sem registro de voto de cada senador. O Senado aprovou o substitutivo da Câmara com uma ressalva sobre a expressão \"diretamente ou\" e um ajuste de redação, e a redação final também foi aprovada."
+    "titulo": "Empresas de energia e telefonia poderão dividir postes e torres",
+    "abertura": "A decisão permite que empresas de telefonia usem postes e torres aéreos de distribuição de energia elétrica. Os senadores aprovaram o texto e a matéria segue para sanção.",
+    "detalhes": "A proposta trata do compartilhamento de infraestrutura física aérea de empresas de energia com empresas de telecomunicações. Também altera as Leis nº 9.427, de 1996, 9.472, de 1997, e 14.947, de 2024. A votação foi simbólica, sem registro de voto de cada senador. O Senado aprovou o substitutivo da Câmara dos Deputados, com uma ressalva sobre o termo \"diretamente ou\" e um ajuste de redação. Depois, aprovou a redação final. O texto segue para sanção."
    },
    "glossario": [
     {
@@ -4556,7 +4595,7 @@
     },
     {
      "termo": "infraestrutura física aérea",
-     "explicacao": "Estruturas instaladas no alto, como postes e torres, por onde passam fios e cabos.",
+     "explicacao": "Estruturas acima do solo, como postes e torres, usadas por redes de energia e telefonia.",
      "fonte": "ia"
     },
     {
@@ -4585,7 +4624,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "2d90591a13a17203ea811e6318840bce"
+   "hash": "352b46004c889f0ac4fb991158d15ce7"
   },
   {
    "id": "camara:2643429",
@@ -5048,20 +5087,15 @@
    ],
    "tituloEmenta": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00",
    "texto": {
-    "titulo": "Governo libera R$ 300 milhões extras para cidades em emergência",
-    "abertura": "Cidades em situação de emergência ou calamidade pública poderão receber ajuda do governo. A Câmara aprovou a medida em votação simbólica, sem registro de voto de cada deputado.",
-    "detalhes": "A medida provisória abre um crédito extraordinário de R$ 300 milhões para o Ministério da Integração e do Desenvolvimento Regional. O dinheiro é destinado à assistência a municípios atingidos por fenômenos como seca, inundação e incêndio florestal, com apoio da defesa civil. Antes do Plenário, a Comissão Mista de Planos, Orçamentos Públicos e Fiscalização aprovou o parecer sobre a urgência e a adequação orçamentária. Agora o texto segue para a redação final."
+    "titulo": "Governo abre R$ 300 milhões extras para ajudar cidades em emergência",
+    "abertura": "A verba vai para ações de defesa civil e ajuda a municípios atingidos por seca, inundação, incêndio florestal ou calamidade pública. A Câmara aprovou a medida provisória, que agora segue para o Senado.",
+    "detalhes": "A medida abre crédito extraordinário de R$ 300 milhões em favor do Ministério da Integração e do Desenvolvimento Regional. Os deputados aprovaram antes o parecer da comissão mista sobre a urgência e o efeito no orçamento, em votação simbólica. Depois, aprovaram a medida, também em votação simbólica, sem registro do voto de cada parlamentar."
    },
    "glossario": [
     {
-     "termo": "calamidade pública",
-     "explicacao": "Situação grave reconhecida oficialmente quando um desastre causa danos muito grandes a uma região.",
+     "termo": "defesa civil",
+     "explicacao": "Conjunto de órgãos que cuidam do socorro e da prevenção em desastres.",
      "fonte": "ia"
-    },
-    {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
     },
     {
      "termo": "Medida provisória",
@@ -5074,8 +5108,8 @@
      "fonte": "curado"
     },
     {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "termo": "Parecer",
+     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
      "fonte": "curado"
     },
     {
@@ -5084,18 +5118,13 @@
      "fonte": "curado"
     },
     {
-     "termo": "Parecer",
-     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Regime de urgência",
      "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
      "fonte": "curado"
     },
     {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "termo": "Votação simbólica",
+     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
      "fonte": "curado"
     },
     {
@@ -5104,7 +5133,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "c943ff7589ad11fcb8f7ee3c8859aa37"
+   "hash": "e4643deb8004247e8d6f225926d4a12c"
   },
   {
    "id": "senado:169347",
@@ -9877,29 +9906,14 @@
    ],
    "tituloEmenta": "Aprova o texto do Tratado de Assistência Jurídica Mútua em Matéria Penal entre a República Federativa do Brasil…",
    "texto": {
-    "titulo": "Brasil e Japão terão acordo de ajuda mútua em investigações criminais",
-    "abertura": "O acordo prevê ajuda entre as Justiças criminais do Brasil e do Japão em investigações e processos penais. A Câmara dos Deputados aprovou o texto, que agora segue ao Senado Federal.",
-    "detalhes": "O texto é o Tratado de Assistência Jurídica Mútua em Matéria Penal, assinado em Tóquio, em 25 de janeiro de 2024. Os deputados aprovaram um substitutivo do relator da Comissão de Constituição e Justiça e de Cidadania e, depois, a redação final, ambos por votação simbólica, sem registro de voto de cada parlamentar. O próximo passo é o Senado Federal."
+    "titulo": "Brasil e Japão terão regras para trocar provas em processos penais",
+    "abertura": "Autoridades do Brasil e do Japão poderão pedir ajuda mútua para investigar crimes e julgar processos penais. A Câmara dos Deputados aprovou o texto do tratado, que agora segue para análise do Senado Federal.",
+    "detalhes": "O tratado foi assinado em Tóquio, em 25 de janeiro de 2024. A Câmara aprovou um substitutivo, uma versão nova do texto, por votação simbólica, sem registro de voto de cada deputado. Depois, aprovou a redação final. O texto aguarda agora a apreciação do Senado Federal."
    },
    "glossario": [
     {
-     "termo": "assistência jurídica mútua",
-     "explicacao": "Ajuda entre as Justiças de dois países para investigar e processar crimes.",
-     "fonte": "ia"
-    },
-    {
      "termo": "Substitutivo",
      "explicacao": "Nova versão completa do projeto, escrita pelo relator, que toma o lugar do texto original.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
@@ -9908,12 +9922,22 @@
      "fonte": "curado"
     },
     {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
      "termo": "Projeto de decreto legislativo",
      "explicacao": "Trata de assuntos que só o Congresso decide, como aprovar tratados internacionais ou sustar atos do governo. Não passa pela sanção do presidente.",
      "fonte": "curado"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
     }
    ],
-   "hash": "62ae2f9a35a8ec4ee39102ef85d2e61b"
+   "hash": "2a01e59da9b9539c293e451d38fa9833"
   },
   {
    "id": "camara:2338753",
@@ -11004,30 +11028,25 @@
    ],
    "tituloEmenta": "Institui, no âmbito da Câmara dos Deputados o “Selo Câmara de Respeito à Voz do Cidadão”",
    "texto": {
-    "titulo": "Câmara cria selo para incentivar escuta ativa do cidadão",
-    "abertura": "A Câmara terá um selo de certificação para incentivar a ouvidoria e a escuta ativa dos cidadãos. O Plenário aprovou a criação do selo, e o texto segue agora para publicação.",
-    "detalhes": "A medida cria o Selo Câmara de Respeito à Voz do Cidadão, ligado a ouvidoria, escuta ativa e respeito. Primeiro, o Plenário aprovou a urgência por unanimidade. Depois, aprovou o texto em votação simbólica, sem registro do voto de cada deputado. A redação final também foi aprovada de forma simbólica, com a relatora Dep. Geovania de Sá. Depois disso, o texto vai para publicação."
+    "titulo": "Câmara cria selo para incentivar respeito à voz do cidadão",
+    "abertura": "A Câmara cria o Selo Câmara de Respeito à Voz do Cidadão, uma certificação para incentivar a escuta ativa e o respeito ao cidadão. O Plenário aprovou a medida, que segue para a etapa seguinte de tramitação.",
+    "detalhes": "A medida é um projeto de resolução e vale só dentro da própria Câmara dos Deputados. Antes da votação final, o Plenário aprovou por unanimidade um requerimento de urgência para acelerar a análise. A votação foi simbólica, sem registro do voto de cada parlamentar. A redação final foi assinada pela relatora, a deputada Geovania de Sá (REPUBLICANOS/SC)."
    },
    "glossario": [
-    {
-     "termo": "escuta ativa",
-     "explicacao": "Ouvir com atenção o que a pessoa diz.",
-     "fonte": "ia"
-    },
     {
      "termo": "Plenário",
      "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
     },
     {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "termo": "Projeto de resolução",
+     "explicacao": "Regula assuntos internos da própria Casa, como regras de funcionamento, cargos e homenagens. Não passa pela sanção do presidente.",
      "fonte": "curado"
     },
     {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
-     "fonte": "curado"
+     "termo": "requerimento de urgência",
+     "explicacao": "Pedido para que um assunto seja analisado com prioridade e mais rápido.",
+     "fonte": "ia"
     },
     {
      "termo": "Redação final",
@@ -11040,17 +11059,17 @@
      "fonte": "curado"
     },
     {
-     "termo": "Projeto de resolução",
-     "explicacao": "Regula assuntos internos da própria Casa, como regras de funcionamento, cargos e homenagens. Não passa pela sanção do presidente.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Requerimento",
      "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
      "fonte": "curado"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
     }
    ],
-   "hash": "e542556991293ced6af4497d7e52b3f6"
+   "hash": "aa95f9bc7e551df7b0356039b737794a"
   },
   {
    "id": "camara:2652524",
@@ -11087,31 +11106,17 @@
     }
    ],
    "tituloEmenta": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade",
-   "texto": {
-    "titulo": "Câmara cria prêmio sobre trajetórias de êxito na superdotação",
-    "abertura": "A Câmara cria um prêmio para histórias de sucesso de pessoas superdotadas e com dupla excepcionalidade. O Plenário aprovou o texto em votação simbólica, e a decisão segue para publicação.",
-    "detalhes": "A decisão institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade. Os temas ligados ao prêmio são educação especial e altas habilidades. Antes da votação principal, a Câmara aprovou por unanimidade a urgência, que faz o texto ser analisado mais rápido. Não houve registro de voto de cada deputado, e a redação final também foi aprovada de forma simbólica."
-   },
+   "texto": null,
    "glossario": [
     {
-     "termo": "dupla excepcionalidade",
-     "explicacao": "Condição em que a pessoa é superdotada e também tem outra deficiência ou transtorno.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "termo": "Projeto de resolução",
+     "explicacao": "Regula assuntos internos da própria Casa, como regras de funcionamento, cargos e homenagens. Não passa pela sanção do presidente.",
      "fonte": "curado"
     },
     {
-     "termo": "Votação simbólica",
-     "explicacao": "Votação sem registro individual: o presidente pede que quem concorda permaneça como está e anuncia o resultado. Não se sabe como cada parlamentar votou.",
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
      "fonte": "curado"
-    },
-    {
-     "termo": "superdotação",
-     "explicacao": "Capacidade acima da média em uma ou mais áreas, como inteligência, criatividade ou talento.",
-     "fonte": "ia"
     },
     {
      "termo": "Regime de urgência",
@@ -11124,22 +11129,12 @@
      "fonte": "curado"
     },
     {
-     "termo": "Projeto de resolução",
-     "explicacao": "Regula assuntos internos da própria Casa, como regras de funcionamento, cargos e homenagens. Não passa pela sanção do presidente.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "Requerimento",
-     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
-     "fonte": "curado"
-    },
-    {
      "termo": "Relator",
      "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
      "fonte": "curado"
     }
    ],
-   "hash": "7eddc8ba3c820de2de0c51f0c5b0c676"
+   "hash": "3bc6c3b0d5bc64dcffae668bdace5ff0"
   },
   {
    "id": "camara:2389679",
@@ -14119,6 +14114,7 @@
   "56724f83c721967b504e665b23303182",
   "4f4cb99ca3192ad230ad132fae56d591",
   "1db908fc56df9d2bdb6ab94184ce12ab",
+  "b39b7fa16a71a4669f7054e37444fa8e",
   "d549892f23193b397ee8bae64d589a59",
   "f86fa2ab34ca723dd511aad439f2d1b1",
   "d0200d9bee61fd86727e225803d4315e",

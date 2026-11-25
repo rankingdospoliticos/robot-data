@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-24T20:44:44.402Z",
+ "geradoEm": "2026-11-25T20:01:35.382Z",
  "camara": {
   "total": 513,
   "partidos": [
@@ -34,7 +34,7 @@
    },
    {
     "sigla": "PODE",
-    "n": 27
+    "n": 28
    },
    {
     "sigla": "PSB",
@@ -73,15 +73,15 @@
     "n": 4
    },
    {
-    "sigla": "PRD",
-    "n": 3
-   },
-   {
     "sigla": "REDE",
     "n": 3
    },
    {
     "sigla": "CIDADANIA",
+    "n": 2
+   },
+   {
+    "sigla": "PRD",
     "n": 2
    },
    {
@@ -91,7 +91,7 @@
   ],
   "fonte": "Câmara dos Deputados — Dados Abertos",
   "url": "https://dadosabertos.camara.leg.br/api/v2/deputados",
-  "lidoEm": "2026-11-24T20:44:46.021Z"
+  "lidoEm": "2026-11-25T20:01:38.647Z"
  },
  "senado": {
   "total": 81,

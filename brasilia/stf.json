@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-25T04:24:26.309Z",
+ "geradoEm": "2026-11-25T20:01:40.917Z",
  "ministros": {
   "lista": [
    {
@@ -79,23 +79,71 @@
   "lidoEm": "2026-11-25T04:24:27.626Z"
  },
  "pauta": {
-  "titulo": "Confira a pauta do STF desta quinta-feira (19)",
-  "url": "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-19-3/",
-  "data": "2026-11-19",
+  "titulo": "Confira a pauta do STF desta quarta-feira (25)",
+  "url": "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quarta-feira-25-3/",
+  "data": "2026-11-25",
   "itens": [
    {
     "data": null,
-    "processo": "ADI 5405",
-    "tema": "Dispensa de pagamento de honorários advocatícios em acordos e parcelamentos tributários com o poder público.",
-    "relator": "Dias Toffoli"
+    "processo": "ADI 6002",
+    "relator": "Cristiano Zanin",
+    "tema": "Regra da Reforma Trabalhista que exige indicar o valor da causa na ação trabalhista."
    },
    {
     "data": null,
-    "processo": "RCL 78354",
-    "tema": "Indenização por danos morais por reportagem considerada vexatória; alegada violação ao entendimento sobre assédio judicial a jornalistas.",
-    "relator": "Edson Fachin"
+    "processo": "ARE 1502069",
+    "relator": "Dias Toffoli",
+    "tema": "Readequação de professora ao piso nacional, em decisão da Justiça paulista contestada por município."
+   },
+   {
+    "data": null,
+    "processo": "RE 1326541",
+    "relator": "Cristiano Zanin",
+    "tema": "Uso do piso nacional como base do vencimento inicial de professores estaduais de São Paulo."
+   },
+   {
+    "data": null,
+    "processo": "ADI 7717",
+    "relator": "Nunes Marques",
+    "tema": "Porte de arma para integrantes de Guardas Municipais, com base na Lei 10.826/2003."
+   },
+   {
+    "data": null,
+    "processo": "ADI 6528",
+    "relator": "Cristiano Zanin",
+    "tema": "Dispositivos da Lei da Liberdade Econômica sobre atividades sem avaliação de impacto socioambiental."
+   },
+   {
+    "data": null,
+    "processo": "ADI 7493",
+    "relator": "Dias Toffoli",
+    "tema": "Percentual de 2% da receita corrente líquida para emendas parlamentares de Mato Grosso."
+   },
+   {
+    "data": null,
+    "processo": "ADI 7643",
+    "relator": "Alexandre de Moraes",
+    "tema": "Prazos para execução de emendas individuais impositivas na Paraíba."
+   },
+   {
+    "data": null,
+    "processo": "ADI 7807",
+    "relator": "Dias Toffoli",
+    "tema": "Execução obrigatória de emendas de bancada e de bloco em Mato Grosso; referendo de liminar."
+   },
+   {
+    "data": null,
+    "processo": "ADI 7869",
+    "relator": "Alexandre de Moraes",
+    "tema": "Limite das emendas individuais da Paraíba à receita corrente líquida; referendo de cautelar."
+   },
+   {
+    "data": null,
+    "processo": "ADI 7906",
+    "relator": "Dias Toffoli",
+    "tema": "Execução obrigatória de emendas de bancada e de comissão em Rondônia; referendo de liminar."
    }
   ],
-  "hash": "267c14cac9f259b359c3950b2d1e6d45"
+  "hash": "208569c60cbbc4e8a2aaa983c9e8f629"
  }
 }
