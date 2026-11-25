@@ -1,6 +1,6 @@
 {
  "v": 1,
- "fonteAtualizadaEm": "2026-11-23",
+ "fonteAtualizadaEm": "2026-11-24",
  "ultimoMes": "2026-11",
  "anos": [
   2026,
@@ -52,11 +52,11 @@
  },
  "criterio": "Soma dos pagamentos (Valor Recebido) à prefeitura e a entidades sem fins lucrativos com sede no município, no ano do pagamento. Empresas, pessoas físicas, governo estadual e federal e estatais ficam fora do total, porque a sede de quem recebe não diz onde o dinheiro foi usado. Favorecidos sem identificação não entram.",
  "qualidade": {
-  "linhasLidas": 836298,
-  "valorLido": 284115062550,
+  "linhasLidas": 836733,
+  "valorLido": 284228111726,
   "semFavorecidoIdentificado": {
-   "linhas": 6651,
-   "valor": 11026129451
+   "linhas": 6676,
+   "valor": 11026706156
   },
   "semMunicipio": {
    "linhas": 3800,
@@ -90,11 +90,11 @@
  "arquivos": {
   "AC": {
    "municipios": 22,
-   "bytes": 49404
+   "bytes": 49405
   },
   "AL": {
    "municipios": 102,
-   "bytes": 141843
+   "bytes": 141847
   },
   "AM": {
    "municipios": 62,
@@ -106,11 +106,11 @@
   },
   "BA": {
    "municipios": 417,
-   "bytes": 611305
+   "bytes": 611320
   },
   "CE": {
    "municipios": 184,
-   "bytes": 265169
+   "bytes": 265251
   },
   "DF": {
    "municipios": 1,
@@ -118,59 +118,59 @@
   },
   "ES": {
    "municipios": 78,
-   "bytes": 131996
+   "bytes": 132010
   },
   "GO": {
    "municipios": 246,
-   "bytes": 368805
+   "bytes": 368834
   },
   "MA": {
    "municipios": 216,
-   "bytes": 260093
+   "bytes": 260146
   },
   "MG": {
    "municipios": 853,
-   "bytes": 1179486
+   "bytes": 1179579
   },
   "MS": {
    "municipios": 79,
-   "bytes": 122281
+   "bytes": 122308
   },
   "MT": {
    "municipios": 142,
-   "bytes": 184305
+   "bytes": 184308
   },
   "PA": {
    "municipios": 144,
-   "bytes": 201973
+   "bytes": 201998
   },
   "PB": {
    "municipios": 223,
-   "bytes": 323334
+   "bytes": 323417
   },
   "PE": {
    "municipios": 184,
-   "bytes": 275574
+   "bytes": 275601
   },
   "PI": {
    "municipios": 224,
-   "bytes": 298799
+   "bytes": 298801
   },
   "PR": {
    "municipios": 399,
-   "bytes": 637540
+   "bytes": 637580
   },
   "RJ": {
    "municipios": 92,
-   "bytes": 153550
+   "bytes": 153568
   },
   "RN": {
    "municipios": 167,
-   "bytes": 256355
+   "bytes": 256356
   },
   "RO": {
    "municipios": 52,
-   "bytes": 101273
+   "bytes": 101275
   },
   "RR": {
    "municipios": 15,
@@ -178,19 +178,19 @@
   },
   "RS": {
    "municipios": 497,
-   "bytes": 800043
+   "bytes": 800111
   },
   "SC": {
    "municipios": 295,
-   "bytes": 466248
+   "bytes": 466249
   },
   "SE": {
    "municipios": 75,
-   "bytes": 120739
+   "bytes": 120766
   },
   "SP": {
    "municipios": 645,
-   "bytes": 922945
+   "bytes": 923047
   },
   "TO": {
    "municipios": 139,
