@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-26T02:58:14.263Z",
+ "geradoEm": "2026-11-26T11:08:44.458Z",
  "camara": {
   "total": 513,
   "partidos": [
@@ -94,7 +94,7 @@
   "lidoEm": "2026-11-25T20:01:38.647Z"
  },
  "senado": {
-  "total": 82,
+  "total": 81,
   "partidos": [
    {
     "sigla": "PL",
@@ -105,11 +105,11 @@
     "n": 14
    },
    {
-    "sigla": "PT",
-    "n": 10
+    "sigla": "MDB",
+    "n": 9
    },
    {
-    "sigla": "MDB",
+    "sigla": "PT",
     "n": 9
    },
    {
@@ -151,6 +151,6 @@
   ],
   "fonte": "Senado Federal — Dados Abertos",
   "url": "https://legis.senado.leg.br/dadosabertos/senador/lista/atual.json",
-  "lidoEm": "2026-11-26T02:58:16.416Z"
+  "lidoEm": "2026-11-26T11:08:51.687Z"
  }
 }
