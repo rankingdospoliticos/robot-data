@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-26T11:08:51.687Z",
+ "geradoEm": "2026-11-26T19:44:59.189Z",
  "ministros": {
   "lista": [
    {
@@ -79,71 +79,59 @@
   "lidoEm": "2026-11-26T11:08:52.695Z"
  },
  "pauta": {
-  "titulo": "Confira a pauta do STF desta quarta-feira (25)",
-  "url": "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quarta-feira-25-3/",
-  "data": "2026-11-25",
+  "titulo": "Confira a pauta do STF desta quinta-feira (26)",
+  "url": "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-26-3/",
+  "data": "2026-11-26",
   "itens": [
    {
     "data": null,
-    "processo": "ADI 6002",
-    "tema": "Regra da Reforma Trabalhista que exige indicar o valor da causa na ação trabalhista.",
-    "relator": "Cristiano Zanin"
-   },
-   {
-    "data": null,
     "processo": "ARE 1502069",
-    "tema": "Readequação de professora ao piso nacional, em decisão da Justiça paulista contestada por município.",
-    "relator": "Dias Toffoli"
+    "relator": "Dias Toffoli",
+    "tema": "Piso nacional dos professores: readequação de professora da rede estadual paulista; município questiona decisão."
    },
    {
     "data": null,
     "processo": "RE 1326541",
-    "tema": "Uso do piso nacional como base do vencimento inicial de professores estaduais de São Paulo.",
-    "relator": "Cristiano Zanin"
+    "relator": "Cristiano Zanin",
+    "tema": "Piso nacional como base do vencimento inicial de professores da rede estadual de São Paulo."
    },
    {
     "data": null,
     "processo": "ADI 7717",
-    "tema": "Porte de arma para integrantes de Guardas Municipais, com base na Lei 10.826/2003.",
-    "relator": "Nunes Marques"
-   },
-   {
-    "data": null,
-    "processo": "ADI 6528",
-    "tema": "Dispositivos da Lei da Liberdade Econômica sobre atividades sem avaliação de impacto socioambiental.",
-    "relator": "Cristiano Zanin"
+    "relator": "Nunes Marques",
+    "tema": "Porte de arma para integrantes de Guardas Municipais, com base na Lei 10.826/2003."
    },
    {
     "data": null,
     "processo": "ADI 7493",
-    "tema": "Percentual de 2% da receita corrente líquida para emendas parlamentares de Mato Grosso.",
-    "relator": "Dias Toffoli"
+    "relator": "Dias Toffoli",
+    "tema": "Constituição de Mato Grosso eleva para 2% da receita corrente líquida as emendas parlamentares obrigatórias."
    },
    {
     "data": null,
     "processo": "ADI 7643",
-    "tema": "Prazos para execução de emendas individuais impositivas na Paraíba.",
-    "relator": "Alexandre de Moraes"
+    "relator": "Alexandre de Moraes",
+    "tema": "Prazos para execução de emendas individuais impositivas na Paraíba, previstos na Lei 13.040/2024."
    },
    {
     "data": null,
     "processo": "ADI 7807",
-    "tema": "Execução obrigatória de emendas de bancada e de bloco em Mato Grosso; referendo de liminar.",
-    "relator": "Dias Toffoli"
+    "relator": "Dias Toffoli",
+    "tema": "Execução obrigatória de emendas de bancada e de bloco parlamentar em Mato Grosso; referendo da liminar."
    },
    {
     "data": null,
     "processo": "ADI 7869",
-    "tema": "Limite das emendas individuais da Paraíba à receita corrente líquida; referendo de cautelar.",
-    "relator": "Alexandre de Moraes"
+    "relator": "Alexandre de Moraes",
+    "tema": "Limite de 1,55% da receita corrente líquida para emendas individuais na Paraíba; referendo da cautelar."
    },
    {
     "data": null,
     "processo": "ADI 7906",
-    "tema": "Execução obrigatória de emendas de bancada e de comissão em Rondônia; referendo de liminar.",
-    "relator": "Dias Toffoli"
+    "relator": "Dias Toffoli",
+    "tema": "Execução obrigatória de emendas de bancada e de comissão em Rondônia; referendo da liminar."
    }
   ],
-  "hash": "208569c60cbbc4e8a2aaa983c9e8f629"
+  "hash": "abb2cdc3badd77c32f0f83dcfee5ef41"
  }
 }
