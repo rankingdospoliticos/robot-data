@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-25T20:01:40.917Z",
+ "geradoEm": "2026-11-26T02:58:16.417Z",
  "ministros": {
   "lista": [
    {
@@ -86,62 +86,62 @@
    {
     "data": null,
     "processo": "ADI 6002",
-    "relator": "Cristiano Zanin",
-    "tema": "Regra da Reforma Trabalhista que exige indicar o valor da causa na ação trabalhista."
+    "tema": "Regra da Reforma Trabalhista que exige indicar o valor da causa na ação trabalhista.",
+    "relator": "Cristiano Zanin"
    },
    {
     "data": null,
     "processo": "ARE 1502069",
-    "relator": "Dias Toffoli",
-    "tema": "Readequação de professora ao piso nacional, em decisão da Justiça paulista contestada por município."
+    "tema": "Readequação de professora ao piso nacional, em decisão da Justiça paulista contestada por município.",
+    "relator": "Dias Toffoli"
    },
    {
     "data": null,
     "processo": "RE 1326541",
-    "relator": "Cristiano Zanin",
-    "tema": "Uso do piso nacional como base do vencimento inicial de professores estaduais de São Paulo."
+    "tema": "Uso do piso nacional como base do vencimento inicial de professores estaduais de São Paulo.",
+    "relator": "Cristiano Zanin"
    },
    {
     "data": null,
     "processo": "ADI 7717",
-    "relator": "Nunes Marques",
-    "tema": "Porte de arma para integrantes de Guardas Municipais, com base na Lei 10.826/2003."
+    "tema": "Porte de arma para integrantes de Guardas Municipais, com base na Lei 10.826/2003.",
+    "relator": "Nunes Marques"
    },
    {
     "data": null,
     "processo": "ADI 6528",
-    "relator": "Cristiano Zanin",
-    "tema": "Dispositivos da Lei da Liberdade Econômica sobre atividades sem avaliação de impacto socioambiental."
+    "tema": "Dispositivos da Lei da Liberdade Econômica sobre atividades sem avaliação de impacto socioambiental.",
+    "relator": "Cristiano Zanin"
    },
    {
     "data": null,
     "processo": "ADI 7493",
-    "relator": "Dias Toffoli",
-    "tema": "Percentual de 2% da receita corrente líquida para emendas parlamentares de Mato Grosso."
+    "tema": "Percentual de 2% da receita corrente líquida para emendas parlamentares de Mato Grosso.",
+    "relator": "Dias Toffoli"
    },
    {
     "data": null,
     "processo": "ADI 7643",
-    "relator": "Alexandre de Moraes",
-    "tema": "Prazos para execução de emendas individuais impositivas na Paraíba."
+    "tema": "Prazos para execução de emendas individuais impositivas na Paraíba.",
+    "relator": "Alexandre de Moraes"
    },
    {
     "data": null,
     "processo": "ADI 7807",
-    "relator": "Dias Toffoli",
-    "tema": "Execução obrigatória de emendas de bancada e de bloco em Mato Grosso; referendo de liminar."
+    "tema": "Execução obrigatória de emendas de bancada e de bloco em Mato Grosso; referendo de liminar.",
+    "relator": "Dias Toffoli"
    },
    {
     "data": null,
     "processo": "ADI 7869",
-    "relator": "Alexandre de Moraes",
-    "tema": "Limite das emendas individuais da Paraíba à receita corrente líquida; referendo de cautelar."
+    "tema": "Limite das emendas individuais da Paraíba à receita corrente líquida; referendo de cautelar.",
+    "relator": "Alexandre de Moraes"
    },
    {
     "data": null,
     "processo": "ADI 7906",
-    "relator": "Dias Toffoli",
-    "tema": "Execução obrigatória de emendas de bancada e de comissão em Rondônia; referendo de liminar."
+    "tema": "Execução obrigatória de emendas de bancada e de comissão em Rondônia; referendo de liminar.",
+    "relator": "Dias Toffoli"
    }
   ],
   "hash": "208569c60cbbc4e8a2aaa983c9e8f629"

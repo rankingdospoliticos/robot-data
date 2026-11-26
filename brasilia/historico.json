@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-25T20:01:35.381Z",
+ "geradoEm": "2026-11-26T02:58:14.262Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -3665,40 +3665,50 @@
    "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/a82860e8-ad04-4b7c-ac69-28b928a96cbf",
    "resultado": "aprovado",
    "resultadoTexto": "Aprovado o projeto, com a Emenda nº 1, de redação.",
-   "destino": null,
+   "destino": "A matéria vai à sanção.",
    "placar": null,
    "etapas": [
     {
      "data": "2026-11-25",
-     "descricao": "Requerimentos nºs  801 e 811, de 2026, de Líderes, que solicita urgência para a matéria: Aprovado os requerimentos.",
+     "descricao": "Requerimentos nºs  801 e 811, de 2026, de Líderes, que solicitam urgência para a matéria: Aprovados os requerimentos.",
      "placar": null
     },
     {
      "data": "2026-11-25",
      "descricao": "Aprovado o projeto, com a Emenda nº 1, de redação.",
      "placar": null
+    },
+    {
+     "data": "2026-11-25",
+     "descricao": "Parecer nº 235, de 2026, da Comissão Diretora, com a redação final: Aprovada a redação final.",
+     "placar": null
     }
    ],
    "tituloEmenta": "Institui a Força Nacional do Sistema Único de Saúde (FN-SUS)",
    "texto": {
-    "titulo": "Senado decide criar Força Nacional do SUS para epidemias e desastres",
-    "abertura": "A proposta cria um grupo de apoio do SUS para atuar em epidemias, desastres e calamidades públicas. O Plenário do Senado aprovou o texto e o enviou adiante.",
-    "detalhes": "O texto prevê um quadro de pessoal para a força, com formação e programas nacionais. Entes federados poderiam aderir, e o Ministério da Saúde definiria os critérios de atuação. Servidores públicos civis e integrantes das Forças Armadas poderiam participar, com auxílio, remuneração e indenização. Antes, líderes pediram urgência, e o pedido foi aprovado. A votação final foi simbólica, sem registro do voto de cada senador, com a Emenda nº 1, de redação."
+    "titulo": "Cria a Força Nacional do SUS para atender emergências de saúde pelo país",
+    "abertura": "O Senado aprovou a criação da Força Nacional do Sistema Único de Saúde, a FN-SUS, para reforçar o combate a epidemias, desastres e calamidades públicas. A matéria segue para sanção presidencial.",
+    "detalhes": "O texto institui a FN-SUS como programa nacional, com apoio da União e possibilidade de adesão de estados e municípios. A votação foi simbólica, sem registro de voto de cada senador, e teve uma emenda de redação. A redação final também foi aprovada de forma simbólica. Agora, o texto vai à sanção."
    },
    "glossario": [
     {
-     "termo": "Plenário",
-     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "quadro de pessoal",
-     "explicacao": "Conjunto de pessoas que trabalham em um órgão público.",
+     "termo": "Sistema Único de Saúde",
+     "explicacao": "É o sistema público de saúde do país, que atende a população de forma gratuita.",
      "fonte": "ia"
     },
     {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "termo": "Sanção",
+     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda de redação",
+     "explicacao": "É uma mudança feita apenas para corrigir o texto, sem alterar o conteúdo da proposta.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
@@ -3710,9 +3720,78 @@
      "termo": "Requerimento",
      "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
      "fonte": "curado"
+    },
+    {
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Parecer",
+     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
+     "fonte": "curado"
     }
    ],
-   "hash": "5cbbf6058ba10251e99db7830fe636c1"
+   "hash": "699c0e06adc27feab71a21d36ebfc290"
+  },
+  {
+   "id": "senado:172474",
+   "casa": "Senado",
+   "data": "2026-11-25",
+   "sigla": "PL",
+   "numero": 1257,
+   "ano": 2021,
+   "identificacao": "PL 1257/2021",
+   "tipo": "Projeto de Lei",
+   "apelido": null,
+   "ementa": "Altera a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar o acesso a tecnologias direcionadas à preservação da saúde mental e cognitiva da pessoa idosa.",
+   "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/172474",
+   "urlInteiroTeor": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/e975ec7f-3f7a-4c6f-ba16-8280095cadb2",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o projeto, com a Emenda nº 1, de redação.",
+   "destino": "A matéria vai à sanção.",
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-25",
+     "descricao": "Aprovado o projeto, com a Emenda nº 1, de redação.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-25",
+     "descricao": "Parecer nº 236, de 2026, da Comissão Diretora, com a redação final: Aprovada a redação final.",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Altera a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar o…",
+   "texto": {
+    "titulo": "Idosos terão garantia de acesso a tecnologias para saúde mental e cognitiva",
+    "abertura": "O Senado aprovou regra que garante à pessoa idosa acesso a tecnologias voltadas à preservação da saúde mental e cognitiva. A matéria vai à sanção.",
+    "detalhes": "A proposta altera o Estatuto da Pessoa Idosa, a Lei nº 10.741, de 2003. A votação foi simbólica, sem registro de voto de cada senador. Houve uma emenda de redação, e depois a redação final foi aprovada. Como o texto saiu do Senado, o próximo passo é a sanção."
+   },
+   "glossario": [
+    {
+     "termo": "Sanção",
+     "explicacao": "Aprovação do projeto pelo presidente da República, que o transforma em lei. O presidente tem 15 dias úteis para sancionar ou vetar.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Parecer",
+     "explicacao": "Opinião formal do relator ou de uma comissão sobre a proposta, que orienta a votação.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "f622d75d1a89dca3826bfbd76a2ee580"
   },
   {
    "id": "camara:2253448",
@@ -11028,15 +11107,25 @@
    ],
    "tituloEmenta": "Institui, no âmbito da Câmara dos Deputados o “Selo Câmara de Respeito à Voz do Cidadão”",
    "texto": {
-    "titulo": "Câmara cria selo para incentivar respeito à voz do cidadão",
-    "abertura": "A Câmara cria o Selo Câmara de Respeito à Voz do Cidadão, uma certificação para incentivar a escuta ativa e o respeito ao cidadão. O Plenário aprovou a medida, que segue para a etapa seguinte de tramitação.",
-    "detalhes": "A medida é um projeto de resolução e vale só dentro da própria Câmara dos Deputados. Antes da votação final, o Plenário aprovou por unanimidade um requerimento de urgência para acelerar a análise. A votação foi simbólica, sem registro do voto de cada parlamentar. A redação final foi assinada pela relatora, a deputada Geovania de Sá (REPUBLICANOS/SC)."
+    "titulo": "Câmara cria selo para reconhecer práticas que ouvem o cidadão",
+    "abertura": "A Câmara passa a ter o Selo Câmara de Respeito à Voz do Cidadão, para reconhecer práticas de ouvidoria e escuta ativa. O Plenário aprovou a medida, que já foi transformada em norma jurídica.",
+    "detalhes": "A medida é um Projeto de Resolução que cria um selo de certificação dentro da própria Câmara. O pedido de urgência foi aprovado por unanimidade em 17 de novembro de 2026. Na votação do mérito, em 18 de novembro, não houve registro de voto de cada deputado, pois a votação foi simbólica. A relatora, Dep. Geovania de Sá (REPUBLICANOS/SC), assinou a Redação Final, também aprovada de forma simbólica."
    },
    "glossario": [
+    {
+     "termo": "Escuta ativa",
+     "explicacao": "Ouvir com atenção as pessoas e levar em conta o que elas dizem.",
+     "fonte": "ia"
+    },
     {
      "termo": "Plenário",
      "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
      "fonte": "curado"
+    },
+    {
+     "termo": "Norma jurídica",
+     "explicacao": "Regra oficial que passa a valer e deve ser cumprida.",
+     "fonte": "ia"
     },
     {
      "termo": "Projeto de resolução",
@@ -11044,13 +11133,8 @@
      "fonte": "curado"
     },
     {
-     "termo": "requerimento de urgência",
-     "explicacao": "Pedido para que um assunto seja analisado com prioridade e mais rápido.",
-     "fonte": "ia"
-    },
-    {
-     "termo": "Redação final",
-     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "termo": "Regime de urgência",
+     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
      "fonte": "curado"
     },
     {
@@ -11059,17 +11143,17 @@
      "fonte": "curado"
     },
     {
-     "termo": "Requerimento",
-     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
      "fonte": "curado"
     },
     {
-     "termo": "Regime de urgência",
-     "explicacao": "Regime que acelera a tramitação: o projeto dispensa prazos e etapas e pode ser votado direto no Plenário.",
+     "termo": "Requerimento",
+     "explicacao": "Pedido formal de parlamentares, líderes ou comissões, por exemplo para acelerar, adiar ou juntar projetos. Sozinho, não muda nenhuma lei.",
      "fonte": "curado"
     }
    ],
-   "hash": "aa95f9bc7e551df7b0356039b737794a"
+   "hash": "43941031fd4cfe6e27dffffe2ffcdede"
   },
   {
    "id": "camara:2652524",
@@ -11134,7 +11218,7 @@
      "fonte": "curado"
     }
    ],
-   "hash": "3bc6c3b0d5bc64dcffae668bdace5ff0"
+   "hash": "4c2d04d39c16bb65e6926428841eabea"
   },
   {
    "id": "camara:2389679",
@@ -11671,6 +11755,27 @@
   }
  ],
  "stf": [
+  {
+   "id": "stf:168148",
+   "data": "2026-11-25",
+   "situacao": "decidido",
+   "processo": "ADI 6002",
+   "tituloOficial": "STF valida exigência de indicação de valor em ações trabalhistas",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-valida-exigencia-de-indicacao-de-valor-em-acoes-trabalhistas/",
+   "texto": {
+    "titulo": "Trabalhador terá de dizer quanto pede em ações trabalhistas",
+    "abertura": "Quem entra com ação trabalhista precisa informar o valor de cada pedido na petição inicial. O STF validou essa regra, que vale para ações apresentadas após a publicação da ata do julgamento.",
+    "detalhes": "A regra vem da Reforma Trabalhista (Lei 13.467/2017), que alterou a CLT. Se o trabalhador não tiver como indicar o valor exato, pode apresentar uma estimativa, desde que justifique a falta de elementos. Se não indicar valor algum, deve ter chance de corrigir a petição antes de o processo ser encerrado. A decisão teve votos de maioria, com parte dos ministros vencida. Flávio Dino e Edson Fachin ficaram parcialmente vencidos e defendiam que os valores fossem apenas estimativas."
+   },
+   "glossario": [
+    {
+     "termo": "petição inicial",
+     "explicacao": "Documento com o qual a ação judicial começa, em que o autor expõe seus pedidos.",
+     "fonte": "ia"
+    }
+   ],
+   "hash": "e9e5c64776e992400b1055492bb1f711"
+  },
   {
    "id": "stf:168021",
    "data": "2026-11-19",
@@ -14110,11 +14215,11 @@
  },
  "cargaTentadaEm": "2026-11-20",
  "stfIgnoradas": [
+  "b39b7fa16a71a4669f7054e37444fa8e",
   "7a95a7899b530c853b8fe6a384135324",
   "56724f83c721967b504e665b23303182",
   "4f4cb99ca3192ad230ad132fae56d591",
   "1db908fc56df9d2bdb6ab94184ce12ab",
-  "b39b7fa16a71a4669f7054e37444fa8e",
   "d549892f23193b397ee8bae64d589a59",
   "f86fa2ab34ca723dd511aad439f2d1b1",
   "d0200d9bee61fd86727e225803d4315e",
