@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-26T19:44:56.005Z",
+ "geradoEm": "2026-11-27T03:00:09.951Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -12005,6 +12005,37 @@
  ],
  "stf": [
   {
+   "id": "stf:168209",
+   "data": "2026-11-26",
+   "situacao": "decidido",
+   "processo": "ADI 7717",
+   "tituloOficial": "STF mantém regras para concessão de porte de arma a guardas municipais",
+   "url": "https://noticias.stf.jus.br/postsnoticias/stf-mantem-regras-para-concessao-de-porte-de-arma-a-guardas-municipais/",
+   "texto": {
+    "titulo": "Guardas municipais continuam com regras próprias para porte de arma",
+    "abertura": "Guardas municipais só podem portar arma se cumprirem exigências de formação e controle. O STF manteve essas regras e recusou estender o porte a todo o país.",
+    "detalhes": "As regras estão no Estatuto do Desarmamento (Lei 10.826/2003) e exigem formação em escola de atividade policial e controle interno, sob supervisão do Ministério da Justiça. O voto do relator, ministro Nunes Marques, foi seguido pelos demais ministros. O ministro Alexandre de Moraes ficou vencido ao defender porte válido em todo o país, inclusive fora do serviço. Pela regulamentação da Polícia Federal, o guarda pode portar arma dentro do estado onde atua, em serviço ou fora dele."
+   },
+   "glossario": [
+    {
+     "termo": "Estatuto do Desarmamento",
+     "explicacao": "Lei federal que controla a posse e o porte de armas no país.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "controle interno",
+     "explicacao": "Regras da própria instituição para fiscalizar o trabalho e os agentes.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "a6088315286ea4220d9e9cfde1b1eb90"
+  },
+  {
    "id": "stf:168148",
    "data": "2026-11-25",
    "situacao": "decidido",
@@ -14443,6 +14474,7 @@
   "56724f83c721967b504e665b23303182",
   "4f4cb99ca3192ad230ad132fae56d591",
   "1db908fc56df9d2bdb6ab94184ce12ab",
+  "08c1a1606db3f96a57feb71be810e83c",
   "3e46e7d8dfbc5a93a5240b25b643893f",
   "d549892f23193b397ee8bae64d589a59",
   "f86fa2ab34ca723dd511aad439f2d1b1",
