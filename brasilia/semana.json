@@ -1,6 +1,6 @@
 {
  "versao": 1,
- "geradoEm": "2026-11-27T03:00:09.951Z",
+ "geradoEm": "2026-11-27T11:02:11.152Z",
  "fontes": {
   "camara": "ok",
   "senado": "ok",
@@ -8,8 +8,8 @@
  },
  "modelo": "claude-haiku-5-5",
  "periodo": {
-  "inicio": "2026-11-19",
-  "fim": "2026-11-26"
+  "inicio": "2026-11-20",
+  "fim": "2026-11-27"
  },
  "pautas": [
   {
@@ -1085,6 +1085,144 @@
     }
    ],
    "hash": "5f417c95b34a00f495bfd2f362d44f8a"
+  },
+  {
+   "id": "camara:2516578",
+   "casa": "Câmara",
+   "data": "2026-11-26",
+   "sigla": "PDL",
+   "numero": 235,
+   "ano": 2025,
+   "identificacao": "PDL 235/2025",
+   "tipo": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+   "apelido": null,
+   "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Cooperação Jurídica Internacional em Matéria Civil, assinado em Georgetown, em 6 de maio de 2022.",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2516578",
+   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2918125",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovado o Projeto de Decreto Legislativo nº 235, de 2025.",
+   "destino": null,
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-26",
+     "descricao": "Aprovado o Projeto de Decreto Legislativo nº 235, de 2025.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-26",
+     "descricao": "Aprovada a Redação Final assinada pelo Dep. Ricardo Ayres (Republicanos/TO).",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre…",
+   "texto": {
+    "titulo": "Acordo com a Guiana prevê ajuda mútua em processos civis",
+    "abertura": "O acordo trata de assistência jurídica e de execução judicial entre Brasil e Guiana em casos civis. A Câmara dos Deputados aprovou o texto, que segue agora para o Senado Federal.",
+    "detalhes": "O texto é um tratado com a Guiana sobre cooperação jurídica internacional em matéria civil. A votação foi simbólica, sem registro de voto de cada deputado. Os deputados também aprovaram a redação final. O próximo passo é o Senado Federal."
+   },
+   "glossario": [
+    {
+     "termo": "assistência jurídica",
+     "explicacao": "Apoio da Justiça de um país para ajudar em processos de outro.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "execução judicial",
+     "explicacao": "Ação para cumprir uma decisão da Justiça de forma obrigatória.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "cooperação jurídica internacional",
+     "explicacao": "Ajuda entre dois países para cumprir decisões e pedidos da Justiça.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Projeto de decreto legislativo",
+     "explicacao": "Trata de assuntos que só o Congresso decide, como aprovar tratados internacionais ou sustar atos do governo. Não passa pela sanção do presidente.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "22ed5008fd35c756968374b1456552ab"
+  },
+  {
+   "id": "camara:2532113",
+   "casa": "Câmara",
+   "data": "2026-11-26",
+   "sigla": "PDL",
+   "numero": 366,
+   "ano": 2025,
+   "identificacao": "PDL 366/2025",
+   "tipo": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+   "apelido": null,
+   "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
+   "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2532113",
+   "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2949443",
+   "resultado": "aprovado",
+   "resultadoTexto": "Aprovada a Subemenda Substitutiva ao Projeto de Decreto Legislativo nº 366, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+   "destino": null,
+   "placar": null,
+   "etapas": [
+    {
+     "data": "2026-11-26",
+     "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Decreto Legislativo nº 366, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+     "placar": null
+    },
+    {
+     "data": "2026-11-26",
+     "descricao": "Aprovada a Redação Final assinada pelo Dep. Afonso Florence (PT-BA).",
+     "placar": null
+    }
+   ],
+   "tituloEmenta": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre…",
+   "texto": {
+    "titulo": "Acordo com a Guiana sobre ajuda mútua em processos penais",
+    "abertura": "O acordo organiza a cooperação jurídica internacional entre Brasil e Guiana em casos penais. A Câmara dos Deputados aprovou o acordo, e ele segue agora para o Senado Federal.",
+    "detalhes": "A votação foi simbólica, sem registro de voto de cada deputado. Em 26 de novembro de 2026, o Plenário aprovou uma subemenda substitutiva do relator da Comissão de Constituição e Justiça e de Cidadania e, em seguida, a redação final. O texto vai ao Senado Federal."
+   },
+   "glossario": [
+    {
+     "termo": "cooperação jurídica internacional",
+     "explicacao": "Ajuda entre países em investigações e processos da Justiça.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Plenário",
+     "explicacao": "Reunião de todos os deputados, ou de todos os senadores. É onde acontecem as votações finais de cada Casa.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "subemenda substitutiva",
+     "explicacao": "Mudança feita durante a votação que troca parte de um texto por outra redação.",
+     "fonte": "ia"
+    },
+    {
+     "termo": "Relator",
+     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Redação final",
+     "explicacao": "Texto definitivo, já com todas as mudanças aprovadas. Votar a redação final só confere a forma do texto; o conteúdo já foi decidido antes.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Emenda",
+     "explicacao": "Proposta de mudança em um trecho do texto que está sendo analisado.",
+     "fonte": "curado"
+    },
+    {
+     "termo": "Projeto de decreto legislativo",
+     "explicacao": "Trata de assuntos que só o Congresso decide, como aprovar tratados internacionais ou sustar atos do governo. Não passa pela sanção do presidente.",
+     "fonte": "curado"
+    }
+   ],
+   "hash": "292f65185b3cf0a1bd36452673f88fc8"
   }
  ],
  "stf": [
@@ -1139,40 +1277,14 @@
     }
    ],
    "hash": "e9e5c64776e992400b1055492bb1f711"
-  },
-  {
-   "id": "stf:168021",
-   "data": "2026-11-19",
-   "situacao": "maioria",
-   "processo": null,
-   "tituloOficial": "STF tem maioria a favor de honorários advocatícios em renegociações de dívidas com poder público",
-   "url": "https://noticias.stf.jus.br/postsnoticias/stf-tem-maioria-a-favor-de-honorarios-advocaticios-em-renegociacoes-de-dividas-com-poder-publico/",
-   "texto": {
-    "titulo": "Maioria no Supremo mantém honorários de advogados em acordos de dívidas públicas",
-    "abertura": "Leis que dispensavam advogados de receber honorários em acordos com o governo podem deixar de valer. Nove votos já foram dados nesse sentido, e faltam dois ministros para o julgamento terminar.",
-    "detalhes": "O caso trata de cinco leis federais: 11.775/2008, 11.941/2009, 12.249/2010, 12.844/2013 e 13.043/2014. O relator, ministro Dias Toffoli, entende que os honorários de sucumbência fazem parte da remuneração dos advogados. O ministro Flávio Dino acompanhou o relator, mas propôs manter os atos já praticados e aplicar o artigo 90 do Código de Processo Civil aos casos futuros. O julgamento segue com Nunes Marques e Gilmar Mendes ainda por votar."
-   },
-   "glossario": [
-    {
-     "termo": "Relator",
-     "explicacao": "Parlamentar (ou ministro, no STF) encarregado de analisar o caso e propor como decidir.",
-     "fonte": "curado"
-    },
-    {
-     "termo": "honorários de sucumbência",
-     "explicacao": "Valor pago pela parte que perde a ação ao advogado da parte que venceu.",
-     "fonte": "ia"
-    }
-   ],
-   "hash": "d888e668ef677bf59c86cb6f023990db"
   }
  ],
  "stfIgnoradas": [
+  "08c1a1606db3f96a57feb71be810e83c",
   "b39b7fa16a71a4669f7054e37444fa8e",
   "7a95a7899b530c853b8fe6a384135324",
   "56724f83c721967b504e665b23303182",
   "4f4cb99ca3192ad230ad132fae56d591",
-  "1db908fc56df9d2bdb6ab94184ce12ab",
-  "08c1a1606db3f96a57feb71be810e83c"
+  "1db908fc56df9d2bdb6ab94184ce12ab"
  ]
 }
